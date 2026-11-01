@@ -341,6 +341,21 @@ Lecture : CL-03 semble être le jeu le plus récent (Media Kit 2026, 170 000+, E
 
 **Niveau de compréhension après fiche** : CL-06, CL-08, CL-09, GPT-22 : élevé.
 
+### Fiche B1 : FP Conseils, outil de proposition de coaching (CL-04, SK-01, GPT-04, GPT-05) : en cours, 2026-11-01
+
+**Skill SK-01 lu intégralement (O)**. Contenu du dossier : `SKILL.md` (11 ko), `assets/Gabarit_Proposition_service_coaching.pptx` (15,8 Mo, le gabarit officiel est embarqué dans le Skill), `scripts/validate_protected_slides.py` (compare le XML brut des slides protégées entre gabarit et fichier produit, vérifie les 22 slides et les `xx` de la slide 9).
+
+Ce que le Skill contient réellement (O) :
+- **Règles métier** : principe absolu « la transcription est la source de vérité, ne jamais inventer » avec la liste des champs interdits; priorité de l'information (besoins exprimés > enjeux > résultats souhaités > observations du consultant > pistes > contexte); style (français professionnel, conseil, pas de diagnostic psychologique, reformulation des éléments sensibles en langage de développement); gestion des transcriptions de mauvaise qualité; cohérence slides 5-6-10.
+- **Spécification du livrable** : 22 slides dans l'ordre; zones autorisées uniquement (slide 1 date et logo, slide 5 contexte et besoins ≤ 90 mots, slide 6 trois objectifs ≤ 12 mots chacun, slide 10 jusqu'à 5 compétences); `À compléter par FP Conseils` quand l'information manque; `xx` des banques d'heures et honoraires jamais remplis; lisibilité (raccourcir le texte, jamais la police).
+- **Méthode d'exécution** : workflow en 11 étapes (lire, préparer le texte, copier le gabarit, éditer les zones, insérer le logo, rendre visuellement les slides 1-5-6-10, exécuter le validateur, recommencer si une slide protégée a bougé, livrer le .pptx seul); contrôle final en 11 points.
+
+**Observation importante (O)** : le Skill ne se limite pas à la « méthode d'exécution » décrite par Dominic en phase 1; il contient aussi la totalité des règles métier et la spécification du livrable. Si les instructions du projet CL-04 contiennent les mêmes règles (début vu en phase 1 : principe absolu identique mot pour mot), les règles métier existent en deux copies, Skill et projet, voire quatre avec GPT-04 (copie ChatGPT) et le projet chez le client à venir. Comparaison à faire dès réception des instructions de CL-04.
+
+**Méthodes de travail révélées (O)** : gabarit figé embarqué comme actif du Skill; validation automatique par script du respect des zones interdites; obligation de rendu visuel avant livraison; livraison minimale (fichier + message bref). C'est, avec le lint de studio-explainer, le deuxième cas de vérification automatisée par code du travail de l'IA.
+
+**Niveau de compréhension** : SK-01 : élevé; CL-04 : en attente des instructions complètes.
+
 ## 7. Ambiguïtés relevées pendant la première passe
 
 Liste accumulée; à traiter lors de la deuxième passe.
