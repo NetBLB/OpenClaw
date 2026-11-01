@@ -31,6 +31,15 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 - Observé : `NetBLB/studio-explainer` est explicitement désigné « source de vérité » du système. Pratiques en place : versionnage numéroté de tous les fichiers de rôles avec historique dans la bible; `CHANGELOG` par version « pour relecture par Dominic avant adoption »; archivage des versions précédentes et de la vidéo refusée; un dossier par univers visuel et par vidéo; banque de sujets avec grille de sélection et statuts; outils Python de contrôle (`lint_paquet.py`) et de production; liste de contrôle de début de séance (lire bible, orchestration, PASSATION, dossier de production; vérifier version et solde Higgsfield; annoncer en trois lignes où on en est). Tous les commits sont faits par l'IA (auteur « Claude »), 14 commits le 2026-10-29.
 - Observation : c'est le seul endroit de l'écosystème où instructions, connaissances, décisions, historique et outils sont réunis dans une structure versionnée. Les 12 projets Claude n'ont pas d'équivalent observé.
 
+## Conversations épinglées comme outils (ChatGPT)
+
+- Observé et déclaré (2026-11-01) : au-delà des projets, Dominic utilise des conversations ChatGPT épinglées comme outils récurrents, certaines avec des instructions personnalisées données directement dans la conversation (ex. « Info de description YouTube »). Les ateliers qui ont produit les instructions d'un projet Claude sont conservés comme conversations épinglées pour continuer à raffiner ces instructions (ex. « Créer un prompt Short » pour CL-01, « Affiner instruction montage » pour CL-02). Conséquence : pour ces projets, l'historique d'évolution des instructions vit dans une conversation ChatGPT (O).
+
+## Chaîne de publication LeFiltre (observée)
+
+- Vidéo longue : montage par Claude dans DaVinci (CL-02) → transcription collée dans la conversation ChatGPT « Info de description YouTube » (GPTC-03) → titre, description, tags, liens → description YouTube. Transfert par copier-coller.
+- Shorts : découpage par Claude dans DaVinci (CL-01) → 1 à 10 Shorts envoyés à la conversation ChatGPT « Titres et descriptions vidéos » (GPTC-02) → titres, liens, descriptions → collés dans Metricool, qui publie automatiquement sur toutes les plateformes. Transfert par copier-coller.
+
 ## Rôles respectifs de Claude et ChatGPT (synthèse provisoire au 2026-11-01)
 
 - Déclaré (conversation ChatGPT d'origine) : tous les projets de développement sont gérés depuis les interfaces Claude et ChatGPT; GitHub sert déjà d'entrepôt des informations importantes.
