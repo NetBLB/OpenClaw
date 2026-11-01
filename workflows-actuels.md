@@ -67,7 +67,10 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 ## Utilisation de ChatGPT
 
-- (à documenter)
+- Déclaré par Dominic (2026-11-01) : **chaque client de Net BLB inc. a un projet ChatGPT, et c'est dans ce projet que chaque requête, demande ou mandat du client est traité.** Neuf projets clients observés (Québec D'Abord, Evoluo, FP CONSEILS (H), Portée Sociale, Valérie Comptabilité, PointComm, Julie Comptabilité, Cité Joie, Molloy). Les clients sont donc cloisonnés par projet, et entièrement du côté ChatGPT. Méthode candidate « à préserver » (classement à confirmer).
+- Déclaré : ChatGPT héberge aussi des « machines » de production répétitive pour LeFiltre (extraction d'anciens articles Patreon vers des fiches coffre-fort, articles Patreon sur l'IA, aides-mémoire pour vidéos de nouvelles), des ateliers d'idéation (machine à idées, conseiller app retraite) et des ateliers d'instructions pour Claude (video éditoriale V1.2).
+- Déclaré : pour un même outil (proposition de coaching FP Conseils), Dominic a fait tourner en parallèle un projet Claude et un projet ChatGPT identiques et a laissé le client comparer les résultats. Méthode de choix de plateforme par test comparatif (O).
+- Observé : un projet en pause (LeFiltre Italie) et un projet inutilisé (SHORTS) sont conservés dans la liste plutôt que supprimés; cohérent avec les projets Claude désuets conservés (CL-15, CL-16). Hypothèse : Dominic ne supprime pas, il laisse en place (Q-013).
 
 ## Création d'IA spécialisées
 
