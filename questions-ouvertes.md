@@ -8,6 +8,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
+| Q-051 | Mandats clients : où sont conservés les livrables (propositions, procédures, réponses) et les transcriptions de rencontres, en dehors des conversations ChatGPT (PC, Drive, Microsoft 365, courriel)? Quand un nouveau mandat arrive, ChatGPT retrouve-t-il de lui-même le contexte des mandats précédents du même client, ou dois-tu le lui redonner? Les projets clients contiennent-ils des fichiers? | Clients Net BLB | 2 | Haute (mémoire client, séparation) | 2026-11-01 |
 | Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour connaître la nature exacte du connecteur (MCP local? scripts sur l'API Resolve?). Dominic pourrait l'ouvrir depuis le projet CL-02 et me l'attacher, ou me laisser le lire via le dossier lié si la session est reliée à son PC. | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-047b | Les fichiers « leçons » de CL-02 sont-ils relus automatiquement par Claude à chaque montage (ils sont dans le contexte du projet, donc probablement oui), et une leçon est-elle ensuite intégrée aux instructions via l'atelier ChatGPT (comme la section « fins de mots » le suggère)? | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-049b | Durée typique d'un montage de vidéo longue par Claude et fréquence (une vidéo par semaine?) : utile pour la phase 5 (coûts). | CL-01, CL-02 | 2 | Moyenne | 2026-11-01 |

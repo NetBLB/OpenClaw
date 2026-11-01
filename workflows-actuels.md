@@ -104,6 +104,7 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 ## Utilisation de ChatGPT
 
+- Précisé en phase 2 (2026-11-01) : ces projets clients n'ont pas d'instructions personnalisées; ce sont des dossiers. Un mandat = une nouvelle conversation dans le projet, ouverte en collant le courriel du client ou la transcription de la rencontre visio. Le contexte client n'est pas formalisé; il vient du texte collé et de la mémoire du projet ChatGPT.
 - Déclaré par Dominic (2026-11-01) : **chaque client de Net BLB inc. a un projet ChatGPT, et c'est dans ce projet que chaque requête, demande ou mandat du client est traité.** Neuf projets clients observés (Québec D'Abord, Evoluo, FP CONSEILS (H), Portée Sociale, Valérie Comptabilité, PointComm, Julie Comptabilité, Cité Joie, Molloy). Les clients sont donc cloisonnés par projet, et entièrement du côté ChatGPT. Méthode candidate « à préserver » (classement à confirmer).
 - Déclaré : ChatGPT héberge aussi des « machines » de production répétitive pour LeFiltre (extraction d'anciens articles Patreon vers des fiches coffre-fort, articles Patreon sur l'IA, aides-mémoire pour vidéos de nouvelles), des ateliers d'idéation (machine à idées, conseiller app retraite) et des ateliers d'instructions pour Claude (video éditoriale V1.2).
 - Déclaré : pour un même outil (proposition de coaching FP Conseils), Dominic a fait tourner en parallèle un projet Claude et un projet ChatGPT identiques et a laissé le client comparer les résultats. Méthode de choix de plateforme par test comparatif (O).

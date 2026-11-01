@@ -42,8 +42,8 @@ Phase : 1 (Inventaire)
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 Liste des projets ChatGPT observée par capture le 2026-11-01 (18 visibles + 3 non visibles déclarés par Dominic). Descriptions déclarées par Dominic en une phrase chacune; instructions et fichiers non encore vus.
 
-| GPT-01 | Québec D'Abord | Projet ChatGPT, client | (O, déclaré) Client Net BLB inc.; toutes ses requêtes et mandats sont traités dans ce projet | Client : Québec D'Abord / Net BLB inc. | Probable (H) | | | | | Durable | faible | Patron déclaré : un projet ChatGPT par client Net BLB, où chaque demande ou mandat est traité. |
-| GPT-02 | Evoluo | Projet ChatGPT, client | (O, déclaré) Client Net BLB inc.; même patron que GPT-01 | Client : Evoluo / Net BLB inc. | Probable (H) | | | | | Durable | faible | |
+| GPT-01 | Québec D'Abord | Projet ChatGPT, client (dossier de mandats) | (O, déclaré) Client Net BLB inc.; toutes ses requêtes et mandats sont traités dans ce projet, une conversation par mandat (courriel ou transcription collé) | Client : Québec D'Abord / Net BLB inc. | Non (O, déclaré : aucun projet client n'a d'instructions) | | | | | Durable | faible | Patron déclaré : un projet ChatGPT par client Net BLB, où chaque demande ou mandat est traité. |
+| GPT-02 | Evoluo | Projet ChatGPT, client (dossier de mandats) | (O, déclaré) Client Net BLB inc.; même patron que GPT-01 | Client : Evoluo / Net BLB inc. | Non (O) | | | | | Durable | faible | |
 | GPT-03 | video éditoriale youTube V1.2 | Projet ChatGPT, atelier d'instructions | (O, déclaré) A servi à créer les instructions personnalisées du projet Claude du même nom (CL-09). ChatGPT est en V1.2; Claude est encore en V1 (mise à jour non reportée, jugée négligeable par Dominic). | LeFiltre | Oui (O, déclaré) | | | | | Durable | moyen | Observation : la version la plus récente des instructions de CL-09 vit dans ChatGPT, pas dans Claude; léger décalage de version entre plateformes (O). |
 | GPT-04 | Proposition de Coaching | Projet ChatGPT, prototype client | (O, déclaré) Copie conforme du projet Claude CL-04 : test simultané Claude / ChatGPT, résultats montrés au client FP Conseils pour qu'il choisisse la plateforme qu'il préfère. | Client : FP Conseils / Net BLB inc. | Oui (O, déclaré) : mêmes règles métier que CL-04 | Gabarit PowerPoint (H) | | | | Temporaire (test comparatif) | moyen | Duplication volontaire inter-plateformes à des fins de comparaison (O). Issue : non tranchée; Dominic pense que le client ira vers Claude (O, déclaré). |
 | GPT-05 | FP CONSEILS | Projet ChatGPT, client | (O, confirmé par Dominic) Projet client de FP Conseils (mandats), distinct de GPT-04 qui n'est qu'un test comparatif. | Client : FP Conseils / Net BLB inc. | | | | | | | faible | |
@@ -298,6 +298,20 @@ Lecture : CL-03 semble être le jeu le plus récent (Media Kit 2026, 170 000+, E
 **Observations tirées de ces réponses (O)** : (a) une partie de la mémoire de travail du système (plans, pipeline, dossier lié) est créée et entretenue par Claude sans que Dominic en connaisse le contenu : mémoire opaque pour lui, mais fonctionnelle; (b) le message de démarrage est stable et répétitif (candidat à une standardisation, sans recommandation ici); (c) la remontée des leçons vers les instructions passe par Dominic et l'atelier ChatGPT (H, non contredit).
 
 **Niveau de compréhension après fiche** : CL-01, CL-02 : élevé.
+
+### Fiche A3 : Clients Net BLB inc. (GPT-01, 02, 05, 08, 10, 11, 12, 13, 14) : rédigée le 2026-11-01 à partir de la description de Dominic
+
+**Nature réelle des projets (O, déclaré)** : chaque projet ChatGPT client a été créé avec le seul nom du client, **sans instructions personnalisées**. Ce n'est pas une IA spécialisée mais un dossier qui regroupe les mandats du client.
+
+**Déroulement d'un mandat (O, déclaré)** : une demande arrive par courriel → Dominic colle le courriel dans une nouvelle conversation sous le projet du client; si la demande vient d'une rencontre en visio → il colle la transcription de la rencontre. Le travail avec l'IA commence à partir de ce texte. Une conversation = un mandat.
+
+**Ce que cela implique (O / H)** : le contexte d'un client n'est pas formalisé (pas de fiche client, pas d'instructions); il est reconstitué à chaque mandat à partir du courriel ou de la transcription, plus ce que ChatGPT retient des conversations précédentes du même projet (mécanisme de mémoire de projet ChatGPT, H sur son efficacité réelle). Les connaissances durables sur un client (infrastructure, décisions passées, procédures développées, contacts) vivent donc dans l'historique des conversations, pas dans un document (O, déduit; cohérent avec ce que ChatGPT citait de Cité-Joie dans la conversation d'origine : Google Workspace, Cloudflare, migration M365, WordPress / Divi). Emplacement des livrables produits (propositions, procédures, courriels de réponse) non précisé (Q-051).
+
+**Isolation (O)** : un projet par client, donc une séparation nette entre clients à l'intérieur de ChatGPT; mais FP Conseils apparaît aussi dans Claude (CL-04, outil prototype) et le Skill SK-01, et GPT-04 (copie de test) : un client, quatre emplacements.
+
+**Méthodes de travail révélées (O)** : l'entrée d'un mandat est toujours un texte brut collé (courriel ou transcription); pas de gabarit d'instructions par client; le projet sert d'index chronologique des mandats. Patron à comparer avec FP Conseils où, au contraire, un outil très spécifié (règles métier + Skill + gabarit) a été construit pour une tâche récurrente du client.
+
+**Niveau de compréhension après fiche** : méthode : élevé; contenu de chaque client : faible (volontairement non approfondi, confidentialité).
 
 ## 7. Ambiguïtés relevées pendant la première passe
 
