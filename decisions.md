@@ -30,6 +30,14 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Hors périmètre, à la demande de Dominic** : projet personnel « Donjon et Dragon ».
 - **Validée par Dominic** : oui.
 
+## D-004 – L'outil FP Conseils est hors périmètre de l'architecture cible
+
+- **Date** : 2026-11-01
+- **Décision** : le projet Claude « FPconseils, proposition Coaching » (CL-04), le Skill `fp-conseils-proposition-coaching` (SK-01) et la copie ChatGPT « Proposition de Coaching » (GPT-04) relèvent d'un mandat unique pour le client FP Conseils. À la fin du mandat, Dominic effacera tout. Ces éléments ne doivent pas être intégrés à l'environnement LeFiltre / Net BLB ni à la future architecture.
+- **Raison** : livrable destiné au client, pas un actif de Dominic.
+- **Conséquences** : l'audit documente ces éléments pour la *méthode* (livraison d'outils IA à des clients, deux autres outils prévus pour ce client), pas pour les intégrer. Le projet client « FP CONSEILS » (GPT-05, mandats) reste, lui, dans le périmètre comme les autres clients.
+- **Validée par Dominic** : oui (déclaration du 2026-11-01).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
