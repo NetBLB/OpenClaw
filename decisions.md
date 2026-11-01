@@ -22,6 +22,14 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Alternatives envisagées** : projet ChatGPT d'audit (écarté au profit de Claude); remplir manuellement 25 fiches (écarté au profit des captures).
 - **Validée par Dominic** : oui (appliquées depuis le début de l'audit).
 
+## D-003 – Clôture de la première passe d'inventaire (phase 1)
+
+- **Date** : 2026-11-01
+- **Décision** : la première passe de la phase 1 est considérée comme suffisamment complète (« ça fait pas mal le tour »). L'inventaire reste évolutif : tout élément découvert plus tard y sera ajouté.
+- **Périmètre couvert** : projets Claude, chats et artefacts Claude, Skill, projets et conversations ChatGPT, dépôts GitHub, automatisations, outils, registre des idées, structure Patreon, système site NetBLB, conversation ChatGPT d'origine de l'audit.
+- **Hors périmètre, à la demande de Dominic** : projet personnel « Donjon et Dragon ».
+- **Validée par Dominic** : oui.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01

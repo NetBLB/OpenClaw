@@ -233,6 +233,43 @@ Liste accumulée; à traiter lors de la deuxième passe.
 - CL-02 : les instructions se désignent comme « ce Skill » (Q-004).
 - CL-05 : nature du dossier « claude » et mécanisme de déduplication (Q-007).
 
+## 7b. Bilan chiffré de la première passe (2026-11-01)
+
+| Famille | Nombre | Détail |
+|---|---|---|
+| Projets Claude | 15 | CL-01 à CL-12, CL-15, CL-16 (désuets), CL-17 (audit) |
+| Chats Claude hors projet servant d'outil | 2 | CL-13 (Maître studio-explainer), CL-14 (horaire éphémère) |
+| Skills Claude | 1 | SK-01 |
+| Artefacts Claude publiés | 4 | ART-01 à ART-04 (1 obsolète, 1 ponctuel) |
+| Projets ChatGPT | 25 | GPT-01 à GPT-22 + 06b, 06c, 06d; dont 9 clients, 1 hors périmètre, 1 en pause, 2 archivés |
+| Conversations ChatGPT épinglées servant d'outil | 8 | GPTC-01 à GPTC-08 (1 sans rôle) |
+| Dépôts GitHub | 3 | studio-explainer, netblb-site, OpenClaw |
+| Automatisations planifiées | 1 | AUTO-01 (rapport SEO/GEO du lundi) |
+| Outils et connecteurs | 8 | Resend, Thinkific, DaVinci Resolve, Higgsfield, Codex, Metricool, Windsor.ai, pile netblb.com |
+| Idées de projets au registre | 15 | PRJ-01 à PRJ-15 |
+| Questions | 19 en attente, 33 résolues | voir `questions-ouvertes.md` |
+
+## 7c. Ordre d'approfondissement proposé pour la phase 2 (RECOMMANDATION, à valider par Dominic)
+
+Critères : influence sur l'architecture future, activité, richesse des connaissances, recouvrements, clients et méthodes partagés, compétences transversales. Objectif : ouvrir le capot de peu de projets, mais des bons. Matériel demandé = instructions complètes et fichiers de contexte, fournis par Dominic quand je ne peux pas les lire moi-même.
+
+**Lot A : systèmes structurants (à faire en premier)**
+1. **Sponsors LeFiltre** (CL-03, CL-07, CL-11 + instructions de profil Claude). Trois projets, même domaine, mêmes sponsors qui traversent les projets, contexte de marque dupliqué avec divergence. Cas d'école pour « regrouper ou garder séparé ». Matériel : les 3 jeux d'instructions complets + les instructions de profil.
+2. **Montage DaVinci Resolve** (CL-01, CL-02, GPTC-04, GPTC-05). Usage le plus lourd (c'est ce qui justifie le forfait Claude), accès complet à la machine, filiation ChatGPT → Claude des instructions. Matériel : instructions complètes des deux projets, liste des 7 + 4 fichiers de contexte, nature du dossier lié et du connecteur.
+3. **Clients Net BLB** (9 projets ChatGPT). Principe d'isolation le plus important de l'écosystème et niveau de confidentialité le plus élevé. Pas besoin des 9 : instructions de 2 ou 3 projets représentatifs (ex. Cité Joie, FP CONSEILS, une comptabilité) + description d'un mandat type de bout en bout.
+4. **Chaîne éditoriale LeFiltre** (CL-06, CL-08, CL-09, CL-12, GPT-22, GPT-07, GPT-16, GPTC-02, GPTC-03). Le plus grand nombre de transferts par copier-coller et trois projets qui font de la recherche / fact-check. Matériel : instructions complètes de CL-06, CL-08, CL-09 et GPT-22.
+
+**Lot B : déjà bien compris, vérifications ciblées**
+5. **FP Conseils** (CL-04, SK-01, GPT-04, GPT-05). Modèle de livraison d'un outil chez un client. Je peux lire SK-01 moi-même; il me faut les instructions complètes de CL-04 et le gabarit.
+6. **Remarketing formations** (CL-05). Lire les 5 fichiers de contexte pour comprendre le registre de déduplication (Q-007).
+7. **Site NetBLB** (GH-03). Une action suffit : m'ouvrir l'accès en lecture au dépôt pour lire `AGENTS.md`; puis la conversation « IA Chef » si Dominic veut l'exporter.
+8. **studio-explainer** (CL-13, GH-01). Déjà analysé en profondeur; rien à demander avant la phase 4.
+
+**Lot C : faible influence, traités en phase 3 par les recouvrements**
+9. Famille extraction (5 projets), outils Patreon (GPTC-01, GPTC-07, GPTC-08, GPT-17), horaire éphémère (CL-14), registre des projets (ART-02), idéation (CL-10, GPT-09, GPT-07), archives et pause (CL-15, CL-16, GPT-15, GPT-18, GPT-21, ART-04).
+
+**En parallèle, pendant tout le lot A** : validation par Dominic des 9 méthodes proposées « à préserver » dans `elements-a-preserver.md`, et réponses aux 19 questions ouvertes au fil de l'eau, par lot.
+
 ## 8. Recouvrements préliminaires (observations, phase 3 à venir)
 
 Simples constats, aucune conclusion de fusion ou de séparation.
