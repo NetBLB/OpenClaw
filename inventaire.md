@@ -293,7 +293,11 @@ Lecture : CL-03 semble être le jeu le plus récent (Media Kit 2026, 170 000+, E
 
 **Méthodes de travail révélées (O)** : règles de sécurité explicites (source intacte, prémontage respecté, pas de décision éditoriale); autonomie demandée (pas de validation coupe par coupe) mais autorisation exigée pour prendre le contrôle visuel; vérification par le résultat (images exportées, listes de contrôle, seconde passe); paramètre global modifiable en tête d'instructions; ordre de priorité explicite entre règles; fichiers « leçons » par vidéo. Candidats « à préserver » ajoutés.
 
-**Niveau de compréhension après fiche** : CL-01, CL-02 : élevé (sous réserve des questions Q-047 à Q-050).
+**Réponses de Dominic (2026-11-01)** : les « plans de montage » sont écrits automatiquement par Claude; les « leçons » sont des extraits de vidéo que Dominic a fournis comme exemples de ce qu'il faut faire ou ne pas faire (fichiers texte de 2 à 6 ko : vraisemblablement des descriptions ou transcriptions de ces extraits, H). Le dossier lié « production » a été demandé par Claude lui-même; Dominic ne sait pas exactement ce qu'il contient (« semble être un dossier de travail »). Le fichier « pipeline technique resolve » a vraisemblablement été créé par Claude; Dominic ne le connaît pas. Démarrage d'une session : toujours le même message (nom du projet Resolve, nom de la timeline, quelques lignes rappelant de respecter les instructions). Règle « API d'abord, pas de contrôle sans autorisation » : Dominic la veut générale; pour les Shorts, Claude n'a habituellement pas besoin de prendre le contrôle.
+
+**Observations tirées de ces réponses (O)** : (a) une partie de la mémoire de travail du système (plans, pipeline, dossier lié) est créée et entretenue par Claude sans que Dominic en connaisse le contenu : mémoire opaque pour lui, mais fonctionnelle; (b) le message de démarrage est stable et répétitif (candidat à une standardisation, sans recommandation ici); (c) la remontée des leçons vers les instructions passe par Dominic et l'atelier ChatGPT (H, non contredit).
+
+**Niveau de compréhension après fiche** : CL-01, CL-02 : élevé.
 
 ## 7. Ambiguïtés relevées pendant la première passe
 
