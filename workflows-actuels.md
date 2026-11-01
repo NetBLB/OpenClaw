@@ -80,6 +80,11 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 - Déclaré par Dominic et observé (2026-11-01) : un outil codé par Claude (« Projets LeFiltre », artefact avec base de données) sert de registre de toutes les idées de projets, de leur statut et de leur avancement. Chaque fiche contient des liens directs vers les conversations ChatGPT, projets Claude, chats Claude et artefacts ayant servi au projet. C'est le seul index transversal ChatGPT + Claude observé dans l'écosystème; il est tenu à jour (modifications le jour de l'audit). Méthode candidate « à préserver » (classement à confirmer).
 - Observation : ce registre et l'inventaire du présent audit se recoupent partiellement (idées de projets). Relation à définir en phase 4 (lequel est la référence pour quoi), sans recommandation à ce stade.
 
+## Maintenance des données partagées (observé en phase 2, lot A1)
+
+- Déclaré par Dominic (2026-11-01) : les chiffres d'audience (abonnés, vues, abonnés par plateforme) sont ressaisis à la main dans chaque jeu d'instructions à mesure qu'ils montent; la source est le Media Kit, lui-même produit dans un chat Claude (CL-18). Il n'existe ni liste officielle des catégories refusées ni tranche d'âge officielle : chaque projet porte sa formulation. Les règles écrites peuvent être plus strictes que la pratique (devise EUR « non négociable » dans CL-03 alors que les deux devises servent selon le client). Observation : les connaissances partagées entre projets vivent en plusieurs copies entretenues manuellement, sans mécanisme de propagation (O).
+- Déclaré : les instructions des trois projets sponsors ont été rédigées par ChatGPT, mais la conversation d'origine est perdue. La copie dans Claude est donc la seule; aucune version antérieure n'est conservée (O).
+
 ## Versionnage des instructions
 
 - Déclaré par Dominic (2026-11-01) : le suffixe « V1 » dans le nom d'un projet (CL-09) désigne la version des instructions personnalisées; une amélioration significative fera passer à « V2 ». Observation : CL-09 est le seul projet vu jusqu'ici avec un numéro de version; les autres sont modifiés sans trace de version visible (H, voir Q-011b).

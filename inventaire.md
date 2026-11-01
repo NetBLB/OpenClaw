@@ -33,6 +33,7 @@ Phase : 1 (Inventaire)
 | CL-15 | Scripteur (désuet) | Projet Claude, désuet | (O, archive v1.5) Rédaction des paquets script de la chaîne anglophone anonyme, mode interactif avec validation à chaque étape; instructions v1.5 `instructions-projet-scripteur.md` + bible + gabarit | Chaîne anglophone anonyme | Oui (O, archive) | Bible et gabarit v1.5 (copies) (O) | GH-01 (archive) | Plus utilisé depuis la v1.6 (O) | Faible (repli) | Désuet, encore présent (O, déclaré 2026-11-01) | moyen | Non montré en capture; existence confirmée par Dominic et par le lien dans ART-02. Conservé « comme solution de repli et point de comparaison » (O, orchestration v1.6). |
 | CL-16 | Éditeur-validateur (désuet) | Projet Claude, désuet | (O, archive v1.5) Vérification des faits (recherche web obligatoire), passage de la grille, rapport et verdict GO / NO GO; instructions v1.5 `instructions-projet-validateur.md` + bible + gabarit + grille | Chaîne anglophone anonyme | Oui (O, archive) | Bible, gabarit, grille v1.5 (copies) (O) | GH-01 (archive) | Plus utilisé depuis la v1.6 (O) | Faible (repli) | Désuet, encore présent (O, déclaré 2026-11-01) | moyen | Idem CL-15. Le rôle « Producteur / Chef » v1.5 était un chat, pas un projet (lien « Chef (desuet) » = URL de chat dans ART-02) (O). |
 
+| CL-18 | « Créer un media kit en PDF » (chat Claude hors projet) | Conversation Claude servant d'outil | (O, déclaré) Produit le Media Kit LeFiltre en PDF; contient quatre media kits selon la langue et la devise (FR/EN × EUR/USD, H sur les combinaisons exactes). Source des chiffres d'audience utilisés par les projets sponsors (O, déclaré); le Media Kit 2026 est joint aux courriels de présentation commerciale (CL-03). | LeFiltre | Inconnu (chat) | Les 4 PDF (dans la conversation ou générés par elle, H) | | À chaque mise à jour des chiffres (H) | Élevée : document commercial de référence | Durable | moyen | Découvert en phase 2 (lot A1). Les chiffres y sont ressaisis manuellement par Dominic, puis recopiés dans CL-03, CL-07, CL-11 et le profil (O, déclaré). Où les PDF sont conservés en dehors de Claude : à vérifier (Q-046). |
 | CL-17 | OPEN CLAW - conception | Projet Claude (le présent audit) | (O) Audit de l'écosystème IA en vue d'une architecture OpenClaw; instructions rédigées par ChatGPT dans la conversation « IA de départ » (O, PDF lu le 2026-11-01), collées telles quelles. Description : « De l'analyse de l'inventaire, développement de la stratégie ». | Net BLB inc. / Dominic | Oui (O) | Mémoire de projet Claude; dépôt GH-02 | GH-02 NetBLB/OpenClaw | Actif | Élevée | Durable (jusqu'à la fin de l'audit, puis cahier de construction) | élevé | Compte : avec CL-15 et CL-16, l'inventaire Claude atteint 15 projets, ce qui correspond au « autour de 15 projets » déclaré par Dominic dans la conversation ChatGPT d'origine (O). |
 
 ## 2. Projets ChatGPT
@@ -133,7 +134,7 @@ Déclaré par Dominic (2026-11-01) : il n'existe que trois dépôts GitHub (stud
 
 - **Production vidéo LeFiltre (montage)** : CL-01, CL-02.
 - **Préparation éditoriale LeFiltre (recherche, structure, fact-check, réactualisation)** : CL-06, CL-08, CL-09, CL-12.
-- **Sponsors LeFiltre** : CL-03 (négociation), CL-07 (hardware, troc), CL-11 (analyse de contrat).
+- **Sponsors LeFiltre** : CL-03 (négociation), CL-07 (hardware, troc), CL-11 (analyse de contrat), CL-18 (media kit).
 - **Marketing / ventes LeFiltre** : CL-05.
 - **Outils IA pour clients Net BLB inc.** : CL-04 (+ SK-01), GPT-04 (copie de test).
 - **Clients Net BLB inc. (un projet ChatGPT par client, mandats traités dedans)** : GPT-01 Québec D'Abord, GPT-02 Evoluo, GPT-05 FP CONSEILS (H), GPT-08 Portée Sociale, GPT-10 Valérie Comptabilité, GPT-11 PointComm, GPT-12 Julie Comptabilité, GPT-13 Cité Joie, GPT-14 Molloy. Tous dans ChatGPT, aucun dans Claude (O).
@@ -261,6 +262,8 @@ Outils IA qui servent ce produit : GPT-22 (publications écrites) → CL-08 (fac
 
 Lecture : CL-03 semble être le jeu le plus récent (Media Kit 2026, 170 000+, EUR, Formule Dédiée); CL-11 et le profil portent des données antérieures (165 000+, USD, pas de dédiée). Conséquence concrète possible : CL-11 jugerait « cohérent » un contrat en USD alors que CL-03 facture en EUR, et ne saurait pas évaluer un contrat de vidéo dédiée (H).
 
+**Réponses de Dominic (2026-11-01)** : (1) devise : EUR ou USD selon le client, les deux coexistent; la règle « EUR non négociable » de CL-03 est donc plus stricte que la pratique réelle (O). (2) Tier 3 : 60 à 120 s selon le client; Formule Dédiée sur invitation seulement. (3) Chiffres d'audience : Dominic les ressaisit lui-même dans chaque projet à mesure qu'ils montent; à laisser tels quels pour l'instant (maintenance manuelle, pas de source unique) (O). (4) Aucune liste officielle de catégories refusées ni de tranche d'âge officielle : les trois listes sont des formulations ad hoc (O). (5) Le Media Kit vit dans Claude, dans un chat hors projet « Créer un media kit en PDF » qui contient quatre media kits (selon la langue et la devise); c'est la source des chiffres (O, déclaré); ajouté à l'inventaire comme CL-18. (6) Les trois jeux d'instructions ont été rédigés par ChatGPT, mais la conversation d'origine est perdue : les instructions dans Claude en sont la seule copie (O).
+
 **Lacunes observées** : CL-03 ne fixe pas de conditions de paiement ni de durée d'exclusivité dans ses courriels, alors que CL-11 les traite comme bloquantes au-delà de 30 jours (O). Aucun des trois ne sait ce qui a été conclu avec les sponsors précédents (O).
 
 **Méthodes de travail révélées par ces instructions (O)** : format « analyse d'abord, livrable ensuite » dans les trois; vérification autonome exigée (CL-03) ou signalement avant génération (CL-07); interdiction d'inventer des chiffres; posture « sans filtre, pas d'assistant passif » (CL-11); gabarit figé pour la réponse standard (CL-07). Candidats « à préserver » : la doctrine sponsor (conditions non négociables, plancher, pas de rabais sans contrepartie) et le patron analyse → livrable.
@@ -279,7 +282,7 @@ Liste accumulée; à traiter lors de la deuxième passe.
 | Famille | Nombre | Détail |
 |---|---|---|
 | Projets Claude | 15 | CL-01 à CL-12, CL-15, CL-16 (désuets), CL-17 (audit) |
-| Chats Claude hors projet servant d'outil | 2 | CL-13 (Maître studio-explainer), CL-14 (horaire éphémère) |
+| Chats Claude hors projet servant d'outil | 3 | CL-13 (Maître studio-explainer), CL-14 (horaire éphémère), CL-18 (media kit) |
 | Skills Claude | 1 | SK-01 |
 | Artefacts Claude publiés | 4 | ART-01 à ART-04 (1 obsolète, 1 ponctuel) |
 | Projets ChatGPT | 25 | GPT-01 à GPT-22 + 06b, 06c, 06d; dont 9 clients, 1 hors périmètre, 1 en pause, 2 archivés |
