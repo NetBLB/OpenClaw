@@ -210,6 +210,20 @@ Deuxième système complet observé après studio-explainer, entièrement côté
 
 Patron confirmé une troisième fois : **un chef d'orchestre ChatGPT conçoit et rédige les instructions, un exécutant les applique** (exécutant = Claude pour CL-01, CL-02, CL-09, CL-10, CL-14, CL-17; = Codex pour le site NetBLB). Les instructions de l'exécutant sont versionnées dans le dépôt (`AGENTS.md`) dans le cas NetBLB, comme pour studio-explainer, mais pas dans le cas des projets Claude (O).
 
+## 6e. Structure Patreon LeFiltre (produit servi par de nombreux outils IA)
+
+Sources : capture de la page Patreon, document `PAtreon.docx` (textes des niveaux et courriels de bienvenue, descriptions et prompts d'image des collections), tableau de bord HTML « Refonte Patreon LeFiltre » (15 phases), tous fournis le 2026-11-01. Déclaré : refonte complète réalisée cette année avec un assistant ChatGPT.
+
+**Niveaux d'abonnement (O, docx)** : 4 niveaux. 5 $ (écrit + Coffre-fort), 7 $ L'Actif (écrit + vidéo), 10 $ L'Initié (+ lives et rediffusions), 15 $ Le Pilier (+ premier cercle, expériences occasionnelles, logo Membre Pilier). Un courriel de bienvenue par niveau. Incohérence de nom relevée pour le niveau 5 $ : titré « L'Éveil » dans le docx, « Le Lecteur » dans le plan de refonte et dans la fin de son propre courriel (O; à trancher par Dominic, Q-036).
+
+**Collections (O, capture, nombre de publications)** : Comment utiliser Patreon (4, gratuit), Annexes aux vidéos YouTube (55, gratuit), À SURVEILLER (33), À ADOPTER (84), À ÉVITER (21), À COMPRENDRE (49), Coffre-fort LeFiltre (25), Intelligence Artificielle (19; titre affiché avec une coquille « Intelligenre »). Le plan prévoyait aussi « Lives et rencontres » (non visible dans la capture) et ne prévoyait pas « Intelligence Artificielle » (ajoutée après, H). Le docx contient pour chaque collection une description et un prompt d'image (style techno bleu/noir, 1024x1024, sans texte).
+
+**Coffre-fort LeFiltre** : boîte à outils des membres (commandes, prompts, checklists, guides, liens, logiciels). Alimenté par la famille de projets ChatGPT « extraction » (GPT-06 à GPT-20). Le plan de refonte (phase 9) nomme des générateurs de fiches [PROMPT], [PROMPTS], [COMMANDE], [COMMANDES], [LOGICIEL] (variantes singulier / pluriel) et documente un blocage résolu ou à résoudre : « le GPT tente d'exécuter le prompt collé au lieu de l'extraire » (O, plan). État actuel de ce blocage inconnu (Q-037).
+
+**Outil de pilotage de la refonte (O, fichier HTML)** : tableau de bord autonome de 15 phases et ~100 tâches avec cases à cocher, estimation d'effort, notes par phase, sauvegarde dans le navigateur (localStorage) quand le fichier est ouvert localement, bouton « Copier l'état » pour coller la progression dans la conversation ChatGPT, où « le document maître du Projet » est mis à jour. Même patron que l'horaire éphémère (CL-14) mais côté ChatGPT : un outil HTML personnel dont l'état est synchronisé avec l'IA par copier-coller (O). Emplacement du « document maître » et du projet ChatGPT de la refonte non encore identifiés (Q-038).
+
+Outils IA qui servent ce produit : GPT-22 (publications écrites) → CL-08 (fact-check); GPT-17 (articles IA); GPT-06 à GPT-20 (Coffre-fort); GPTC-07 + GPTC-08 (outils IA offerts aux membres); GPTC-01 (vignettes Patreon); CL-06 (recherche pour articles et vidéos Patreon); CL-05 (remarketing, lié aux formations plutôt qu'à Patreon); lefiltre.com redirige vers Patreon (CL-05).
+
 ## 7. Ambiguïtés relevées pendant la première passe
 
 Liste accumulée; à traiter lors de la deuxième passe.

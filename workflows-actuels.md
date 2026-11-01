@@ -43,6 +43,10 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 - Visuels : « image YOUTUBE » (GPTC-01) produit vignettes YouTube et Patreon.
 - Observation : la production Patreon est presque entièrement côté ChatGPT, avec un seul passage par Claude (CL-08), toujours par copier-coller.
 
+## Outils HTML personnels synchronisés avec l'IA par copier-coller
+
+- Observé (2026-11-01) : deux outils HTML autonomes servent à piloter un travail : « Horaire LeFiltre » (artefact Claude, CL-14 / ART-01) et le tableau de bord « Refonte Patreon LeFiltre » (fichier HTML produit par ChatGPT, 15 phases). Dans les deux cas, le calcul vit dans l'outil, l'intelligence dans la conversation, et l'état revient vers l'IA par copier-coller (« Copier l'état »). Patron récurrent de Dominic : faire coder par l'IA de petits outils personnels plutôt que d'adopter un logiciel tiers (Notion, Motion, etc., écartés explicitement dans le chat de l'horaire) (O).
+
 ## Chaîne de publication LeFiltre (observée)
 
 - Vidéo longue : montage par Claude dans DaVinci (CL-02) → transcription collée dans la conversation ChatGPT « Info de description YouTube » (GPTC-03) → titre, description, tags, liens → description YouTube. Transfert par copier-coller.
