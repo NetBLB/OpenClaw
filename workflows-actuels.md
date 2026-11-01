@@ -40,6 +40,12 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 - Vidéo longue : montage par Claude dans DaVinci (CL-02) → transcription collée dans la conversation ChatGPT « Info de description YouTube » (GPTC-03) → titre, description, tags, liens → description YouTube. Transfert par copier-coller.
 - Shorts : découpage par Claude dans DaVinci (CL-01) → 1 à 10 Shorts envoyés à la conversation ChatGPT « Titres et descriptions vidéos » (GPTC-02) → titres, liens, descriptions → collés dans Metricool, qui publie automatiquement sur toutes les plateformes. Transfert par copier-coller.
 
+## Développement du site NetBLB (ChatGPT chef d'orchestre + Codex + GitHub)
+
+- Déclaré et observé (2026-11-01) : un agent chef d'orchestre ChatGPT a organisé le projet du nouveau site netblb.com et rédigé les instructions de Codex; Codex a construit le site en entier, par branches et pull requests sur `NetBLB/netblb-site` (au moins 13 PR), chacune validée par build et audits, sans fusion ni déploiement de sa part. Le dépôt est déclaré source de vérité du code et des contenus; `AGENTS.md` y conserve les orientations commerciales, éditoriales et techniques. Déploiement manuel sur Plesk selon un guide du dépôt.
+- Déclaré : surveillance automatisée par une tâche planifiée ChatGPT chaque lundi (rapport SEO/GEO et santé du site, sources GSC et GA4 via Windsor.ai), avec des instructions détaillées de type procédure (sources, seuils, format, règles de prudence, action « agir maintenant » ou « attendre »). Seule automatisation planifiée observée dans l'écosystème.
+- Observation transversale : le patron « chef d'orchestre ChatGPT → exécutant » s'applique avec Claude (projets Claude, outils codés) comme avec Codex (site). Quand l'exécutant travaille dans un dépôt (studio-explainer, netblb-site), ses instructions sont versionnées dans GitHub (`AGENTS.md`, briefs); quand l'exécutant est un projet Claude, elles ne vivent que dans le projet et dans la conversation ChatGPT d'origine.
+
 ## Rôles respectifs de Claude et ChatGPT (synthèse provisoire au 2026-11-01)
 
 - Déclaré (conversation ChatGPT d'origine) : tous les projets de développement sont gérés depuis les interfaces Claude et ChatGPT; GitHub sert déjà d'entrepôt des informations importantes.
