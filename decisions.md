@@ -38,6 +38,13 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquences** : l'audit documente ces éléments pour la *méthode* (livraison d'outils IA à des clients, deux autres outils prévus pour ce client), pas pour les intégrer. Le projet client « FP CONSEILS » (GPT-05, mandats) reste, lui, dans le périmètre comme les autres clients.
 - **Validée par Dominic** : oui (déclaration du 2026-11-01).
 
+## D-005 – Clôture de la phase 2 (compréhension)
+
+- **Date** : 2026-11-01
+- **Décision** : la phase 2 est close. Fiches rédigées pour les lots A1 (sponsors), A2 (montage DaVinci), A3 (clients Net BLB), A4 (chaîne éditoriale) et B1 (FP Conseils). Les vérifications B2 (fichiers du remarketing) et B3 (`AGENTS.md` de netblb-site) sont laissées de côté; elles pourront être faites plus tard si la phase 3 en a besoin.
+- **Suite** : validation en bloc des éléments à préserver, puis phase 3 (relations et recouvrements).
+- **Validée par Dominic** : oui.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
