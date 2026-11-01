@@ -11,7 +11,17 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 ## Démarrage d'un projet
 
-- (à documenter)
+- Déclaré par Dominic (2026-11-01) : il a beaucoup d'idées de projets en développement. Lorsqu'il a une idée, il démarre **toujours** un projet Claude ou un projet ChatGPT pour brainstormer et développer l'idée (ex. CL-10, en idéation). Conséquence : les deux plateformes contiennent vraisemblablement des projets d'idéation à divers stades de maturité, certains peut-être abandonnés (H).
+- Déclaré par Dominic (2026-11-01) : **souvent, les idées démarrent dans ChatGPT**. Dominic demande ensuite à ChatGPT de créer une instruction personnalisée pour une tâche spécifique, puis crée un projet Claude spécialisé avec cette instruction. Exemple : projet ChatGPT « Application Retraite » (conseiller, idéation, remise en question) + projet Claude CL-10 (spécialiste développement de produit). Rôles observés : ChatGPT = idéation, conseil, rédaction d'instructions; Claude = exécution spécialisée. Hypothèse : d'autres projets Claude de l'inventaire ont aussi des instructions rédigées par ChatGPT (Q-014).
+
+## Passation entre conversations Claude (CL-13)
+
+- Déclaré par Dominic (2026-11-01) : pour la chaîne sans visage, le travail s'est fait en chats Claude sans projet. Quand le chat « chef d'orchestre » a dû passer le relais, il a produit un fichier zip + un fichier .md de passation, et un nouveau chat a repris le travail à partir de ces fichiers. C'est le seul mécanisme formel de passation de contexte observé jusqu'ici; il est né du besoin, pas d'une méthode établie (H).
+- Déclaré par Dominic (2026-11-01) : expérience multi-agents : 1 chat → 3 Claude spécialisés (chef d'orchestre, scripteur, éditeur) → fusion en un seul Claude après le premier test. Les raisons de la fusion ne sont pas encore documentées (Q-017). Cette expérience vécue est un intrant majeur pour la phase 4 (principes de conception), à ne pas interpréter avant d'avoir la réponse de Dominic.
+
+## Transmission du contexte à une IA (complément)
+
+- Déclaré par Dominic (2026-11-01) : les instructions personnalisées d'un projet Claude peuvent être produites par ChatGPT à partir de la discussion d'idéation. Le contexte passe donc de ChatGPT à Claude sous forme d'instructions, par copier-coller (H sur le mécanisme exact).
 
 ## Transmission du contexte à une IA
 
@@ -20,6 +30,10 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 ## Conservation des décisions
 
 - (à documenter)
+
+## Versionnage des instructions
+
+- Déclaré par Dominic (2026-11-01) : le suffixe « V1 » dans le nom d'un projet (CL-09) désigne la version des instructions personnalisées; une amélioration significative fera passer à « V2 ». Observation : CL-09 est le seul projet vu jusqu'ici avec un numéro de version; les autres sont modifiés sans trace de version visible (H, voir Q-011b).
 
 ## Utilisation de GitHub
 
