@@ -35,6 +35,14 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 - Observé et déclaré (2026-11-01) : au-delà des projets, Dominic utilise des conversations ChatGPT épinglées comme outils récurrents, certaines avec des instructions personnalisées données directement dans la conversation (ex. « Info de description YouTube »). Les ateliers qui ont produit les instructions d'un projet Claude sont conservés comme conversations épinglées pour continuer à raffiner ces instructions (ex. « Créer un prompt Short » pour CL-01, « Affiner instruction montage » pour CL-02). Conséquence : pour ces projets, l'historique d'évolution des instructions vit dans une conversation ChatGPT (O).
 
+## Production Patreon LeFiltre (observée, structure Patreon à documenter)
+
+- Publications écrites : « PATREON - Trucs » (GPT-22) rédige → copier-coller dans « Éditeur de textes Patreon » (CL-08) pour fact-check et réécriture → copier-coller vers Patreon.
+- Coffre-fort : anciens articles Patreon → l'un des 5 projets d'extraction (prompt, commande, script, logiciel, applis) → fiche prête à publier dans le coffre-fort.
+- Outils IA pour la communauté : « Idées de prompts pratiques » (GPTC-07) propose → « Createur de IA personnalisé » (GPTC-08) rédige les instructions → publication des instructions sur Patreon (ex. détecteur d'arnaques par courriel, décrypteur de contrat).
+- Visuels : « image YOUTUBE » (GPTC-01) produit vignettes YouTube et Patreon.
+- Observation : la production Patreon est presque entièrement côté ChatGPT, avec un seul passage par Claude (CL-08), toujours par copier-coller.
+
 ## Chaîne de publication LeFiltre (observée)
 
 - Vidéo longue : montage par Claude dans DaVinci (CL-02) → transcription collée dans la conversation ChatGPT « Info de description YouTube » (GPTC-03) → titre, description, tags, liens → description YouTube. Transfert par copier-coller.
