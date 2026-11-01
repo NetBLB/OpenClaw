@@ -31,6 +31,11 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 - Observé : `NetBLB/studio-explainer` est explicitement désigné « source de vérité » du système. Pratiques en place : versionnage numéroté de tous les fichiers de rôles avec historique dans la bible; `CHANGELOG` par version « pour relecture par Dominic avant adoption »; archivage des versions précédentes et de la vidéo refusée; un dossier par univers visuel et par vidéo; banque de sujets avec grille de sélection et statuts; outils Python de contrôle (`lint_paquet.py`) et de production; liste de contrôle de début de séance (lire bible, orchestration, PASSATION, dossier de production; vérifier version et solde Higgsfield; annoncer en trois lignes où on en est). Tous les commits sont faits par l'IA (auteur « Claude »), 14 commits le 2026-10-29.
 - Observation : c'est le seul endroit de l'écosystème où instructions, connaissances, décisions, historique et outils sont réunis dans une structure versionnée. Les 12 projets Claude n'ont pas d'équivalent observé.
 
+## Rôles respectifs de Claude et ChatGPT (synthèse provisoire au 2026-11-01)
+
+- Déclaré (conversation ChatGPT d'origine) : tous les projets de développement sont gérés depuis les interfaces Claude et ChatGPT; GitHub sert déjà d'entrepôt des informations importantes.
+- Observé à travers l'inventaire : **ChatGPT** = point de départ des idées, conseil, remise en question, rédaction des instructions personnalisées des projets Claude, exploration stratégique (commercialisation, notoriété); **Claude** = exécution spécialisée (montage DaVinci, campagnes Resend, codage d'outils, production vidéo avec sous-agents, propositions clients), avec forfait à gros volume justifié par le montage vidéo. Hypothèse à confirmer en phase 2 : cette répartition est-elle voulue ou le fruit des circonstances?
+
 ## Transmission du contexte à une IA (complément)
 
 - Déclaré par Dominic (2026-11-01) : les instructions personnalisées d'un projet Claude peuvent être produites par ChatGPT à partir de la discussion d'idéation. Le contexte passe donc de ChatGPT à Claude sous forme d'instructions, par copier-coller (H sur le mécanisme exact).

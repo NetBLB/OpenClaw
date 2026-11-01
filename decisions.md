@@ -15,6 +15,13 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquences** : toute information structurante doit être reflétée dans le dépôt.
 - **Validée par Dominic** : oui (création du dépôt le 2026-11-01).
 
+## D-000 – Choix de méthode antérieurs à l'audit (consignés a posteriori)
+
+- **Date** : fin octobre 2026 (conversation ChatGPT « OPEN CLAW », lue le 2026-11-01).
+- **Décisions de Dominic** : (a) mener l'audit dans un projet Claude dédié avant toute installation d'OpenClaw; (b) relier GitHub dès le départ comme mémoire documentaire; (c) procéder en deux passes (captures d'écran, puis instructions des projets prioritaires); (d) aucune migration directe : analyse puis stratégie avant de créer OpenClaw; (e) Dominic reste décideur final, les méthodes de travail existantes sont des contraintes de conception.
+- **Alternatives envisagées** : projet ChatGPT d'audit (écarté au profit de Claude); remplir manuellement 25 fiches (écarté au profit des captures).
+- **Validée par Dominic** : oui (appliquées depuis le début de l'audit).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01

@@ -30,6 +30,11 @@ Phase : 1 (Inventaire)
 
 | CL-14 | « Horaire éphémère » / artefact « Horaire LeFiltre » (chat Claude hors projet « Organiser une routine de contenu hebd… ») | Application HTML (artefact Claude) + conversation Claude qui l'a codée | (O) Horaire hebdomadaire pour placer des blocs et comprendre la structure de la semaine : blocs par catégorie avec durée par défaut (Vidéo YouTube 180 min, Short 30, Coffre-fort 30, Comment fonctionne Patreon 30, Quip Patreon 15, Comptabilité 60, Clients Net BLB 60, Patreon 30), grille lundi-vendredi 8 h-22 h avec repères (Comptabilité, Tournage, Publication), semaines successives, sauvegarde automatique d'une session à l'autre, curseurs de priorité, 3 présets (semaine normale / sponsor / ralentie), checklist de la semaine; le texte de Claude indique une conception volontaire « calcul mécanique dans l'outil, intelligence dans la conversation ». Déclaré par Dominic : conçu sur ChatGPT; avec ChatGPT, création d'un Claude qui a réalisé le codage; l'application vit dans Claude, la mémoire aussi; utilisé directement dans Claude chaque semaine; outil personnel pour l'instant; exploration avec ChatGPT de l'idée de le rendre public ou de le commercialiser. | Dominic / LeFiltre (usage), Net BLB inc. si commercialisé (H) | Non (chat, pas de projet) (O) | Code HTML dans l'artefact publié ART-01 (O, vérifié); aucun fichier sur le PC ni sur GitHub (O, déclaré); mécanisme de sauvegarde de l'état à vérifier | Aucun (O, déclaré) | Hebdomadaire (O, déclaré) | Moyenne (outil personnel d'organisation), potentiellement élevée si commercialisé | Durable (usage régulier) | moyen | Deuxième exemple du patron « ChatGPT conçoit, Claude exécute » (après CL-10). Catégories de contenu visibles dans l'outil : vidéo YouTube, Shorts, 4 collections Patreon, coffre-fort, « comment fonctionne Patreon », quips; temps protégé : comptabilité et clients Net BLB; vendredi après-midi toujours libre (O, texte de Claude dans le chat). Outil vivant dans une seule conversation, sans projet ni dépôt observé (O). |
 
+| CL-15 | Scripteur (désuet) | Projet Claude, désuet | (O, archive v1.5) Rédaction des paquets script de la chaîne anglophone anonyme, mode interactif avec validation à chaque étape; instructions v1.5 `instructions-projet-scripteur.md` + bible + gabarit | Chaîne anglophone anonyme | Oui (O, archive) | Bible et gabarit v1.5 (copies) (O) | GH-01 (archive) | Plus utilisé depuis la v1.6 (O) | Faible (repli) | Désuet, encore présent (O, déclaré 2026-11-01) | moyen | Non montré en capture; existence confirmée par Dominic et par le lien dans ART-02. Conservé « comme solution de repli et point de comparaison » (O, orchestration v1.6). |
+| CL-16 | Éditeur-validateur (désuet) | Projet Claude, désuet | (O, archive v1.5) Vérification des faits (recherche web obligatoire), passage de la grille, rapport et verdict GO / NO GO; instructions v1.5 `instructions-projet-validateur.md` + bible + gabarit + grille | Chaîne anglophone anonyme | Oui (O, archive) | Bible, gabarit, grille v1.5 (copies) (O) | GH-01 (archive) | Plus utilisé depuis la v1.6 (O) | Faible (repli) | Désuet, encore présent (O, déclaré 2026-11-01) | moyen | Idem CL-15. Le rôle « Producteur / Chef » v1.5 était un chat, pas un projet (lien « Chef (desuet) » = URL de chat dans ART-02) (O). |
+
+| CL-17 | OPEN CLAW - conception | Projet Claude (le présent audit) | (O) Audit de l'écosystème IA en vue d'une architecture OpenClaw; instructions rédigées par ChatGPT dans la conversation « IA de départ » (O, PDF lu le 2026-11-01), collées telles quelles. Description : « De l'analyse de l'inventaire, développement de la stratégie ». | Net BLB inc. / Dominic | Oui (O) | Mémoire de projet Claude; dépôt GH-02 | GH-02 NetBLB/OpenClaw | Actif | Élevée | Durable (jusqu'à la fin de l'audit, puis cahier de construction) | élevé | Compte : avec CL-15 et CL-16, l'inventaire Claude atteint 15 projets, ce qui correspond au « autour de 15 projets » déclaré par Dominic dans la conversation ChatGPT d'origine (O). |
+
 ## 2. Projets ChatGPT
 
 | ID | Nom (tel qu'observé) | Type apparent | Fonction (O/H) | Client / organisation | Instructions perso | Connaissances / fichiers | Dépôt GitHub | Fréquence | Importance | Durée de vie | Compréhension | Notes / incertitudes |
@@ -113,6 +118,33 @@ Observations issues de l'extraction :
 - Nouveaux types d'éléments révélés : une tâche planifiée ChatGPT (PRJ-08, « Rapport ») et Codex (ChatGPT local) (PRJ-08). Ajoutés en section 5.
 - 9 projets sur 15 ont un lien vers une IA; 8 de ces liens vont vers ChatGPT, ce qui confirme le rôle de ChatGPT comme point de départ des idées (O).
 - Le registre est tenu à jour (modifications le jour même de l'audit) (O).
+
+## 6c. Éléments révélés par la conversation ChatGPT d'origine « OPEN CLAW » (PDF, 63 pages, lu le 2026-11-01)
+
+Conversation ChatGPT (chatgpt.com/c/6ae6837a…) où Dominic a découvert OpenClaw et conçu, avec ChatGPT, les instructions du projet d'audit. Statuts : (D) déclaré par Dominic dans la conversation; (G) énoncé par ChatGPT à propos de l'environnement de Dominic, vraisemblablement tiré de sa mémoire ChatGPT, **à vérifier**; (R) recommandation de ChatGPT, jamais validée comme décision.
+
+Déclarations de Dominic (D) :
+- Tous ses projets de développement sont gérés depuis les interfaces Claude et ChatGPT; il y a environ 15 projets Claude et une dizaine de projets ChatGPT; chaque projet est soit un client, soit un projet en développement; il crée aussi d'autres IA avec instructions personnalisées pour des tâches précises.
+- Il entrepose déjà les informations importantes sur GitHub (déclaré avant l'audit).
+- Abonnements : Claude au forfait à gros volume (~140 $/mois) parce que Claude est son monteur dans DaVinci Resolve et consomme beaucoup de tokens; ChatGPT abonnement de base, avec crédits supplémentaires ajoutés à l'occasion. (Contexte de coûts pour la phase 5.)
+- Il n'a pas de connaissances OpenClaw et compte faire orchestrer l'installation et la migration par une IA.
+- Il ne veut pas de migration directe : ses projets Claude ne sont pas pensés pour une structure unifiée; l'architecture doit être analysée et une stratégie établie avant de créer OpenClaw. Il doit rester dans la boucle; certaines méthodes de travail doivent être conservées.
+- Il a choisi : un projet Claude d'audit (pas un projet ChatGPT), GitHub relié dès le départ, approche en deux passes (captures puis instructions des projets prioritaires).
+
+Éléments de l'environnement mentionnés par ChatGPT (G, à vérifier lors de l'inventaire ChatGPT) :
+- Clients de Net BLB : **Cité-Joie** (Google Workspace, Cloudflare, migration Microsoft 365, WordPress / Divi, procédures) et **Julie Savoie**. ChatGPT évoque des projets « Cité-Joie Google Workspace / WordPress / migration Microsoft » comme existant dans Claude; aucun ne figure dans les 15 projets Claude inventoriés : s'ils existent, ils sont ailleurs (ChatGPT?) ou ChatGPT extrapolait (Q-023).
+- IA spécialisées : « Détecteur d'arnaque », « Décrypteur de contrats », « Diagnostic PC » (probablement des GPT personnalisés : Q-024).
+- Site Web NetBLB en Astro, dépôt sur GitHub (cohérent avec PRJ-08; dépôt non visible dans la liste des dépôts accessibles à cette session : Q-025).
+- Machine avec RTX 3080 (pertinent pour l'option « modèle local » en phase 5).
+- Sujets LeFiltre cités : Internxt (vidéo sauvegarde 3-2-1), Windows 11 26H2, Black Friday Patreon, souris saccadée / G-SYNC, Shure MV6 / Motive Mix.
+
+Pistes émises par ChatGPT (R, non validées; consignées pour la phase 4-5 afin de ne pas les perdre, sans leur donner de statut) :
+- Conserver ChatGPT et Claude comme interfaces de travail; OpenClaw comme couche de mémoire durable et d'orchestration derrière eux; GitHub reste source de vérité pour code, architecture, documentation, procédures, décisions.
+- Ne pas migrer d'un coup : prototype avec un seul vrai projet (NetBLB ou LeFiltre), puis 2 ou 3 agents pilotes; Claude Code comme « installateur »; OpenClaw pour s'administrer lui-même ensuite.
+- Classification de chaque élément existant : Agent / Projet / Skill / Mémoire commune / Documentation / Archive. Clients et projets durables → agents; méthodes spécialisées → Skills; petites tâches → simples conversations.
+- Coûts : exploiter les forfaits existants, API en complément plafonnée (20 à 30 $/mois au départ), modèle local pour les tâches simples.
+- Une couche commune au-dessus des agents (préférences de Dominic, règles transversales comme « GitHub est la source de vérité pour le code »).
+- Limite signalée : les conversations faites dans claude.ai ou chatgpt.com ne se retrouvent pas automatiquement dans OpenClaw; prévoir ingestion ou travail via OpenClaw.
 
 ## 7. Ambiguïtés relevées pendant la première passe
 
