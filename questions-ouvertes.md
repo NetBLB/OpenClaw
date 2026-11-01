@@ -8,6 +8,10 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
+| Q-052 | Le texte « video editorial » fourni est-il la V1 (Claude) ou la V1.2 (ChatGPT)? Quelle différence entre les deux? | CL-09, GPT-03 | 2 | Basse | 2026-11-01 |
+| Q-053 | PATREON - Trucs : l'exemple contient la ligne « ⛔ Pour lire l'article complet… » et les instructions interdisent ensuite de l'écrire. Est-ce voulu (la ligne est ajoutée par Patreon ou par toi à la main)? Quels fichiers (images) sont joints à ce projet? | GPT-22 | 2 | Basse | 2026-11-01 |
+| Q-054 | Style personnel : CL-08 le déduit des articles déjà soumis dans le projet. Existe-t-il un document qui décrit ton style (guide, exemples de référence), ou n'est-il que dans l'historique du projet? | CL-08 | 2 | Moyenne (connaissance implicite non documentée) | 2026-11-01 |
+| Q-055 | Pour un article Patreon, quelle est l'entrée de PATREON - Trucs : un dossier de RECHERCHISTE, des articles sources que tu trouves toi-même, ou un simple sujet? Et à quelle fréquence passes-tu par l'Éditeur Claude (CL-08) : la plupart des articles, ou seulement certains? | GPT-22, CL-06, CL-08 | 2 | Moyenne (chaîne réelle) | 2026-11-01 |
 | Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour connaître la nature exacte du connecteur (MCP local? scripts sur l'API Resolve?). Dominic pourrait l'ouvrir depuis le projet CL-02 et me l'attacher, ou me laisser le lire via le dossier lié si la session est reliée à son PC. | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-047b | Les fichiers « leçons » de CL-02 sont-ils relus automatiquement par Claude à chaque montage (ils sont dans le contexte du projet, donc probablement oui), et une leçon est-elle ensuite intégrée aux instructions via l'atelier ChatGPT (comme la section « fins de mots » le suggère)? | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-049b | Durée typique d'un montage de vidéo longue par Claude et fréquence (une vidéo par semaine?) : utile pour la phase 5 (coûts). | CL-01, CL-02 | 2 | Moyenne | 2026-11-01 |
