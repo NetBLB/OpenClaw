@@ -8,7 +8,6 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
-| Q-051 | Mandats clients : où sont conservés les livrables (propositions, procédures, réponses) et les transcriptions de rencontres, en dehors des conversations ChatGPT (PC, Drive, Microsoft 365, courriel)? Quand un nouveau mandat arrive, ChatGPT retrouve-t-il de lui-même le contexte des mandats précédents du même client, ou dois-tu le lui redonner? Les projets clients contiennent-ils des fichiers? | Clients Net BLB | 2 | Haute (mémoire client, séparation) | 2026-11-01 |
 | Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour connaître la nature exacte du connecteur (MCP local? scripts sur l'API Resolve?). Dominic pourrait l'ouvrir depuis le projet CL-02 et me l'attacher, ou me laisser le lire via le dossier lié si la session est reliée à son PC. | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-047b | Les fichiers « leçons » de CL-02 sont-ils relus automatiquement par Claude à chaque montage (ils sont dans le contexte du projet, donc probablement oui), et une leçon est-elle ensuite intégrée aux instructions via l'atelier ChatGPT (comme la section « fins de mots » le suggère)? | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-049b | Durée typique d'un montage de vidéo longue par Claude et fréquence (une vidéo par semaine?) : utile pour la phase 5 (coûts). | CL-01, CL-02 | 2 | Moyenne | 2026-11-01 |
@@ -46,6 +45,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 | Q-030 | Éléments non décrits de la liste épinglée? | Tous décrits par Dominic le 2026-11-01 : voir GPTC-01, GPTC-07, GPTC-08, GPT-19 (hors périmètre), GPT-20, GPT-21 (archive), GPT-22. | 2026-11-01 |
 | Q-031 | « APPLIS Extraction. »? | 5e membre de la famille extraction (applications), distinct de « Logiciel d'extraction ». | 2026-11-01 |
 | Q-033 | « Createur de IA personnalisé » = outil de rédaction des instructions de ses propres IA? | Non, pas tel que déclaré : il sert à créer des outils IA (instructions) offerts à la communauté Patreon. Reliquat en Q-033b. | 2026-11-01 |
+| Q-051 | Où est conservée la vérité des mandats clients? | Dans les échanges courriels Gmail (inaccessibles à ChatGPT); dossier Windows par client et par mandat, partiel et irrégulier (copies de courriels, fichiers reçus, captures). Mandats traités séparément; pas de synthèse client. | 2026-11-01 |
 | Q-047 | Qui écrit les plans de montage et les leçons? | Plans : Claude, automatiquement. Leçons : extraits de vidéo fournis par Dominic comme exemples (à faire / à ne pas faire). Reliquat en Q-047b. | 2026-11-01 |
 | Q-048 | Dossier lié « production »? | Demandé par Claude lui-même; contenu inconnu de Dominic (« dossier de travail »). | 2026-11-01 |
 | Q-049 | Démarrage d'une session de montage? | Toujours le même message : nom du projet Resolve, nom de la timeline, rappel de respecter les instructions. Durée et fréquence en Q-049b. | 2026-11-01 |

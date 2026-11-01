@@ -73,7 +73,10 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 ## Conservation des décisions
 
-- (à documenter)
+- Clients Net BLB (déclaré 2026-11-01) : la vérité des mandats est dans Gmail, hors de portée de l'IA; un dossier Windows par client et par mandat sert d'archive partielle; le projet ChatGPT reçoit ce que Dominic y colle. Mandats traités séparément; aucune synthèse par client.
+- Chaîne anglophone (observé) : décisions consignées dans `PASSATION.md` et la bible versionnée du dépôt GitHub.
+- Site NetBLB (observé) : orientations dans `AGENTS.md` du dépôt.
+- Projets Claude et ChatGPT en général (observé) : les décisions restent dans les conversations; aucun journal observé en dehors des deux dépôts et du registre des projets (ART-02).
 
 ## Suivi des idées et conservation des liens (ART-02)
 
