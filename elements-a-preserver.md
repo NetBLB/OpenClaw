@@ -6,7 +6,8 @@ Classement de chaque méthode ou élément important. Le classement est proposé
 
 | Élément / méthode | Classement proposé | Confirmé par Dominic | Raison | Notes |
 |---|---|---|---|---|
-| | | | | |
+| Séparation règles métier (instructions) / méthode d'exécution (Skill) / contenant (gabarit) pour les outils IA clients (CL-04, SK-01) | À préserver absolument (proposé) | Non | Méthode mise en place volontairement; facilite l'implantation chez un client et la réutilisation pour d'autres types de propositions | Classement à confirmer par Dominic |
+| Claude avec accès complet au PC Windows, travaillant en arrière-plan dans DaVinci Resolve (CL-01, CL-02) | À préserver absolument (proposé) | Non | Pilier des workflows de montage | Classement à confirmer par Dominic |
 
 Classements possibles :
 - À préserver absolument
