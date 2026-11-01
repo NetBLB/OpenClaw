@@ -229,6 +229,44 @@ Sources : capture de la page Patreon, document `PAtreon.docx` (textes des niveau
 
 Outils IA qui servent ce produit : GPT-22 (publications écrites) → CL-08 (fact-check); GPT-17 (articles IA); GPT-06 à GPT-20 (Coffre-fort); GPTC-07 + GPTC-08 (outils IA offerts aux membres); GPTC-01 (vignettes Patreon); CL-06 (recherche pour articles et vidéos Patreon); CL-05 (remarketing, lié aux formations plutôt qu'à Patreon); lefiltre.com redirige vers Patreon (CL-05).
 
+## 10. Fiches de phase 2 (compréhension)
+
+### Fiche A1 : Sponsors LeFiltre (CL-03, CL-07, CL-11 + instructions de profil) : rédigée le 2026-11-01 à partir des instructions complètes
+
+**Rôle réel de chacun (O)**
+- **CL-03 Négociateur sponsor** : moteur de négociation. Entrée : courriel ou proposition d'un sponsor. Sortie obligatoire en deux blocs : analyse stratégique (crédibilité, fit, budget, risques, droits, affiliation, paiement, potentiel, signaux d'alarme, recommandation) puis courriel prêt à envoyer dans la langue du client. Recherche autonome obligatoire sur la société, le domaine et le contact, avec distinction « vérification / lecture commerciale / stratégie ». Contient la doctrine complète : offre multiplateforme (vidéo longue publiée simultanément sur YouTube, Facebook et Patreon; 2 à 6 contenus courts sur YouTube Shorts, Facebook, TikTok, Instagram), tarifs (Tier 1 : 1 500 EUR, 5 premières minutes; Tier 2 : 1 200 EUR, milieu; Tier 3 : 1 000 EUR, fin, 90 à 120 s; Formule Dédiée : 3 500 EUR plancher, maximum une par mois), devise EUR non négociable, Media Kit 2026 joint, conditions non négociables (contrôle éditorial, produit réellement testé, avis honnête, pas de script imposé, mention de partenariat, pertinence pour l'audience 45 ans et plus), principes de négociation (ne jamais montrer de besoin financier, pas de rabais sans contrepartie, Tier 3 = plancher), règles budget trop bas, volume (à partir de 3 intégrations), affiliation (bonus, jamais un substitut), droits non inclus (paid media, whitelisting, réutilisation, visage/voix, exclusivité, droits perpétuels), catégories refusées (iGaming, casinos, jeux d'argent, marques douteuses, incompatibles, risque réputationnel), objectif (relations durables, positionnement premium, revenus prévisibles).
+- **CL-07 Sponsor Hardware** : générateur d'un courriel standard quasi fixe (gabarit anglais à copier tel quel, crochets à ajuster; traduction intégrale si contact francophone) pour le programme de test hardware : test 2 à 3 semaines, revue complète de 10 à 20 min réservée aux membres payants Patreon, 1 à 3 contenus courts publics avec liens d'achat affiliés, giveaway d'une seconde unité, aucun cachet, aucune garantie de couverture, unités non retournées, contrôle éditorial complet; exclut explicitement la vidéo dédiée sur la chaîne principale et tout droit publicitaire. Trois informations demandées au sponsor (produit et prix, support linguistique français, programme d'affiliation). Sortie en deux blocs : courriel + note de 2-3 lignes (personnalisations, signaux d'alarme).
+- **CL-11 Analyse de Contrat** : analyste juridique et stratégique. Entrée : contrat ou entente. Sortie obligatoire en 6 blocs : résumé exécutif, score de risque /10 avec barème, red flags priorisés (🔴 bloquant / 🟠 sérieux / 🟡 à surveiller), pièges cachés et clauses absentes, analyse clause par clause (exclusivité, paiement, droit de regard, réutilisation, PI, renouvellement, performance, résiliation, juridiction), suggestions de renégociation avec formulations alternatives. Dix red flags absolus (exclusivité > 30 jours, approbation préalable, réutilisation hors YouTube, cession de PI, renouvellement auto sans préavis 30 jours, garanties de performance, paiement > 30 jours, pénalités de performance, juridiction hors Canada/UE sans arbitrage, iGaming / crypto spéculative / catégories incompatibles). Toujours en français.
+- **Instructions de profil Claude** (visibles depuis cette session) : identité, écosystème, audience, positionnement, tarifs (Catégorie 1 : 1 500 USD; 2 : 1 200 USD; 3 : 1 000 USD, 60 à 90 s fin de vidéo), performance (~50 000 vues, 1 sur 3 > 100 000), refus iGaming, rôle attendu de l'IA (stratège, négociateur, analyste, etc.), exigences de réponse. Elles s'appliquent à tous les projets Claude en complément des instructions de projet.
+
+**Enchaînement réel (O, déclaré en phase 1)** : demande hardware → CL-07; proposition payante → CL-03; contrat reçu → CL-11. Aucun des trois ne conserve d'historique des sponsors; le passage d'un projet à l'autre se fait par copier-coller de Dominic (H sur ce qui est transmis exactement, Q-044).
+
+**Connaissances communes aux trois (candidates à une source unique, phase 3)** : identité et signature (Dominic Lessard, Net BLB inc., LeFiltre, dom@lefiltre.com); description de l'audience et du positionnement; chiffres d'audience; grille tarifaire; catégories refusées; conditions non négociables; droits non inclus; principe « ne jamais inventer de statistiques ».
+
+**Connaissances uniques** : CL-03 = doctrine de négociation, offre multiplateforme, Media Kit, règles budget/volume/affiliation; CL-07 = gabarit fixe et règles du programme hardware (chiffres par plateforme, giveaway, affiliation seule); CL-11 = barème de risque, red flags absolus, grille clause par clause, langue de sortie.
+
+**Divergences constatées entre les quatre jeux d'instructions (O, à trancher par Dominic, Q-040 à Q-043)**
+| Donnée | CL-03 Négociateur | CL-07 Hardware | CL-11 Contrat | Profil Claude |
+|---|---|---|---|---|
+| Devise des tarifs | EUR, « non négociable » | s.o. | USD | USD |
+| Tier / Catégorie 3 | 1 000 EUR, 90 à 120 s, fin | s.o. | 1 000 USD, 60 à 90 s, fin | 1 000 USD, 60 à 90 s, fin |
+| Formule Dédiée 3 500 EUR | Oui | Exclue du programme | Inconnue de la grille | Absente |
+| Abonnés YouTube | 170 000+ | 170 000 | 165 000+ | 165 000+ |
+| Âge de l'audience | 45 ans et plus (73,4 %) | 40 à 65 | 40 à 65 | 40 à 65 |
+| Géographie | 58,6 % France; Facebook = Amérique du Nord | « French-speaking » | « majoritairement européenne » | Europe |
+| Chiffres Patreon | Interdit d'en citer (qualitatif seulement) | « 24,000 registered members » | s.o. | s.o. |
+| Catégories refusées | iGaming, casinos, jeux d'argent, marques douteuses, incompatibles, risque réputationnel | iGaming, produits pour adultes | iGaming, crypto spéculative, incompatibles | iGaming, incompatibles |
+| Langue de sortie | Langue du client | Anglais par défaut | Toujours français | s.o. |
+| Mesure de performance | Vues sur 90 jours (606 300 long, 279 300 court, 1,78 M total) | Abonnés par plateforme | ~50 000 vues / vidéo | ~50 000 vues / vidéo |
+
+Lecture : CL-03 semble être le jeu le plus récent (Media Kit 2026, 170 000+, EUR, Formule Dédiée); CL-11 et le profil portent des données antérieures (165 000+, USD, pas de dédiée). Conséquence concrète possible : CL-11 jugerait « cohérent » un contrat en USD alors que CL-03 facture en EUR, et ne saurait pas évaluer un contrat de vidéo dédiée (H).
+
+**Lacunes observées** : CL-03 ne fixe pas de conditions de paiement ni de durée d'exclusivité dans ses courriels, alors que CL-11 les traite comme bloquantes au-delà de 30 jours (O). Aucun des trois ne sait ce qui a été conclu avec les sponsors précédents (O).
+
+**Méthodes de travail révélées par ces instructions (O)** : format « analyse d'abord, livrable ensuite » dans les trois; vérification autonome exigée (CL-03) ou signalement avant génération (CL-07); interdiction d'inventer des chiffres; posture « sans filtre, pas d'assistant passif » (CL-11); gabarit figé pour la réponse standard (CL-07). Candidats « à préserver » : la doctrine sponsor (conditions non négociables, plancher, pas de rabais sans contrepartie) et le patron analyse → livrable.
+
+**Niveau de compréhension après fiche** : CL-03, CL-07, CL-11 : élevé.
+
 ## 7. Ambiguïtés relevées pendant la première passe
 
 Liste accumulée; à traiter lors de la deuxième passe.
