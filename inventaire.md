@@ -337,7 +337,9 @@ Lecture : CL-03 semble être le jeu le plus récent (Media Kit 2026, 170 000+, E
 
 **Méthodes de travail révélées (O)** : paramètres modifiables en tête d'instructions (NIVEAU D'HUMOUR dans CL-08, comme SEUIL_SILENCE dans CL-02); livrables conçus pour l'usage réel (sources affichables à l'écran, tableau de tournage, article prêt à publier avec localisation des touches); signalement explicite avant toute correction de fait (CL-08); phases internes cachées, livrable seul (CL-09); exemple complet comme spécification de format (GPT-22).
 
-**Niveau de compréhension après fiche** : CL-06, CL-08, CL-09, GPT-22 : élevé (sous réserve de Q-052, Q-053).
+**Réponses de Dominic (2026-11-01)** : le texte « video editorial » fourni est la V1 de Claude, celle réellement utilisée (la V1.2 de ChatGPT n'est pas déployée). La ligne « ⛔ Pour lire l'article complet… » est ajoutée par Patreon, pas par l'IA; Dominic n'ajoute pas d'images aux projets ChatGPT (la mention d'images jointes dans GPT-22 ne correspond donc à aucun fichier de projet actuel, O). Le style personnel appris par CL-08 a été établi « il y a très, très longtemps » et est « complètement désuet »; Dominic prévoit de le réactualiser quand il aura le temps, mais « ça fait le travail tel quel » (problème connu, intention déclarée). Entrée de PATREON - Trucs : la plupart du temps un titre, un lien, un passage copié ou une image trouvés sur Internet, avec la consigne de construire un article à partir de ça; RECHERCHISTE n'est donc pas systématiquement en amont des articles (O).
+
+**Niveau de compréhension après fiche** : CL-06, CL-08, CL-09, GPT-22 : élevé.
 
 ## 7. Ambiguïtés relevées pendant la première passe
 

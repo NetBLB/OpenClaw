@@ -8,10 +8,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
-| Q-052 | Le texte « video editorial » fourni est-il la V1 (Claude) ou la V1.2 (ChatGPT)? Quelle différence entre les deux? | CL-09, GPT-03 | 2 | Basse | 2026-11-01 |
-| Q-053 | PATREON - Trucs : l'exemple contient la ligne « ⛔ Pour lire l'article complet… » et les instructions interdisent ensuite de l'écrire. Est-ce voulu (la ligne est ajoutée par Patreon ou par toi à la main)? Quels fichiers (images) sont joints à ce projet? | GPT-22 | 2 | Basse | 2026-11-01 |
-| Q-054 | Style personnel : CL-08 le déduit des articles déjà soumis dans le projet. Existe-t-il un document qui décrit ton style (guide, exemples de référence), ou n'est-il que dans l'historique du projet? | CL-08 | 2 | Moyenne (connaissance implicite non documentée) | 2026-11-01 |
-| Q-055 | Pour un article Patreon, quelle est l'entrée de PATREON - Trucs : un dossier de RECHERCHISTE, des articles sources que tu trouves toi-même, ou un simple sujet? Et à quelle fréquence passes-tu par l'Éditeur Claude (CL-08) : la plupart des articles, ou seulement certains? | GPT-22, CL-06, CL-08 | 2 | Moyenne (chaîne réelle) | 2026-11-01 |
+| Q-055b | Proportion des articles Patreon qui passent par l'Éditeur Claude (CL-08) : la plupart, ou seulement certains? | CL-08 | 2 | Basse | 2026-11-01 |
 | Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour connaître la nature exacte du connecteur (MCP local? scripts sur l'API Resolve?). Dominic pourrait l'ouvrir depuis le projet CL-02 et me l'attacher, ou me laisser le lire via le dossier lié si la session est reliée à son PC. | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-047b | Les fichiers « leçons » de CL-02 sont-ils relus automatiquement par Claude à chaque montage (ils sont dans le contexte du projet, donc probablement oui), et une leçon est-elle ensuite intégrée aux instructions via l'atelier ChatGPT (comme la section « fins de mots » le suggère)? | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-049b | Durée typique d'un montage de vidéo longue par Claude et fréquence (une vidéo par semaine?) : utile pour la phase 5 (coûts). | CL-01, CL-02 | 2 | Moyenne | 2026-11-01 |
@@ -49,6 +46,10 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 | Q-030 | Éléments non décrits de la liste épinglée? | Tous décrits par Dominic le 2026-11-01 : voir GPTC-01, GPTC-07, GPTC-08, GPT-19 (hors périmètre), GPT-20, GPT-21 (archive), GPT-22. | 2026-11-01 |
 | Q-031 | « APPLIS Extraction. »? | 5e membre de la famille extraction (applications), distinct de « Logiciel d'extraction ». | 2026-11-01 |
 | Q-033 | « Createur de IA personnalisé » = outil de rédaction des instructions de ses propres IA? | Non, pas tel que déclaré : il sert à créer des outils IA (instructions) offerts à la communauté Patreon. Reliquat en Q-033b. | 2026-11-01 |
+| Q-052 | Version de « video editorial » fournie? | La V1 de Claude, celle réellement utilisée; la V1.2 de ChatGPT n'est pas déployée. | 2026-11-01 |
+| Q-053 | Ligne « ⛔ » et images dans PATREON - Trucs? | La ligne est ajoutée par Patreon. Aucune image n'est jointe aux projets ChatGPT. | 2026-11-01 |
+| Q-054 | Le style personnel est-il documenté? | Non : établi il y a très longtemps dans l'historique, aujourd'hui « complètement désuet »; à réactualiser quand Dominic aura le temps; fonctionne tel quel pour l'instant. | 2026-11-01 |
+| Q-055 | Entrée de PATREON - Trucs? | Un titre, un lien, un passage copié ou une image trouvés sur Internet, avec consigne de construire un article. Fréquence de passage par l'Éditeur en Q-055b. | 2026-11-01 |
 | Q-051 | Où est conservée la vérité des mandats clients? | Dans les échanges courriels Gmail (inaccessibles à ChatGPT); dossier Windows par client et par mandat, partiel et irrégulier (copies de courriels, fichiers reçus, captures). Mandats traités séparément; pas de synthèse client. | 2026-11-01 |
 | Q-047 | Qui écrit les plans de montage et les leçons? | Plans : Claude, automatiquement. Leçons : extraits de vidéo fournis par Dominic comme exemples (à faire / à ne pas faire). Reliquat en Q-047b. | 2026-11-01 |
 | Q-048 | Dossier lié « production »? | Demandé par Claude lui-même; contenu inconnu de Dominic (« dossier de travail »). | 2026-11-01 |
