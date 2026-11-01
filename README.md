@@ -9,7 +9,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | Phase | Nom | Statut |
 |---|---|---|
 | 1 | Inventaire | Première passe terminée le 2026-11-01 (voir `inventaire.md`, sections 7b et 7c) |
-| 2 | Compréhension | En cours depuis le 2026-11-01 (ordre : `inventaire.md` section 7c; fiches : section 10). Lot A1 sponsors : fiche rédigée |
+| 2 | Compréhension | En cours depuis le 2026-11-01 (ordre : `inventaire.md` section 7c; fiches : section 10). Lot A1 sponsors : fiche rédigée, réponses reçues. Lot A2 montage DaVinci : fiche rédigée |
 | 3 | Relations et recouvrements | À venir |
 | 4 | Principes de conception | À venir |
 | 5 | Architecture cible | À venir (nécessite accord explicite) |
