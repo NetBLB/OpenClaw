@@ -58,9 +58,9 @@ Liste obtenue directement depuis le compte Claude de Dominic pendant l'audit. Le
 | ID | Titre | Type | Dernière mise à jour | Lien probable | Compréhension | Notes |
 |---|---|---|---|---|---|---|
 | ART-01 | Horaire LeFiltre | Page HTML (1 174 lignes) | 2026-10-26 | CL-14 (O) | moyen | Confirme que l'horaire éphémère est un artefact publié : le code HTML est récupérable à tout moment depuis le compte, même si la conversation d'origine disparaît (O). Mécanisme de sauvegarde de l'état (stockage du navigateur ou base de données d'artefact) à vérifier dans le code en phase 2. |
-| ART-02 | Projets LeFiltre | Page HTML | 2026-10-22 | Inconnu (Q-020) | faible | Fonction non déduite du titre. |
-| ART-03 | Grille de test Keychron B11 Pro | Doc (type Docs) | 2026-10-21 | Programme de test hardware, CL-07 (H) | faible | Keychron apparaît aussi dans CL-03 et CL-07. |
-| ART-04 | Conducteur AGI Astra | Page HTML | 2026-09-08 | Vidéo éditoriale « AGI arrival », CL-09 (H) | faible | Fonction non déduite du titre (Q-020). |
+| ART-02 | Projets LeFiltre (« Net BLB · Portefeuille R&D : Projets en développement ») | Application HTML avec base de données d'artefact (15 documents, collection `projects`) | 2026-10-22 (page), données modifiées jusqu'au 2026-11-01 | Tous les projets d'idéation (section 6b) | élevé | (O, déclaré + extraction) Outil de suivi codé par Claude dans le chat « Outil de suivi de projets » (Claude Desktop Windows lié) : une fiche par projet avec statut (Idée → Conception → En développement → Test / validation → Lancé, ou En pause), priorité, avancement %, prochaine action, échéance, modèle de monétisation, journal, et **liens directs vers les conversations ChatGPT, projets Claude, chats Claude et artefacts** qui ont servi à développer chaque projet. Les données sont sauvegardées dans la base de données de l'artefact (O, extraites par l'audit le 2026-11-01). Statut au 2026-11-01 : 15 projets, 8 idées, 3 en conception, 1 en développement, 2 en test, 1 lancé, 0 en pause; avancement moyen 6 %. Registre maître des idées de Dominic (O). |
+| ART-03 | Grille de test Keychron B11 Pro | Doc (type Docs) | 2026-10-21 | Programme de test hardware, CL-07 (O) | moyen | Déclaré par Dominic : grille pour évaluer un produit reçu d'un sponsor; pas encore utilisée, usage incertain. Durée de vie : temporaire. |
+| ART-04 | Conducteur AGI Astra | Page HTML | 2026-09-08 | Vidéo éditoriale, CL-09 (O) | moyen | Déclaré par Dominic : conducteur pour une vidéo éditoriale; « plus bon », obsolète. Durée de vie : terminée. |
 
 ## 5. Automatisations, outils et autres éléments
 
@@ -69,6 +69,8 @@ Liste obtenue directement depuis le compte Claude de Dominic pendant l'audit. Le
 | OUT-01 | Connecteur Resend (MCP) | claude.ai (connecteur au niveau du compte) | (O) Envoi de courriels, campagnes (broadcasts), contacts, segments, automatisations; utilisé par CL-05 pour exécuter directement les campagnes de remarketing | Compte Resend de LeFiltre | moyen | Observé comme disponible dans la session de l'audit également : le connecteur est donc global au compte, pas limité au projet CL-05 (O). |
 | OUT-02 | Thinkific | Plateforme externe (vente de formations) | (O, déclaré) Héberge et vend les formations LeFiltre; source des exports mensuels d'inscrits non acheteurs | | faible | Pas de connecteur observé; export manuel par Dominic (O, déclaré). |
 | OUT-04 | Connecteurs Higgsfield (« Higgsfield_MCP » complet, « Higgsfield_AI » lecture seule) | claude.ai (connecteurs au niveau du compte) | (O) Génération d'images (seedream_v5_pro), clips vidéo (minimax_h3), voix (ElevenLabs via Higgsfield, voix « Fraser »), gestion d'espace de travail et de crédits; `Higgsfield_MCP` sert à produire, `Higgsfield_AI` est en lecture seule (O, PASSATION.md) | Compte Higgsfield Ultra de Dominic, espace de travail privé | moyen | Utilisé par CL-13. Coût de référence : 600 à 650 crédits par vidéo de 4 min (O, rapport de production). Higgsfield apparaît aussi comme sponsor dans CL-03 et CL-11 (O) : double relation (fournisseur + sponsor). |
+| AUTO-01 | Tâche planifiée ChatGPT « Rapport » (Site Web NetBLB) | ChatGPT (automations) | (O, lien dans ART-02) Automatisation planifiée liée au projet Site Web NetBLB; contenu et fréquence inconnus | Compte ChatGPT | faible | Premier élément d'automatisation ChatGPT observé; à documenter lors de l'inventaire ChatGPT (Q-021). |
+| OUT-05 | Codex (ChatGPT, mode local) | ChatGPT / OpenAI | (O, lien dans ART-02) Utilisé pour le projet Site Web NetBLB (lien `chatgpt.com/local/…`) | Compte ChatGPT, machine de Dominic (H) | faible | Rôle réel (développement du site?) à clarifier (Q-021). |
 | OUT-03 | Connecteur DaVinci Resolve | PC Windows de Dominic (via Claude Desktop) | (O) Permet à Claude d'analyser et de modifier réellement des projets DaVinci Resolve; utilisé par CL-01 et CL-02 | Accès complet de Claude à la machine | faible | Nature technique à préciser (Q-001b). |
 
 ## 6. Grandes catégories apparentes (provisoire)
@@ -81,8 +83,36 @@ Liste obtenue directement depuis le compte Claude de Dominic pendant l'audit. Le
 - **Marketing / ventes LeFiltre** : CL-05.
 - **Outils IA pour clients Net BLB inc.** : CL-04 (+ SK-01).
 - **Chaîne anglophone anonyme (entité distincte)** : CL-13, OUT-04, GH-01 (O).
-- **Idées de projets en développement (idéation)** : CL-10.
+- **Idées de projets en développement (idéation)** : CL-10, et l'ensemble du portefeuille PRJ-01 à PRJ-15 tenu dans ART-02.
 - **Outils personnels codés par Claude** : CL-14 (horaire éphémère). Paires ChatGPT (conception) + Claude (exécution) : CL-10, CL-14. Déclaré par Dominic : chaque idée de projet démarre par un projet Claude ou ChatGPT; d'autres projets de cette catégorie sont donc à attendre sur les deux plateformes.
+
+## 6b. Portefeuille de projets en développement (extrait de ART-02, 2026-11-01)
+
+Extraction automatique de la base de données de l'artefact « Projets LeFiltre ». Noms, statuts, descriptions et libellés de liens tels qu'enregistrés par Dominic. Les liens pointent vers les IA utilisées pour chaque projet : ils serviront de fil conducteur pour l'inventaire ChatGPT.
+
+| ID | Nom (tel qu'enregistré) | Statut | Priorité | Avanc. | Description (telle qu'enregistrée) | Liens enregistrés (plateforme : libellé) | Correspondance inventaire | Dernière modif. |
+|---|---|---|---|---|---|---|---|---|
+| PRJ-01 | Outils d'analyse par intelligence artificielle | Idée | basse | 0 % | Suite d'outils d'analyse propulsés par l'IA; analyse.lefiltre.com serait intégré dans cette suite | aucun | lié à PRJ-13 | 2026-10-29 |
+| PRJ-02 | Application pour senior | Idée | basse | 0 % | Application compagnon IA en français pour les retraités | aucun | CL-10 + projet ChatGPT (O) | 2026-10-26 |
+| PRJ-03 | Boussole interactive (sondage) | Idée | moyenne | 0 % | Sondage interactif pour l'audience LeFiltre | aucun | | 2026-10-22 |
+| PRJ-04 | Analyse de personnalité via lunettes connectées | Idée | basse | 0 % | Analyse de personnalité à partir de lunettes connectées | aucun | | 2026-10-22 |
+| PRJ-05 | HORRAIRE EPHEMÈRE | Test / validation | moyenne | 35 % | (vide) | ChatGPT : « IA de mise en marche »; Claude chat : « IA DEV de l'appli »; artefact : « APPS » (= ART-01) | CL-14, ART-01 | 2026-10-26 |
+| PRJ-06 | Outil de suivit des prix | Conception | basse | 5 % | (vide) | aucun | | 2026-10-13 |
+| PRJ-07 | Explaner video Youtube channel. | En développement | haute | 40 % | (vide); prochaine action : « période de test » | Claude chat : « Chef (desuet) »; **Claude projet** : « Scripteur (desuet) »; **Claude projet** : « Éditeur- (desuet) »; Claude chat : « AGENT AI » | CL-13, GH-01 | 2026-11-01 |
+| PRJ-08 | Site Web NetBLB | Idée | moyenne | 0 % | (vide); prochaine action : « Analyse et modification SEO et Campagne LinkedIn » | **ChatGPT tâche planifiée** : « Rapport »; ChatGPT : « IA Chef »; **Codex (ChatGPT local)** : « Codex » | nouveaux éléments AUTO-01, OUT-05 | 2026-10-22 |
+| PRJ-09 | APPLI : Fil du jour | Test / validation | moyenne | 0 % | (vide) | ChatGPT : « IA » | | 2026-10-22 |
+| PRJ-10 | OUTIL Projets en développement | Lancé | moyenne | 0 % | « cet outil même » | artefact : « ARTEFACT » (= ART-02); Claude chat : « IA » | ART-02 | 2026-10-22 |
+| PRJ-11 | CHRONIQUEUR | Idée | basse | 0 % | Projet d'amplification de ma notoriété jusqu'à accéder aux médias traditionnels (radio, télévision, podcast) | ChatGPT : « IA » | | 2026-11-01 |
+| PRJ-12 | Site Web Affiliation | Idée | moyenne | 0 % | (vide) | aucun | | 2026-10-26 |
+| PRJ-13 | analyse.lefiltre.com | Conception | haute | 0 % | Outil calqué sur l'oracle de Luc Langvin | ChatGPT : « IA » | lié à PRJ-01 | 2026-10-29 |
+| PRJ-14 | Guide complet Sécuriser Windows 11 (12 $) (titre original avec tiret cadratin) | Idée | moyenne | 0 % | Des livres et guides complets en vente sur Patreon | aucun | | 2026-10-29 |
+| PRJ-15 | OPEN CLAW | Conception | haute | 0 % | (vide) | ChatGPT : « IA de depart » | Le présent audit (projet Claude « OPEN CLAW - conception », GH-02). Observation : ce projet a lui aussi démarré dans ChatGPT. | 2026-11-01 |
+
+Observations issues de l'extraction :
+- Les liens « Scripteur (desuet) » et « Éditeur- (desuet) » de PRJ-07 pointent vers des **projets Claude** (URL `claude.ai/project/…`), ce qui confirme que les trois rôles v1.5 ont existé comme projets Claude; ils ne figurent pas parmi les 12 projets montrés par Dominic (Q-018 précisée).
+- Nouveaux types d'éléments révélés : une tâche planifiée ChatGPT (PRJ-08, « Rapport ») et Codex (ChatGPT local) (PRJ-08). Ajoutés en section 5.
+- 9 projets sur 15 ont un lien vers une IA; 8 de ces liens vont vers ChatGPT, ce qui confirme le rôle de ChatGPT comme point de départ des idées (O).
+- Le registre est tenu à jour (modifications le jour même de l'audit) (O).
 
 ## 7. Ambiguïtés relevées pendant la première passe
 

@@ -43,6 +43,11 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 - (à documenter)
 
+## Suivi des idées et conservation des liens (ART-02)
+
+- Déclaré par Dominic et observé (2026-11-01) : un outil codé par Claude (« Projets LeFiltre », artefact avec base de données) sert de registre de toutes les idées de projets, de leur statut et de leur avancement. Chaque fiche contient des liens directs vers les conversations ChatGPT, projets Claude, chats Claude et artefacts ayant servi au projet. C'est le seul index transversal ChatGPT + Claude observé dans l'écosystème; il est tenu à jour (modifications le jour de l'audit). Méthode candidate « à préserver » (classement à confirmer).
+- Observation : ce registre et l'inventaire du présent audit se recoupent partiellement (idées de projets). Relation à définir en phase 4 (lequel est la référence pour quoi), sans recommandation à ce stade.
+
 ## Versionnage des instructions
 
 - Déclaré par Dominic (2026-11-01) : le suffixe « V1 » dans le nom d'un projet (CL-09) désigne la version des instructions personnalisées; une amélioration significative fera passer à « V2 ». Observation : CL-09 est le seul projet vu jusqu'ici avec un numéro de version; les autres sont modifiés sans trace de version visible (H, voir Q-011b).
