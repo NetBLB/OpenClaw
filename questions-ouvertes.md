@@ -8,7 +8,6 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
-| Q-059 | La mémoire Claude du compte mentionne une automatisation Make.com de surveillance de chaînes YouTube avec résumés IA vers Google Sheets (août 2026). Existe-t-elle encore? Si oui, elle manque à l'inventaire (automatisation hors ChatGPT et hors Claude). | Inventaire | 1 | Moyenne | 2026-11-04 |
 | Q-058 | Agent « CEO » (D-007) : point d'entrée exclusif ou principal? Remplace ou coiffe les chefs d'orchestre par projet? Ce qu'il doit savoir en permanence et ce qu'il doit ignorer (cloisonnement)? Gouvernance à lui appliquer? | Architecture cible | 4 | Haute (structure l'architecture) | 2026-11-04 |
 | Q-056 | GPT-24 « Commerce autonome IA » : est-ce un projet ChatGPT ou un GPT personnalisé (la passation dit « GPT personnalisé », Dominic dit « projet »)? Nom exact tel qu'il apparaît dans ChatGPT? La conversation ChatGPT qui a rédigé la passation est-elle conservée (épinglée) ou considérée comme terminée? Le projet est-il inscrit dans le registre ART-02? | GPT-24 | 1 | Moyenne | 2026-11-04 |
 | Q-057 | Dépôt GH-04 du commerce autonome : nom et URL; sous l'organisation NetBLB? Qui l'initialisera : le GPT (si ChatGPT a un accès GitHub en écriture) ou Dominic à partir de fichiers produits par le GPT? | GH-04 | 1 | Basse (utile en phase 4 : rôle de GitHub par activité) | 2026-11-04 |
@@ -42,6 +41,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Réponse | Date |
 |---|---|---|---|
+| Q-059 | L'automatisation Make.com de surveillance YouTube existe-t-elle encore? | Non : c'était une expérience et une vidéo sponsorisée pour Make. Hors inventaire. La mémoire Claude du compte (OUT-11) la décrit encore : exemple de contenu de mémoire périmé. | 2026-11-04 |
 | Q-001 | Par quel mécanisme Claude travaille-t-il dans DaVinci Resolve? | Réponse de Dominic : Claude a un accès complet à sa machine et travaille en arrière-plan directement dans DaVinci Resolve (via un connecteur DaVinci Resolve observé dans CL-02). Reliquat technique déplacé en Q-001b. | 2026-11-01 |
 | Q-006 | Relation entre le projet CL-04 et le Skill `fp-conseils-proposition-coaching`? | Trois couches distinctes et complémentaires : instructions du projet = règles métier; Skill = méthode d'exécution (manipulation du gabarit et génération du .pptx); gabarit PowerPoint = contenant. Voir inventaire CL-04 et SK-01. | 2026-11-01 |
 | Q-008 | RECHERCHISTE sert-il uniquement LeFiltre? Où va sa sortie? | Sert la création de vidéos YouTube, de vidéos Patreon et d'articles écrits Patreon (LeFiltre). Sortie copiée-collée vers une autre IA ou utilisée pour une feuille de notes de vidéo. L'IA aval reste à identifier (Q-008b). | 2026-11-01 |

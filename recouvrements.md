@@ -1,7 +1,7 @@
 # Relations et recouvrements (phase 3)
 
 Dernière mise à jour : 2026-11-04
-Statut : version 1.1, corrigée le 2026-11-04 après validation par une IA indépendante (21 énoncés nuancés, 2 citations corrigées, 3 recommandations déguisées retirées, 6 omissions ajoutées); à compléter avec Dominic
+Statut : version 1.2 (2026-11-04); v1.1 corrigée après validation par une IA indépendante (21 énoncés nuancés, 2 citations corrigées, 3 recommandations déguisées retirées, 6 omissions ajoutées); à compléter avec Dominic
 
 Objet : vue transversale de l'écosystème. Où la même connaissance est répétée, où la même fonction est reproduite, où l'information est enfermée, de quoi chaque système dépend sans le dire, et où Dominic répète du contexte à la main.
 
@@ -72,7 +72,7 @@ Q4-2 : le régime A doit-il rester limité aux deux systèmes qui l'ont, ou s'ap
 | F-11 | Surveillance planifiée | AUTO-01 (site, hebdomadaire), AUTO-04 (Patch Tuesday, fréquence non précisée) | Sujet; même mécanisme (tâche ChatGPT) | O |
 | F-12 | Outil HTML personnel synchronisé par copier-coller | ART-01 (horaire, Claude), tableau de bord refonte Patreon (ChatGPT) | Plateforme; même patron | O |
 
-Lecture : F-1, F-2, F-3 sont des **candidats compétences transversales** au sens des instructions du projet (une même capacité réutilisée dans plusieurs contextes) (H). F-7 est le cas le plus net d'une **mécanique unique déclinée en cinq projets** par le seul type de sortie (O). F-4 et F-8 montrent une même compétence servie à deux publics (Dominic, communauté Patreon) (O). Aucune conclusion de fusion : la séparation recherche / rédaction / édition avec Dominic entre chaque étape est classée « à clarifier » dans `elements-a-preserver.md` (non confirmée, D-008); selon la réponse, elle pèsera sur F-1.
+Lecture : F-1, F-2, F-3 sont des **candidats compétences transversales** au sens des instructions du projet (une même capacité réutilisée dans plusieurs contextes) (H). F-7 est le cas le plus net d'une **mécanique unique déclinée en cinq projets** par le seul type de sortie (O). F-4 et F-8 montrent une même compétence servie à deux publics (Dominic, communauté Patreon) (O). Aucune conclusion de fusion : la séparation recherche / rédaction / édition avec Dominic entre chaque étape est déclarée voulue (2026-11-04) et classée à préserver; toute réflexion sur F-1 en phase 4 devra conserver ces points de contrôle.
 
 ## 4. Clients, entités et partenaires présents à plusieurs endroits
 
@@ -154,7 +154,7 @@ Lecture (O) : les systèmes qui ont un dépôt (DEP-4, DEP-6) ont leurs dépenda
 
 Lecture (O) : le copier-coller est le **mécanisme d'intégration universel** de l'écosystème. Dominic contrôle chaque transfert, et chaque maillon est manuel. R-1, R-9, R-10 et R-11 sont des répétitions de contexte au sens strict; R-2 à R-8 sont des transferts de données dans une chaîne de production; R-12 est une boucle d'apprentissage (H). Les trois ne posent pas la même question. Savoir si ces maillons sont une perte de temps ou un contrôle voulu relève de Dominic (sections « ce qui fonctionne bien / ce qui fait perdre du temps » de `workflows-actuels.md`, encore vides).
 
-Q4-5 : parmi ces points, lesquels Dominic considère-t-il comme des pertes de temps réelles, et lesquels comme des points de contrôle qu'il veut garder (lié à l'élément « séparation recherche / rédaction / édition », à clarifier)?
+Q4-5 : parmi ces points, lesquels Dominic considère-t-il comme des pertes de temps réelles, et lesquels comme des points de contrôle qu'il veut garder (la séparation recherche / rédaction / édition est déjà déclarée voulue)?
 
 ## 8. Ce qui devrait potentiellement être partagé, et ce qui devrait probablement rester isolé
 
