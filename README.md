@@ -10,7 +10,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 |---|---|---|
 | 1 | Inventaire | Première passe terminée le 2026-11-01 (voir `inventaire.md`, sections 7b et 7c) |
 | 2 | Compréhension | Close le 2026-11-01 (D-005). Fiches A1 à A4 et B1 dans `inventaire.md` section 10 |
-| 3 | Relations et recouvrements | À démarrer après validation des éléments à préserver |
+| 3 | Relations et recouvrements | En cours depuis le 2026-11-04 (éléments à préserver validés, D-008). Analyse dans `recouvrements.md` |
 | 4 | Principes de conception | À venir |
 | 5 | Architecture cible | À venir (nécessite accord explicite) |
 | 6 | Plan de transition | À venir |
@@ -22,6 +22,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | `inventaire.md` | Inventaire maître évolutif de tous les éléments (projets, IA, dépôts, outils, automatisations) |
 | `workflows-actuels.md` | Méthodes de travail observées, telles qu'elles existent aujourd'hui |
 | `elements-a-preserver.md` | Méthodes et éléments classés : à préserver absolument / si possible / peut être repensé / à clarifier |
+| `recouvrements.md` | Phase 3 : analyse transversale des doublons, silos, dépendances et points de répétition de contexte (observations et hypothèses, aucune décision) |
 | `questions-ouvertes.md` | Questions accumulées, à poser au bon moment |
 | `decisions.md` | Journal des décisions validées explicitement par Dominic |
 

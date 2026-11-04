@@ -64,6 +64,20 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Points à clarifier en phase 4 (Q-058)** : (a) le CEO est-il le point d'entrée exclusif, ou Dominic continuera-t-il aussi à parler directement à des outils spécialisés (monteur DaVinci, recherchiste)? (b) le CEO remplace-t-il les chefs d'orchestre par projet, ou les coiffe-t-il? (c) que doit-il savoir en permanence, et que doit-il ignorer (cloisonnement entre activités, clients, commerce)? (d) quelle gouvernance (analyse → recommandation → validation → exécution, déjà présente dans tous les chefs d'orchestre existants) lui applique-t-on? (e) la mémoire transversale (dimension 1) face à l'exigence d'isolation de la passation GPT-24 (« aucune mémoire commune implicite ») : ce que le CEO sait de chaque activité et ce qu'il ignore; (f) la proactivité (dimension 3) suppose une exécution autonome planifiée ou déclenchée par événement : fréquence, canal de rappel, coûts, garde-fous.
 - **Validée par Dominic** : oui, comme exigence (déclaration du 2026-11-04).
 
+## D-008 – Validation en bloc des éléments et méthodes à préserver
+
+- **Date** : 2026-11-04
+- **Décision** : les 19 classements proposés dans `elements-a-preserver.md` sont validés tels quels par Dominic (« Oui, c'est bon »). À préserver absolument : Claude avec accès complet au PC travaillant en arrière-plan dans DaVinci Resolve; IA par API en arrière-plan sans prise de contrôle sans autorisation (règle générale); règles de sécurité du montage; dépôt GitHub comme source de vérité d'un système IA (versionnage, changelog, archives, PASSATION.md, liste de contrôle); validateur indépendant; instructions d'agent versionnées et exécutant par PR sans fusion; un espace isolé par client (principe); registre unique des idées; doctrine éditoriale LeFiltre; doctrine sponsor; passation d'une IA à une autre par document structuré avec GitHub comme mémoire durable. À préserver si possible : rapport de surveillance hebdomadaire avec règles de prudence (contenu); vérification par le résultat; paramètres en tête d'instructions; analyse d'abord, livrable ensuite; maquette audio et GO avant dépense; méthode de livraison d'un outil IA à un client. Peut être repensé : style personnel de l'Éditeur Patreon (déclaré désuet). À clarifier (non tranché, à reposer en phase 4) : séparation recherche / rédaction / édition avec Dominic entre chaque étape.
+- **Portée** : ce sont des contraintes de conception pour les phases 4 et 5. « Préserver » porte sur le principe ou le contenu de la méthode, pas nécessairement sur sa forme actuelle (projet ChatGPT, artefact Claude, tâche planifiée), sauf pour l'accès machine et l'API Resolve, qui sont la forme même.
+- **Validée par Dominic** : oui.
+
+## D-009 – Signalement des nouveautés pendant l'audit
+
+- **Date** : 2026-11-04
+- **Décision** : pendant l'audit, Dominic n'a pas à signaler chaque nouveau projet ou idée. Il continue d'inscrire ses idées dans le registre « Projets LeFiltre » (ART-02). Il signale ici, quand ça arrive : un nouveau client Net BLB; un nouveau système avec dépôt GitHub, connecteur, automatisation planifiée ou accès à sa machine; une nouvelle connaissance partagée entre plusieurs projets (tarifs, niveaux Patreon, chiffres d'audience); un changement à une méthode classée « à préserver » ou un projet qui en remplace un autre; un projet qu'il veut concevoir d'emblée pour la future architecture. Avant la phase 5, une passe de synchronisation sera faite (réextraction d'ART-02, capture des listes de projets Claude et ChatGPT, comparaison avec l'inventaire).
+- **Raison** : minimiser le travail manuel de Dominic; l'inventaire est évolutif (D-003) et tout nouveau projet entre par défaut dans le périmètre (D-006).
+- **Validée par Dominic** : oui.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
