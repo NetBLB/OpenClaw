@@ -1,6 +1,6 @@
 # Méthodes de travail actuelles
 
-Dernière mise à jour : 2026-11-01
+Dernière mise à jour : 2026-11-04
 
 Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où se trouvent ses données. Chaque énoncé porte un statut (Observation / Hypothèse).
 
@@ -20,6 +20,11 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 - Observé (PASSATION.md, capture du chat successeur, 2026-11-01) : mécanisme de passation en trois pièces : (1) un fichier `PASSATION.md` rédigé par l'IA sortante « pour l'IA qui prend le relais » (projet en une minute, où on en est, diagnostic validé, décisions prises, plan convenu, recette technique testée, questions ouvertes à poser à Dominic, notes); (2) une archive zip des fichiers du système et de la production; (3) un prompt court de Dominic dans la nouvelle conversation : « Tu prends le relais d'une autre IA… Lis d'abord PASSATION.md en entier, puis ouvre l'archive… pose-moi les questions de la section 8. » L'IA successeur a posé ces questions via un formulaire à choix et consigné les réponses. Depuis la v1.6, `PASSATION.md` vit dans le dépôt GitHub et est réécrit à chaque fin de séance importante; la passation entrante est archivée (`archive/PASSATION-2026-10-29-entrante.md`).
 - Observé : la passation sépare explicitement « décisions déjà prises », « diagnostic validé avec Dominic », « changements convenus, pas encore rédigés » et « questions ouvertes à poser » : même distinction que celle exigée par le présent audit.
 
+## Passation entre GPT ChatGPT (GPT-24)
+
+- Observé (2026-11-04, fichier `PASSATION-COMPLETE-commerce-autonome-IA.md` v1.0) : le même mécanisme de passation existe côté ChatGPT. Un GPT sortant rédige une passation complète (objet, état du projet, décisions explicites avec registre et statuts, ce qui n'est pas décidé, questions ouvertes ordonnées, critères, chantiers, gouvernance, feuille de route, sources à consulter), un fichier d'instructions personnalisées à coller dans le nouveau GPT et un prompt de démarrage; Dominic configure le nouveau GPT et lui transmet les trois pièces. La passation déclare elle-même : « Jusqu'à la préparation effective du dépôt, cette passation est l'état de référence. Après initialisation, GitHub devient la source de vérité versionnée. » Même logique que CL-13 (PASSATION.md, zip, prompt court), appliquée cette fois dès le cadrage d'un projet, avant toute production (O).
+- Observation : Dominic transfère donc le relais d'une IA à une autre par un document de passation structuré, sur les deux plateformes, et confie à GitHub la mémoire durable dès que le projet est sérieux. C'est devenu une méthode reproductible, pas un cas isolé. Classement à proposer dans `elements-a-preserver.md` lors de la validation en bloc.
+
 ## Expérience multi-agents et consolidation (CL-13)
 
 - Observé (archive v1.5, CHANGELOG v1.6, orchestration-maitre.md) : v1.5 = 3 projets Claude séparés (Scripteur, Éditeur-validateur, Producteur), Dominic faisant le copier-coller des paquets entre projets; la bible et le gabarit étaient recopiés à l'identique dans chaque projet. v1.6 = une seule conversation « Maître » (chef d'orchestre + Producteur) qui lance le Scripteur et le Validateur comme sous-agents avec l'outil Agent, chacun avec son brief et uniquement les fichiers listés; le Validateur est lancé dans un agent neuf et ne reçoit jamais les échanges du Maître avec le Scripteur (indépendance). Règles d'arbitrage : le Maître vérifie chaque correction, le factuel se corrige automatiquement, l'éditorial remonte à Dominic, 3 cycles maximum, résumé final à Dominic. Première vidéo en « mode transparent » (paquet, rapport, arbitrages montrés). Exigence de Dominic consignée : les sous-agents ne doivent perdre ni puissance ni rigueur, « un vrai aller-retour, pas une validation de complaisance ».
@@ -33,7 +38,7 @@ Objectif : documenter COMMENT Dominic travaille aujourd'hui, pas seulement où s
 
 ## Patron « chef d'orchestre » de Dominic (observé sur plusieurs systèmes)
 
-- Observé (2026-11-02, GPT-23; déjà vu dans CL-13 studio-explainer, le site NetBLB et le présent audit) : quand Dominic lance un projet d'envergure, il crée un chef d'orchestre IA avec une gouvernance écrite : l'IA analyse, recommande, challenge; Dominic valide et exécute; aucune décision importante sans validation explicite; distinction décision / action; tableau de bord « Où en sommes-nous? »; prochaine action unique; mémoire des décisions dans le projet; bilan final et modèle reproductible. Ces règles sont réécrites à chaque fois dans les instructions du projet concerné (O). La mémoire du chef d'orchestre vit dans la conversation ou le projet, sauf pour studio-explainer où elle vit dans GitHub (O).
+- Observé (2026-11-02, GPT-23; 2026-11-04, GPT-24; déjà vu dans CL-13 studio-explainer, le site NetBLB et le présent audit) : quand Dominic lance un projet d'envergure, il crée un chef d'orchestre IA avec une gouvernance écrite : l'IA analyse, recommande, challenge; Dominic valide et exécute; aucune décision importante sans validation explicite; distinction décision / action; tableau de bord « Où en sommes-nous? »; prochaine action unique; mémoire des décisions dans le projet; bilan final et modèle reproductible. Ces règles sont réécrites à chaque fois dans les instructions du projet concerné (O). La mémoire du chef d'orchestre vit dans la conversation ou le projet, sauf pour studio-explainer où elle vit dans GitHub (O).
 
 ## Conversations épinglées comme outils (ChatGPT)
 

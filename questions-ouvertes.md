@@ -1,6 +1,6 @@
 # Questions ouvertes
 
-Dernière mise à jour : 2026-11-01
+Dernière mise à jour : 2026-11-04
 
 Questions accumulées pendant l'audit, à poser au moment où elles deviennent nécessaires. Une question résolue est déplacée dans la section « Résolues » avec la réponse et la date.
 
@@ -8,8 +8,10 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
+| Q-056 | GPT-24 « Commerce autonome IA » : est-ce un projet ChatGPT ou un GPT personnalisé (la passation dit « GPT personnalisé », Dominic dit « projet »)? Nom exact tel qu'il apparaît dans ChatGPT? La conversation ChatGPT qui a rédigé la passation est-elle conservée (épinglée) ou considérée comme terminée? Le projet est-il inscrit dans le registre ART-02? | GPT-24 | 1 | Moyenne | 2026-11-04 |
+| Q-057 | Dépôt GH-04 du commerce autonome : nom et URL; sous l'organisation NetBLB? Qui l'initialisera : le GPT (si ChatGPT a un accès GitHub en écriture) ou Dominic à partir de fichiers produits par le GPT? | GH-04 | 1 | Basse (utile en phase 4 : rôle de GitHub par activité) | 2026-11-04 |
 | Q-055b | Proportion des articles Patreon qui passent par l'Éditeur Claude (CL-08) : la plupart, ou seulement certains? | CL-08 | 2 | Basse | 2026-11-01 |
-| Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour connaître la nature exacte du connecteur (MCP local? scripts sur l'API Resolve?). Dominic pourrait l'ouvrir depuis le projet CL-02 et me l'attacher, ou me laisser le lire via le dossier lié si la session est reliée à son PC. | CL-02 | 2 | Moyenne | 2026-11-01 |
+| Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour savoir ce que Claude s'est documenté. Mécanisme du connecteur désormais observé (2026-11-04) : MCP local « DaVinci Resolve Studio » exposant l'API de scripting Resolve (voir OUT-03); la question ne porte plus que sur le contenu du fichier. | CL-02 | 2 | Basse | 2026-11-01 |
 | Q-047b | Les fichiers « leçons » de CL-02 sont-ils relus automatiquement par Claude à chaque montage (ils sont dans le contexte du projet, donc probablement oui), et une leçon est-elle ensuite intégrée aux instructions via l'atelier ChatGPT (comme la section « fins de mots » le suggère)? | CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-049b | Durée typique d'un montage de vidéo longue par Claude et fréquence (une vidéo par semaine?) : utile pour la phase 5 (coûts). | CL-01, CL-02 | 2 | Moyenne | 2026-11-01 |
 | Q-005 | Le projet a-t-il des fichiers de connaissances (grille tarifaire, historique des ententes, modèles de courriels) ou tout est-il dans les instructions? Où sont conservés l'historique des négociations conclues ou refusées, les contrats reçus et les analyses produites par CL-11? Comment le contexte d'un sponsor passe-t-il de CL-03 à CL-11 (copier-coller du contrat seulement, ou aussi l'historique de négociation)? | CL-03, CL-11 | 2 | Moyenne-haute | 2026-11-01 |

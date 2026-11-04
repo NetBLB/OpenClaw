@@ -1,6 +1,6 @@
 # Éléments et méthodes à préserver
 
-Dernière mise à jour : 2026-11-01
+Dernière mise à jour : 2026-11-04
 
 Classement de chaque méthode ou élément important. Le classement est proposé par l'IA, puis confirmé ou corrigé par Dominic. Tant qu'il n'est pas confirmé, il reste une hypothèse.
 
@@ -24,6 +24,7 @@ Classement de chaque méthode ou élément important. Le classement est proposé
 | Doctrine sponsor : conditions non négociables (contrôle éditorial, produit testé, avis honnête, pas de script imposé, mention de partenariat, pertinence audience), plancher tarifaire, aucun rabais sans contrepartie, catégories refusées, recherche autonome avant réponse (CL-03) | À préserver absolument (proposé) | Non | Règles métier explicites qui protègent la valeur de la chaîne; indépendantes de la plateforme | Le contenu de la doctrine est l'actif; sa duplication dans 4 jeux d'instructions est le problème (phase 3) |
 | Patron « analyse d'abord, livrable ensuite » dans les outils sponsors (CL-03, CL-07, CL-11) | À préserver si possible (proposé) | Non | Dominic décide avec une analyse sous les yeux avant d'envoyer | |
 | Maquette audio et GO de Dominic avant toute dépense de crédits vidéo; décisions éditoriales toujours remontées à Dominic (CL-13) | À préserver si possible (proposé) | Non | Contrôle des coûts et de la ligne éditoriale | Classement à confirmer par Dominic |
+| Passation d'une IA à une autre par un document structuré (état, décisions avec statut, non-décidé, questions ouvertes ordonnées, prochaine tâche), avec GitHub comme mémoire durable dès que le projet est sérieux (CL-13 PASSATION.md; GPT-24 PASSATION-COMPLETE.md) | À préserver absolument (proposé) | Non | Observée sur les deux plateformes; c'est le mécanisme par lequel Dominic survit à la perte de contexte d'une IA; directement réutilisable par une future architecture | Ajouté le 2026-11-04 (élément 19 de la validation en bloc) |
 
 Classements possibles :
 - À préserver absolument
