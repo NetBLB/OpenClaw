@@ -8,6 +8,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
+| Q-059 | La mémoire Claude du compte mentionne une automatisation Make.com de surveillance de chaînes YouTube avec résumés IA vers Google Sheets (août 2026). Existe-t-elle encore? Si oui, elle manque à l'inventaire (automatisation hors ChatGPT et hors Claude). | Inventaire | 1 | Moyenne | 2026-11-04 |
 | Q-058 | Agent « CEO » (D-007) : point d'entrée exclusif ou principal? Remplace ou coiffe les chefs d'orchestre par projet? Ce qu'il doit savoir en permanence et ce qu'il doit ignorer (cloisonnement)? Gouvernance à lui appliquer? | Architecture cible | 4 | Haute (structure l'architecture) | 2026-11-04 |
 | Q-056 | GPT-24 « Commerce autonome IA » : est-ce un projet ChatGPT ou un GPT personnalisé (la passation dit « GPT personnalisé », Dominic dit « projet »)? Nom exact tel qu'il apparaît dans ChatGPT? La conversation ChatGPT qui a rédigé la passation est-elle conservée (épinglée) ou considérée comme terminée? Le projet est-il inscrit dans le registre ART-02? | GPT-24 | 1 | Moyenne | 2026-11-04 |
 | Q-057 | Dépôt GH-04 du commerce autonome : nom et URL; sous l'organisation NetBLB? Qui l'initialisera : le GPT (si ChatGPT a un accès GitHub en écriture) ou Dominic à partir de fichiers produits par le GPT? | GH-04 | 1 | Basse (utile en phase 4 : rôle de GitHub par activité) | 2026-11-04 |
