@@ -54,6 +54,15 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquences pour l'audit** : tout nouveau projet ou activité entre par défaut dans le périmètre; la règle de signalement des nouveautés pendant l'audit (recommandation du 2026-11-04, en attente de validation) s'applique à l'ensemble des activités.
 - **Validée par Dominic** : oui (déclaration du 2026-11-04).
 
+## D-007 – Exigence pour l'architecture cible : un agent central de type « CEO »
+
+- **Date** : 2026-11-04
+- **Exigence déclarée par Dominic** : « Je veux avoir un agent dans OpenClaw qui agit un peu comme mon CEO. Je lui parle à lui, et lui, il gère avec moi l'ensemble des activités. » Un interlocuteur unique, au-dessus de l'ensemble des activités couvertes par D-006, avec lequel Dominic pilote tout.
+- **Nature** : exigence de conception (besoin exprimé), pas une décision d'architecture. Elle fixe ce que la future architecture doit offrir; elle ne décide ni comment l'agent est construit, ni ce qu'il voit, ni comment il délègue aux autres composants. Ces points relèvent des phases 4 et 5.
+- **Lien avec l'existant (observation)** : c'est la généralisation du patron « chef d'orchestre » observé cinq fois dans l'écosystème (studio-explainer, site NetBLB, campagne Black Friday, commerce autonome, présent audit), chaque fois réécrit de zéro et limité à un projet. L'exigence revient à vouloir un chef d'orchestre unique et permanent au lieu d'un par projet.
+- **Points à clarifier en phase 4 (Q-058)** : (a) le CEO est-il le point d'entrée exclusif, ou Dominic continuera-t-il aussi à parler directement à des outils spécialisés (monteur DaVinci, recherchiste)? (b) le CEO remplace-t-il les chefs d'orchestre par projet, ou les coiffe-t-il? (c) que doit-il savoir en permanence, et que doit-il ignorer (cloisonnement entre activités, clients, commerce)? (d) quelle gouvernance (analyse → recommandation → validation → exécution, déjà présente dans tous les chefs d'orchestre existants) lui applique-t-on?
+- **Validée par Dominic** : oui, comme exigence (déclaration du 2026-11-04).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
