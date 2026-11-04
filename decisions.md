@@ -1,6 +1,6 @@
 # Journal des décisions
 
-Dernière mise à jour : 2026-11-01
+Dernière mise à jour : 2026-11-04
 
 Seules les décisions **validées explicitement par Dominic** figurent ici. Les recommandations restent dans les autres documents, identifiées comme telles.
 
@@ -44,6 +44,15 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Décision** : la phase 2 est close. Fiches rédigées pour les lots A1 (sponsors), A2 (montage DaVinci), A3 (clients Net BLB), A4 (chaîne éditoriale) et B1 (FP Conseils). Les vérifications B2 (fichiers du remarketing) et B3 (`AGENTS.md` de netblb-site) sont laissées de côté; elles pourront être faites plus tard si la phase 3 en a besoin.
 - **Suite** : validation en bloc des éléments à préserver, puis phase 3 (relations et recouvrements).
 - **Validée par Dominic** : oui.
+
+## D-006 – Périmètre de l'architecture cible : l'ensemble des activités de Dominic
+
+- **Date** : 2026-11-04
+- **Décision (déclarée par Dominic)** : l'environnement OpenClaw en préparation « va gérer l'entièreté de toutes mes activités : NetBLB, LeFiltre et tous les projets ». Le périmètre de l'architecture cible couvre donc Net BLB inc. (clients, site, outils), LeFiltre (production vidéo, Patreon, sponsors, formations, chaîne éditoriale), la chaîne anglophone anonyme, les outils personnels, les projets en développement et le nouveau projet de commerce autonome IA (GPT-24), dont la passation prévoit déjà l'éventualité OpenClaw.
+- **Exceptions déjà décidées** : l'outil FP Conseils (D-004, effacé à la fin du mandat) et le projet personnel « Donjon et Dragon » (D-003, hors périmètre).
+- **Ce que cette décision ne tranche pas** : la forme de l'architecture (un ou plusieurs environnements, agents, espaces de travail), ce qui sera partagé et ce qui restera cloisonné entre activités, le rôle de GitHub par activité. Ces points relèvent des phases 4 et 5. En particulier, le principe « aucune mémoire commune implicite » et « tenants, comptes et secrets séparés » formulé dans la passation de GPT-24 n'est pas contradictoire avec ce périmètre : un périmètre global n'implique pas un partage global. Il sera traité en phase 4 comme un principe de conception candidat.
+- **Conséquences pour l'audit** : tout nouveau projet ou activité entre par défaut dans le périmètre; la règle de signalement des nouveautés pendant l'audit (recommandation du 2026-11-04, en attente de validation) s'applique à l'ensemble des activités.
+- **Validée par Dominic** : oui (déclaration du 2026-11-04).
 
 ## D-002 – Structure minimale du dépôt
 
