@@ -13,7 +13,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | 3 | Relations et recouvrements | Faite le 2026-11-04 (`recouvrements.md` v1.3, validée par une IA indépendante); corrections de Dominic sur la section 7b possibles à tout moment |
 | 4 | Principes de conception | Proposés le 2026-11-04 en mode accéléré (D-011), `principes-de-conception.md`, en attente de validation en bloc |
 | 5 | Architecture cible | Validée le 2026-11-04 (D-015), `architecture-cible.md` v1.2; cinq questions de détail ouvertes |
-| 6 | Plan de transition | À rédiger (plan de transition + cahier de construction) |
+| 6 | Plan de transition | Proposés le 2026-11-05 : `plan-de-transition.md` et `cahier-de-construction.md`; en attente de validation |
 
 ## Documents maîtres
 
@@ -25,6 +25,8 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | `recouvrements.md` | Phase 3 : analyse transversale des doublons, silos, dépendances et points de répétition de contexte (observations et hypothèses, aucune décision) |
 | `principes-de-conception.md` | Phase 4 : règles que l'architecture cible doit respecter (proposées, puis validées une à une) |
 | `architecture-cible.md` | Phase 5 : architecture OpenClaw proposée, chaque choix justifié; organigramme, dépôt « siege », composants, coûts, risques |
+| `plan-de-transition.md` | Phase 6 : étapes, critères de sortie, tests d'acceptation, sort de chaque élément actuel |
+| `cahier-de-construction.md` | Phase 6 : document remis à l'IA technique pour construire l'environnement sans réinventer l'architecture |
 | `openclaw-capacites.md` | Ce qu'OpenClaw permet réellement, d'après sa documentation (lecture partielle, à compléter avant la phase 5) |
 | `questions-ouvertes.md` | Questions accumulées, à poser au bon moment |
 | `decisions.md` | Journal des décisions validées explicitement par Dominic |

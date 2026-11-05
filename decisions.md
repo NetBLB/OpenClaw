@@ -136,6 +136,13 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquence** : la phase 6 (plan de transition et cahier de construction) peut être rédigée.
 - **Validée par Dominic** : oui.
 
+## D-016 – Choix de détail pour la construction
+
+- **Date** : 2026-11-05
+- **Décisions de Dominic** : dépôt de mémoire du CEO = `NetBLB/ceo`; canal mobile = Telegram.
+- **Non décidés, consignés comme tels** : hébergeur du serveur virtuel (Dominic n'a pas encore choisi; critères et préférence dans `cahier-de-construction.md`, section 2); première équipe à activer (Dominic n'a pas encore décidé et n'avait pas le répertoire des équipes en tête; répertoire fourni; choix reporté au bilan du premier mois, plan de transition étape 5).
+- **Validée par Dominic** : oui pour les deux premiers points.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
