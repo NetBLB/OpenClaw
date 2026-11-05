@@ -13,7 +13,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | 3 | Relations et recouvrements | Faite le 2026-11-04 (`recouvrements.md` v1.3, validée par une IA indépendante); corrections de Dominic sur la section 7b possibles à tout moment |
 | 4 | Principes de conception | Proposés le 2026-11-04 en mode accéléré (D-011), `principes-de-conception.md`, en attente de validation en bloc |
 | 5 | Architecture cible | Validée le 2026-11-04 (D-015), `architecture-cible.md` v1.2; cinq questions de détail ouvertes |
-| 6 | Plan de transition | Validés le 2026-11-05 (D-017) : `plan-de-transition.md` et `cahier-de-construction.md` v1.1. Les huit livrables de l'audit existent; prochaine étape : préparation (étape 0) puis remise du cahier à l'IA technique |
+| 6 | Plan de transition | Validés le 2026-11-05 (D-017), puis ajustés après l'analyse de conformité (D-018) : `plan-de-transition.md` v1.2 et `cahier-de-construction.md` v2.0. Prochaine étape : relecture de la v2.0 par Dominic, préparation (étape 0), remise du cahier à l'IA technique |
 
 ## Documents maîtres
 
@@ -27,6 +27,8 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | `architecture-cible.md` | Phase 5 : architecture OpenClaw proposée, chaque choix justifié; organigramme, dépôt « siege », composants, coûts, risques |
 | `plan-de-transition.md` | Phase 6 : étapes, critères de sortie, tests d'acceptation, sort de chaque élément actuel |
 | `cahier-de-construction.md` | Phase 6 : document remis à l'IA technique pour construire l'environnement sans réinventer l'architecture |
+| `analyse-conformite-openclaw.md` | Analyse de conformité du projet contre la documentation, le code, les cas d'usage et l'écosystème OpenClaw (v1.1, validée par une IA indépendante); ses corrections sont appliquées dans les documents v1.5 / v2.0 |
+| `recherche/` | Bases de référence : documentation officielle, cas d'usage publiés, retours d'expérience et vidéos, écosystème, code source (2026-11-05) |
 | `openclaw-capacites.md` | Ce qu'OpenClaw permet réellement, d'après sa documentation (lecture partielle, à compléter avant la phase 5) |
 | `questions-ouvertes.md` | Questions accumulées, à poser au bon moment |
 | `decisions.md` | Journal des décisions validées explicitement par Dominic |

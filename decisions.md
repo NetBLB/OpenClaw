@@ -150,6 +150,20 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquence** : les documents de phase 6 passent en version 1.1; l'audit a produit ses huit livrables. Reste la remise à l'IA technique et la préparation par Dominic (étape 0).
 - **Validée par Dominic** : oui.
 
+## D-018 – Résultats de l'analyse de conformité OpenClaw et choix associés
+
+- **Date** : 2026-11-05
+- **Contexte** : à la demande de Dominic, analyse de conformité du projet contre la documentation officielle, le code source (version 2026.11.1), 31 cas d'usage publiés, 19 vidéos et 34 retours d'expérience, et l'écosystème immédiat (`analyse-conformite-openclaw.md` v1.1, validée par une IA indépendante). Verdict : architecture conforme; cahier à corriger sur 21 points techniques (R-1 à R-21), appliqués dans les documents v1.5 / v2.0.
+- **Choix de Dominic** :
+  - **Q-A Réveil d'inactivité : option 2.** La tâche « Proactive check » créée par OpenClaw est reparamétrée en clôture par inactivité (toutes les 30 minutes, seulement si inactif, 8 h à 23 h, session principale, saut si rien à faire).
+  - **Q-B Dreaming : option 1.** Désactivé le premier mois; la promotion de mémoire se fait au rituel du lundi, relue par Dominic; réévaluation au bilan du premier mois. Modifie le point « laissé actif mais relu » de D-015.
+  - **Q-C Embeddings : option 2.** Modèle local (Ollama ou GGUF) plutôt qu'OpenAI; **emplacement à valider** selon la puissance requise (serveur, ou autre machine); en attendant, mots-clés seulement si le serveur est trop petit.
+  - **Q-E Modèle par défaut du CEO : option 2.** Classe intermédiaire par défaut, classe supérieure à la demande de Dominic pour les synthèses à enjeu, bornée par `modelPolicy.allow`. Modifie le point « classe supérieure pour le CEO » de D-015.
+  - **Reformulation de D-010 (entraînée par Q-A option 2)** : « Aucune automatisation de travail avant usage. Les automatisations de fonctionnement du CEO (bilan du lundi, filet du soir et relances, clôture par inactivité, contrôle des tâches) sont celles listées dans `reglages.md`, et rien d'autre. » Les automatisations existantes (ChatGPT, remarketing, montage) restent conservées telles quelles.
+- **Alternatives écartées** : réveil supprimé (clôture seulement à 22 h); Dreaming actif avec ses gardes; embeddings OpenAI (deuxième fournisseur); classe supérieure par défaut (coût).
+- **Conséquences** : `architecture-cible.md` v1.5, `principes-de-conception.md` v1.4, `cahier-de-construction.md` v2.0, `plan-de-transition.md` v1.2.
+- **Validée par Dominic** : oui (réponses du 2026-11-05, 16 h 04).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
