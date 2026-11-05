@@ -86,6 +86,14 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquences** : (a) la phase 5 (architecture cible) conçoit un environnement de travail, pas un ensemble d'automatisations; la section 7b de `recouvrements.md` sert à identifier ce qui ne doit pas être touché (colonnes « Dominic seul » et « imposé par les outils »), pas à planifier des gains; (b) la phase 6 (plan de transition) doit prévoir une étape explicite « usage sans automatisation » avant toute automatisation; (c) les automatisations existantes (tâches planifiées ChatGPT, remarketing CL-05, montage en arrière-plan) sont conservées telles quelles, elles ne sont pas remises en cause par ce principe; (d) cohérent avec deux règles déjà présentes dans l'écosystème : « construire progressivement » et « ne pas écrire une automatisation sans processus réel à automatiser » (passation GPT-24), et avec la vérification par le résultat (D-008).
 - **Validée par Dominic** : oui (déclaration du 2026-11-04).
 
+## D-011 – Mode accéléré pour les phases 4 à 6
+
+- **Date** : 2026-11-04
+- **Décision (déclarée par Dominic)** : « On va accélérer un peu le processus et on affinera par la suite directement dans OpenClaw. » Les phases 4 (principes), 5 (architecture) et 6 (transition, cahier de construction) sont menées en mode accéléré : l'IA rédige des propositions complètes à partir de ce qui est consigné, Dominic valide en bloc (comme pour D-008), les points fins sont affinés à l'usage dans OpenClaw.
+- **Garde-fous maintenus** : rien n'est inscrit comme validé sans accord explicite; la phase 5 ne démarre que sur le GO de Dominic (instructions du projet); les capacités réelles d'OpenClaw sont vérifiées (documentation) avant de concevoir l'architecture, pour ne pas concevoir contre des fonctions supposées; D-010 (installer d'abord) s'applique.
+- **Conséquences** : `principes-de-conception.md` est rédigé d'un bloc avec des réponses proposées aux questions Q4 et Q-058; les questions ouvertes non structurantes (27) ne sont plus posées une à une mais traitées dans OpenClaw.
+- **Validée par Dominic** : oui (déclaration du 2026-11-04).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
