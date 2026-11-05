@@ -1,7 +1,7 @@
 # Principes de conception (phase 4)
 
 Dernière mise à jour : 2026-11-04
-Statut : version 1.2 (P-1, P-3, P-5, P-9, P-16, P-26 ajustés et P-28 à P-30 ajoutés d'après la vision cible D-012; P-2 et P-7 corrigés), **proposée** en mode accéléré (D-011); chaque principe est une recommandation tant que la colonne « Validé » ne dit pas « oui »
+Statut : version 1.3 (P-31 ajouté d'après D-013; P-1, P-3, P-5, P-9, P-16, P-26 ajustés et P-28 à P-30 ajoutés d'après la vision cible D-012; P-2 et P-7 corrigés), **proposée** en mode accéléré (D-011); chaque principe est une recommandation tant que la colonne « Validé » ne dit pas « oui »
 
 Objet : les règles que l'architecture cible devra respecter. Elles découlent de l'inventaire, des méthodes à préserver (D-008), des décisions D-006, D-007 et D-010 et de l'analyse des recouvrements. Elles ne décrivent pas l'architecture (phase 5) : elles disent ce qu'elle doit respecter.
 
@@ -60,6 +60,7 @@ Conventions : « Fondé sur » renvoie aux identifiants de `recouvrements.md` (C
 | P-27 | **Passation par document structuré** reste la méthode de relais entre IA, y compris vers et depuis OpenClaw : état, décisions avec statut, non-décidé, questions ouvertes, prochaine tâche. | D-008 (élément 19), F-3 | | |
 | P-28 | **Hébergement** : OpenClaw tourne sur un serveur virtuel toujours allumé (D-012), pas sur le PC de Dominic. Ce qui exige la machine de Dominic (DaVinci Resolve, fichiers locaux) passe par un pont vers le PC ou reste dans Claude Desktop (P-21); le PC éteint n'empêche ni les rappels ni les tâches planifiées. | D-012, DEP-1 | | |
 | P-29 | **Courriels connectés** : Gmail (et les autres comptes courriel) sont connectés à OpenClaw en lecture (D-012); le dossier d'un client se construit à partir des échanges réels. Toute écriture (envoi) reste soumise à P-20. | D-012, S-1, E-2 | Gagné : la vérité des mandats devient accessible | |
+| P-31 | **Organigramme à trois niveaux, rempli une équipe à la fois** (D-013) : CEO; un chef d'équipe par département; des agents spécialisés sous chaque chef. Une équipe n'est mise en service que lorsqu'elle a ses règles, ses exemples, son validateur et son critère d'acceptation; Dominic reste le contrôle qualité d'une équipe tant qu'elle n'a pas prouvé qu'elle n'en a plus besoin. | D-013, D-010, D-008 (validateur, vérification par le résultat) | | |
 | P-30 | **Critère d'acceptation du prototype** (jour 1, D-012) : le CEO connaît tous les projets, les distingue sans les mélanger et répond juste à « on en est où ». Tant que ce critère n'est pas atteint, rien d'autre n'est construit par-dessus. | D-012, D-010 | | |
 
 ## Questions Q4 : réponses proposées

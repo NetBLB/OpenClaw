@@ -111,6 +111,14 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Ce que Dominic garde pour lui** : ce que l'agent ne saura pas faire de façon adéquate selon ses critères; rien de défini a priori.
 - **Validée par Dominic** : oui (déclarations du 2026-11-04).
 
+## D-013 – Vision de long terme : une entreprise d'agents (déclarée par Dominic)
+
+- **Date** : 2026-11-04
+- **Vision déclarée** : « Au lieu d'engager des humains dans mon entreprise, j'engage des agents IA. » Structure visée : Dominic en haut (idées, coordination, décisions); un **agent CEO** qui coordonne; des **chefs d'équipe** par département; sous eux des **agents employés** qui font la main-d'œuvre. Dominic garde une vision globale, décide, et reste impliqué au minimum dans l'exécution; il conserve ce qui exige sa personne (tourner des vidéos, mettre en ligne, etc.). Dominic ne sait pas si OpenClaw permet cela et demande s'il est « dans les nuages ».
+- **Lecture de l'audit (R, pas une décision)** : (1) la structure est exprimable dans OpenClaw tel que documenté (plusieurs agents sur un Gateway, sous-agents en arrière-plan, profondeur de délégation configurable, compétences partagées, tâches planifiées); le système studio-explainer (Maître + Scripteur + Validateur) en est déjà une instance à un niveau; (2) la main-d'œuvre est réaliste pour la recherche, les premiers jets, l'analyse, la veille, le suivi d'état, le fact-checking, le code et le montage par règles; non réaliste sans Dominic pour le jugement de qualité final, la négociation réelle, l'argent et le public; (3) le point « dans les nuages » n'est pas la structure mais le rythme : l'implication de Dominic baisse département par département, à mesure que chaque équipe reçoit règles, exemples et critère de bon travail; la coordination multi-niveaux a un coût (dégradation des passations, consommation); l'organigramme est le cadre, à remplir une équipe à la fois (cohérent avec D-010).
+- **Conséquences pour la phase 5** : l'architecture est conçue comme un organigramme à trois niveaux (CEO, chefs d'équipe par département, agents spécialisés), mais le plan de transition (phase 6) ne construit qu'une équipe à la fois; chaque équipe a ses règles, ses exemples, son validateur et son critère d'acceptation avant qu'on lui délègue.
+- **Validée par Dominic** : la vision, oui (déclaration du 2026-11-04); la lecture de l'audit reste une recommandation.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
