@@ -119,6 +119,15 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquences pour la phase 5** : l'architecture est conçue comme un organigramme à trois niveaux (CEO, chefs d'équipe par département, agents spécialisés), mais le plan de transition (phase 6) ne construit qu'une équipe à la fois; chaque équipe a ses règles, ses exemples, son validateur et son critère d'acceptation avant qu'on lui délègue.
 - **Validée par Dominic** : la vision, oui (déclaration du 2026-11-04); la lecture de l'audit reste une recommandation.
 
+## D-014 – Choix de la plateforme : OpenClaw d'abord, conçu pour Paperclip, Paperclip plus tard (et GO pour la phase 5)
+
+- **Date** : 2026-11-04
+- **Décision** : Dominic accepte la recommandation de l'audit (Q-061, détail dans `openclaw-capacites.md`) : (1) installation d'un agent CEO unique dans OpenClaw sur un serveur virtuel, conversationnel, avec mémoire en fichiers versionnés, rituel du lundi, réception des revues planifiées, délégation par sous-agents et compétences par département, sans automatisation ajoutée (D-010); (2) organisation écrite dès le départ au format d'une entreprise (fichier d'organisation, un `AGENTS.md` par équipe avec règles, validateur et critère d'acceptation), compatible avec un branchement ultérieur à Paperclip; (3) visualisation de l'organigramme par un tableau de bord communautaire ou une page générée depuis le fichier d'organisation; (4) bascule vers Paperclip seulement quand au moins deux équipes produisent un travail jugé bon, que le besoin de tickets, budgets et approbations est réel, et que Paperclip est stabilisé; (5) fournisseur principal Anthropic par clé API avec plafond mensuel, forfait Claude conservé pour le montage dans Claude Desktop, abonnement ChatGPT éventuellement réutilisé via Codex pour des tâches secondaires, IA locale plus tard après mesure.
+- **Alternatives envisagées** : Paperclip dès le départ avec OpenClaw comme main-d'œuvre (écartée : interaction centrée sur les tickets alors que l'exigence du jour 1 est conversationnelle; projet jeune et instable; failles récentes; coût par agent; contraire à D-010); OpenClaw seul sans préparation à Paperclip (écartée : perdrait la trajectoire vers l'organigramme voulu en D-013).
+- **Perdu** : vue d'organigramme officielle et budgets par agent dès le jour 1. **Gagné** : CEO conversationnel dès la semaine 1, coût maîtrisé, pas de dépendance à un projet instable, migration vers Paperclip sans refonte.
+- **Conséquence** : la phase 5 (architecture cible) est autorisée et conçue sur cette base.
+- **Validée par Dominic** : oui (« OK j'accepte ta recommandation », 2026-11-04).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
