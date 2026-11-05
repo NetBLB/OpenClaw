@@ -78,6 +78,14 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Raison** : minimiser le travail manuel de Dominic; l'inventaire est évolutif (D-003) et tout nouveau projet entre par défaut dans le périmètre (D-006).
 - **Validée par Dominic** : oui.
 
+## D-010 – Principe : installer d'abord, automatiser ensuite
+
+- **Date** : 2026-11-04
+- **Décision (déclarée par Dominic)** : l'architecture OpenClaw doit d'abord être montée « du mieux possible », sans chercher à automatiser tout de suite beaucoup de choses. L'automatisation viendra progressivement, une fois l'environnement installé et utilisé au quotidien, en commençant par ce qui se révélera possible et utile à l'usage.
+- **Raison (telle qu'exprimée)** : Dominic a eu l'impression que l'analyse des points de répétition (recouvrements.md, sections 7 et 7b) préparait une automatisation immédiate; il préfère une mise en place solide puis une automatisation guidée par l'usage réel.
+- **Conséquences** : (a) la phase 5 (architecture cible) conçoit un environnement de travail, pas un ensemble d'automatisations; la section 7b de `recouvrements.md` sert à identifier ce qui ne doit pas être touché (colonnes « Dominic seul » et « imposé par les outils »), pas à planifier des gains; (b) la phase 6 (plan de transition) doit prévoir une étape explicite « usage sans automatisation » avant toute automatisation; (c) les automatisations existantes (tâches planifiées ChatGPT, remarketing CL-05, montage en arrière-plan) sont conservées telles quelles, elles ne sont pas remises en cause par ce principe; (d) cohérent avec deux règles déjà présentes dans l'écosystème : « construire progressivement » et « ne pas écrire une automatisation sans processus réel à automatiser » (passation GPT-24), et avec la vérification par le résultat (D-008).
+- **Validée par Dominic** : oui (déclaration du 2026-11-04).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01

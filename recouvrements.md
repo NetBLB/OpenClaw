@@ -175,7 +175,7 @@ Dominic a précisé (2026-11-04) que « contrôle ou perte de temps » est un d�
 | R-11 | Rien d'irréductible | Saturation des conversations | Toute la passation |
 | R-12 | Juger qu'un extrait est une leçon | | Passer par l'atelier ChatGPT puis réécrire les instructions |
 
-Q4-5 est reformulée en conséquence : pour chaque ligne, Dominic corrige le découpage; la colonne « imposé par les outils » sera réexaminée en phase 5 outil par outil, sans présumer de ce qu'un outil permet.
+Q4-5 est reformulée en conséquence : pour chaque ligne, Dominic corrige le découpage. **D-010 (2026-11-04)** : cette table ne prépare aucune automatisation. OpenClaw sera d'abord installé et utilisé sans automatiser; la colonne « manutention » ne sera réexaminée qu'après, à l'usage, point par point.
 
 ## 8. Ce qui devrait potentiellement être partagé, et ce qui devrait probablement rester isolé
 
