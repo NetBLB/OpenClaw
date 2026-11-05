@@ -8,6 +8,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
+| Q-061 | Phase 5 : OpenClaw seul (avec tableau de bord communautaire) ou OpenClaw sous Paperclip (organigramme, budgets, approbations, heartbeats)? Critères : maturité, coût, sécurité, conformité à D-010, visualisation voulue par Dominic. | Architecture cible | 5 | Haute | 2026-11-04 |
 | Q-060 | Registre ART-02 : les fiches « Campagne Black Friday » (PRJ-20) et « NetBLB page questionnaire IA pour PM » (PRJ-18) pointent vers la même conversation ChatGPT que « IA Chef » du site NetBLB (PRJ-08). Cette conversation est-elle un chef d'orchestre général réutilisé pour plusieurs projets, ou s'agit-il de liens collés par erreur (la campagne a son projet GPT-23)? | ART-02, GPT-23 | 1 | Basse | 2026-11-04 |
 | Q-058 | Agent « CEO » (D-007) : point d'entrée exclusif ou principal? Remplace ou coiffe les chefs d'orchestre par projet? Ce qu'il doit savoir en permanence et ce qu'il doit ignorer (cloisonnement)? Gouvernance à lui appliquer? | Architecture cible | 4 | Haute (structure l'architecture) | 2026-11-04 |
 | Q-057 | Dépôt GH-04 du commerce autonome : nom et URL; sous l'organisation NetBLB? Qui l'initialisera : le GPT (si ChatGPT a un accès GitHub en écriture) ou Dominic à partir de fichiers produits par le GPT? | GH-04 | 1 | Basse (utile en phase 4 : rôle de GitHub par activité) | 2026-11-04 |

@@ -67,4 +67,15 @@ Ces fichiers sont injectés dans le contexte au premier tour d'une session. Les 
 - Accès à DaVinci Resolve et à Claude Desktop depuis un agent OpenClaw (MCP local, exécution de scripts).
 - Portée exacte du cron en multi-agents (issue ouverte).
 
+## Visualisation de l'organigramme et couche « entreprise » (ajout du 2026-11-04)
+
+Question de Dominic : existe-t-il, comme dans Paperclip, une vue visuelle des agents et sous-agents?
+
+- **OpenClaw natif** : aucune vue d'organigramme intégrée trouvée; l'interface officielle sert à discuter et configurer. La hiérarchie vit dans la configuration et les fichiers.
+- **Tableaux de bord communautaires** (projets ouverts sur GitHub, maturité variable) : `mudrii/openclaw-dashboard` (arbre de hiérarchie parent → sous-agent → sous-sous-agent, activité des sous-agents, cron); `ChristianAlmurr/openclaw-dashboard` (« Mission Control » : vues Org Map, Grid, Feed, Constellation; Kanban; chat par agent); `wickedapp/openclaw-office` et `WW-AI-Lab/openclaw-office` (bureau virtuel animé, chaînes de délégation, console agents / canaux / skills / cron); `frexida/agentflow` (concepteur d'organigramme en glisser-déposer qui exporte une configuration OpenClaw, équipes et sous-équipes).
+- **Paperclip** (`paperclipai/paperclip`, lancé en mars 2026, MIT, auto-hébergé, Node.js + React) : couche « entreprise » au-dessus des agents. Slogan : « Si OpenClaw est un employé, Paperclip est l'entreprise. » Fournit organigramme (rôles, lignes hiérarchiques, humains et agents), tickets, délégation montante et descendante, budgets par agent, approbations, journal d'audit, heartbeats (les agents se réveillent, traitent leurs tickets, rendent compte vers le haut), suivi des coûts. Adaptateur dédié `openclaw_gateway` (protocole WebSocket du Gateway OpenClaw) et adaptateur HTTP pour des instances distantes; accepte aussi Claude Code, Codex, Cursor, scripts. Le CEO Paperclip est le sommet de l'organigramme et recommande des embauches que l'humain approuve.
+- **Lecture (R, non décidée)** : la vision D-013 de Dominic (lui au sommet, un CEO, des chefs d'équipe, des employés) correspond au modèle de Paperclip, OpenClaw jouant l'employé. Deux options pour la phase 5 : (a) OpenClaw seul, avec un tableau de bord communautaire pour la visualisation; (b) OpenClaw comme main-d'œuvre sous Paperclip comme direction. Réserves : Paperclip est jeune et moins éprouvé; couche supplémentaire à installer, maintenir et sécuriser; à vérifier : maturité réelle, coût, sécurité de l'adaptateur, compatibilité avec D-010 (installer d'abord).
+
+Sources : github.com/mudrii/openclaw-dashboard; github.com/ChristianAlmurr/openclaw-dashboard; github.com/wickedapp/openclaw-office; github.com/WW-AI-Lab/openclaw-office; frexida.github.io/agentflow; github.com/paperclipai/paperclip; paperclip.ing; articles tiers (towardsai, allclaw, theaienterprise, flowtivity).
+
 Sources : docs.openclaw.ai (concepts/agent, concepts/agent-workspace, concepts/memory, tools/skills, tools, reference/templates/AGENTS); articles tiers (dev.to, hackernoon, betterclaw.io, openclawmcp.com, learnopenclaw.com); issue GitHub openclaw/openclaw n° 16053.
