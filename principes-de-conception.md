@@ -1,7 +1,7 @@
 # Principes de conception (phase 4)
 
 Dernière mise à jour : 2026-11-04
-Statut : version 1.0, **proposée** en mode accéléré (D-011); chaque principe est une recommandation tant que la colonne « Validé » ne dit pas « oui »
+Statut : version 1.1 (P-2 et P-7 corrigés sur déclaration de Dominic), **proposée** en mode accéléré (D-011); chaque principe est une recommandation tant que la colonne « Validé » ne dit pas « oui »
 
 Objet : les règles que l'architecture cible devra respecter. Elles découlent de l'inventaire, des méthodes à préserver (D-008), des décisions D-006, D-007 et D-010 et de l'analyse des recouvrements. Elles ne décrivent pas l'architecture (phase 5) : elles disent ce qu'elle doit respecter.
 
@@ -12,7 +12,7 @@ Conventions : « Fondé sur » renvoie aux identifiants de `recouvrements.md` (C
 | # | Principe proposé | Fondé sur | Perdu / gagné | Validé |
 |---|---|---|---|---|
 | P-1 | Un seul environnement couvre toutes les activités (D-006), organisé en **quatre espaces** cloisonnés : LeFiltre; Net BLB (services et clients); chaîne anglophone anonyme; commerce autonome IA. Un cinquième espace « Dominic » porte ce qui est commun à tout (identité, préférences, gouvernance). | D-006, E-7, Lecture 4, D-008 (isolation par client) | Gagné : l'exigence d'isolation de GPT-24 est satisfaite par construction. Perdu : rien de l'existant | |
-| P-2 | À l'intérieur de Net BLB, **chaque client reste isolé** (connaissances, conversations, fichiers). Aucune connaissance client ne circule vers un autre client ni vers les autres espaces. Les données de clients de clients (ex. transcriptions FP Conseils) ne sont jamais stockées dans l'environnement. | D-008 (un espace isolé par client), D-004, E-1, E-2, S-1 | Gagné : règle explicite là où elle était implicite. Perdu : rien | |
+| P-2 | À l'intérieur de Net BLB, **chaque client a son espace** : les données sur le client (contexte, mandats, décisions, procédures, fichiers) y sont stockées et conservées; elles ne circulent pas vers un autre client. Corrigé le 2026-11-04 : Dominic précise qu'il est normal de stocker des données sur ses clients; la clause initiale visait les données des clients de ses clients (transcriptions FP Conseils), hors périmètre (D-004), et a été retirée. | D-008 (un espace isolé par client), E-1, E-2, S-1 | Gagné : un contexte client enfin formalisé et conservé (aujourd'hui reconstitué à chaque mandat, fiche A3) | |
 | P-3 | **Secrets, comptes et connecteurs sont rattachés à un espace**, jamais partagés par défaut. Le cas Resend (compte commun LeFiltre / Net BLB) est traité explicitement en phase 5 : soit deux comptes, soit un seul connecteur avec règle d'usage écrite. | E-5, OUT-08, C-11, passation GPT-24 (sécurité) | Gagné : fin de l'exposition de Resend à tout projet Claude. Perdu : simplicité d'un compte unique | |
 | P-4 | Les exceptions D-003 (Donjon et Dragon) et D-004 (outil FP Conseils) restent hors de l'environnement. | D-003, D-004 | | |
 
@@ -22,7 +22,7 @@ Conventions : « Fondé sur » renvoie aux identifiants de `recouvrements.md` (C
 |---|---|---|---|---|
 | P-5 | L'agent CEO est le **point d'entrée principal mais non exclusif** : Dominic continue de parler directement aux outils spécialisés quand c'est plus simple (monteur DaVinci, recherchiste). Le CEO n'intercepte pas ces échanges; il en reçoit l'état. | D-007, Q-058 (a), R-1, D-010 | Gagné : pas de goulot. Perdu : rien | |
 | P-6 | Le CEO **coiffe** les chefs d'orchestre par projet; il ne les remplace pas. Un projet d'envergure garde son propre chef d'orchestre (ou en reçoit un), qui rend compte au CEO. | D-007, F-2, C-10, Q-058 (b) | Gagné : les cinq chefs d'orchestre actuels ont un modèle unique. Perdu : rien | |
-| P-7 | Le CEO **sait** : l'état de chaque activité et projet (statut, prochaine action, décisions validées, questions ouvertes, échéances), les méthodes à préserver, les principes de conception. Le CEO **ignore** : le contenu détaillé des dossiers clients, les secrets, les données de clients de clients, le contenu de travail des espaces (scripts, montages) sauf sur demande explicite de Dominic. | D-007 (1), Q-058 (c) et (e), P-2, P-3 | Gagné : mémoire transversale sans fuite entre espaces | |
+| P-7 | Le CEO **a accès à tout** (déclaré par Dominic le 2026-11-04 : « il a accès à tout ») : l'état de chaque activité et projet, les dossiers clients, le contenu de travail des espaces, les méthodes et principes. Le cloisonnement des espaces (P-1 à P-3) s'applique entre les outils et agents spécialisés, pas au CEO, qui est le seul à voir l'ensemble. Les secrets (clés, mots de passe) restent hors de toute mémoire d'agent, CEO compris (P-23). | D-007 (1), Q-058 (c) et (e) | Gagné : un seul point de vue complet, celui que Dominic a aujourd'hui dans sa tête | |
 | P-8 | La **gouvernance de Dominic est écrite une seule fois** et héritée par le CEO et par tout chef d'orchestre : analyse → recommandation → validation explicite de Dominic → exécution; distinction décision / action; aucune décision importante sans validation; prochaine action unique; registre des décisions avec statut (proposée / validée / abandonnée) et date. | C-10, D-000, D-007, passations CL-13 et GPT-24 | Gagné : fin de la réécriture à chaque projet. Perdu : les variantes locales, sauf si écrites comme telles | |
 | P-9 | La **proactivité du CEO est bornée** : il rappelle (échéances, questions ouvertes, décisions en attente, tâches de maintenance), il ne déclenche aucune action externe de sa propre initiative. Fréquence et canal des rappels fixés par Dominic et modifiables en tête de configuration. | D-007 (3), Q-058 (f), D-010, D-008 (paramètres en tête) | | |
 
@@ -70,7 +70,7 @@ Conventions : « Fondé sur » renvoie aux identifiants de `recouvrements.md` (C
 | Q4-5 points de contrôle | Colonne « Dominic seul » de 7b, jamais contournée (P-19); manutention réexaminée après usage (P-18) |
 | Q4-6 vocabulaire commun | Oui (P-12) |
 | Q4-7 mémoire des sponsors | Oui, minimale (P-17) |
-| Q-058 agent CEO | Principal non exclusif; coiffe; sait l'état, ignore le contenu; gouvernance héritée; rappels bornés (P-5 à P-9) |
+| Q-058 agent CEO | Principal non exclusif; coiffe; a accès à tout; gouvernance héritée; rappels bornés (P-5 à P-9) |
 
 ## Hors de ce document
 
