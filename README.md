@@ -24,6 +24,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | `elements-a-preserver.md` | Méthodes et éléments classés : à préserver absolument / si possible / peut être repensé / à clarifier |
 | `recouvrements.md` | Phase 3 : analyse transversale des doublons, silos, dépendances et points de répétition de contexte (observations et hypothèses, aucune décision) |
 | `principes-de-conception.md` | Phase 4 : règles que l'architecture cible doit respecter (proposées, puis validées une à une) |
+| `openclaw-capacites.md` | Ce qu'OpenClaw permet réellement, d'après sa documentation (lecture partielle, à compléter avant la phase 5) |
 | `questions-ouvertes.md` | Questions accumulées, à poser au bon moment |
 | `decisions.md` | Journal des décisions validées explicitement par Dominic |
 
