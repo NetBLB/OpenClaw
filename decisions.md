@@ -143,6 +143,13 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Non décidés, consignés comme tels** : hébergeur du serveur virtuel (Dominic n'a pas encore choisi; critères et préférence dans `cahier-de-construction.md`, section 2); première équipe à activer (Dominic n'a pas encore décidé et n'avait pas le répertoire des équipes en tête; répertoire fourni; choix reporté au bilan du premier mois, plan de transition étape 5).
 - **Validée par Dominic** : oui pour les deux premiers points.
 
+## D-017 – Plan de transition et cahier de construction validés, avec deux exigences ajoutées
+
+- **Date** : 2026-11-05
+- **Décision** : Dominic valide le plan de transition (« on va y aller comme ça ») et, par là, le cahier de construction, avec deux exigences explicites : (1) dès le jour 1, pouvoir ajouter de nouveaux projets et que le CEO les classe au bon endroit selon la structure établie (règle « Nouveau projet » dans AGENTS.md du CEO; test T-6); (2) pouvoir évaluer tout sous-agent développé, dire quand le travail n'est pas bon, et l'optimiser jusqu'à ce qu'il soit convenable (règle « Évaluation et amélioration d'un sous-agent »; `evaluations.md`, brief versionné, validateur, boucle de correction; principe P-32).
+- **Conséquence** : les documents de phase 6 passent en version 1.1; l'audit a produit ses huit livrables. Reste la remise à l'IA technique et la préparation par Dominic (étape 0).
+- **Validée par Dominic** : oui.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01

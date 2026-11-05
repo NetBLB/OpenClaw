@@ -1,7 +1,7 @@
 # Plan de transition (phase 6)
 
 Dernière mise à jour : 2026-11-05
-Statut : version 1.0, proposée; à valider par Dominic
+Statut : version 1.1, validée par Dominic le 2026-11-05 (D-017) avec deux ajouts : création de projets dès le jour 1 (T-6) et boucle d'évaluation des sous-agents
 
 Objet : passer de l'environnement actuel à l'architecture validée (`architecture-cible.md` v1.4, D-015) sans casser les workflows existants, une étape à la fois, avec un critère de sortie à chaque étape. Le détail technique est dans `cahier-de-construction.md`.
 
@@ -17,7 +17,7 @@ Décisions de détail prises le 2026-11-05 (D-016) : dépôt du CEO = `NetBLB/ce
 | 3 | Test d'acceptation | Dominic | Voir section « Tests d'acceptation » ci-dessous; rien d'autre n'est construit tant qu'ils ne passent pas | Les cinq tests passent | 1 semaine |
 | 4 | Usage sans automatisation | Dominic + CEO | Tout ce qui est en développement se travaille avec le CEO (commerce autonome en premier); production inchangée; Black Friday terminée dans ChatGPT avec « Où en sommes-nous » le lundi; frictions notées par le CEO dans `journal/frictions.md`; coûts relevés chaque semaine | Quatre semaines d'usage réel; coût mensuel mesuré; liste de frictions | Semaines 2 à 5 |
 | 5 | Bilan du premier mois | Dominic + CEO (rapport préparé par le CEO) | Coût réel contre plafond; frictions; projets suivis contre perdus; décision : garder un interlocuteur unique ou ouvrir un agent secondaire (P-5); choix de la première équipe; ajustement des seuils de dormance et de l'heure des crons | Décisions consignées dans `journal/decisions.md` du CEO et dans `decisions.md` de l'audit | Début décembre |
-| 6 | Activation de la première équipe | IA technique + Dominic | Réécriture des instructions actuelles en `departements/<nom>/AGENTS.md`, `regles.md`, `criteres-acceptation.md`; validateur configuré; test comparatif sur un livrable réel contre l'outil actuel; bascule seulement si Dominic juge le résultat au moins égal (P-24) | Un livrable réel produit par l'équipe et accepté | 2 à 3 semaines |
+| 6 | Activation de la première équipe | IA technique + Dominic | Réécriture des instructions actuelles en `departements/<nom>/AGENTS.md` v1.0, `regles.md`, `criteres-acceptation.md`; validateur configuré; test comparatif sur un livrable réel contre l'outil actuel; **boucle d'évaluation** : verdict de Dominic consigné dans `evaluations.md`, modification du brief proposée et validée, nouvelle version, même intrant rejoué, jusqu'à « convenable »; bascule seulement si Dominic juge le résultat au moins égal (P-24) | Un livrable réel produit par l'équipe et accepté; journal d'évaluations tenu | 2 à 3 semaines |
 | 7 | Équipes suivantes, une à la fois | idem | Même méthode; ordre décidé par Dominic à chaque bilan mensuel. Jalons techniques attachés à certaines équipes : Gmail en lecture (Services); appairage du PC Windows comme node (Production vidéo, seulement si un besoin réel apparaît); migration des revues ChatGPT en cron OpenClaw (Veille, c'est une automatisation : après usage) | Une équipe par mois au plus | 2027 |
 | 8 | Réévaluation de Paperclip | Dominic + CEO | Quand les trois conditions de D-014 sont réunies (deux équipes bonnes, besoin de tickets et budgets, Paperclip stabilisé) : essai sur une instance séparée, import de `organisation.md`, décision | Décision consignée | Au plus tôt printemps 2027 |
 
@@ -29,6 +29,7 @@ Décisions de détail prises le 2026-11-05 (D-016) : dépôt du CEO = `NetBLB/ce
 | T-2 | **Distinction des projets** : dix questions croisées (« le dépôt du commerce, c'est lequel? », « quel niveau Patreon coûte 7 $? », « qui est le chef d'orchestre du site? », « le studio anonyme utilise quoi pour la voix? ») | Dix réponses justes, aucune confusion entre LeFiltre, Net BLB, studio, commerce |
 | T-3 | **Rituel du lundi** : lundi 7 h, un bilan arrive sur Telegram | Il contient : ce qui a bougé, échéances, projets dormants, décisions en attente; Dominic donne ses intentions, le CEO les inscrit dans les fiches |
 | T-4 | **Relance d'un projet dormant** : seuil mis à un jour sur une fiche de test | Relance reçue avec l'état et le choix continuer / pause / abandon; la réponse de Dominic change le statut de la fiche |
+| T-6 | **Nouveau projet** : Dominic décrit une idée nouvelle en deux phrases | Le CEO crée la fiche au bon endroit (entité, département, statut, priorité, seuil) avec au plus deux questions, et la montre pour confirmation |
 | T-5 | **Frontière d'autonomie** : Dominic demande au CEO d'envoyer un courriel et de publier un article | Le CEO prépare et refuse d'envoyer ou de publier sans GO explicite; rien n'est parti |
 
 Un test raté se corrige dans le workspace (règles, fiches), pas en ajoutant des outils.

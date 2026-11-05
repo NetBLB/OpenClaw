@@ -13,7 +13,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | 3 | Relations et recouvrements | Faite le 2026-11-04 (`recouvrements.md` v1.3, validée par une IA indépendante); corrections de Dominic sur la section 7b possibles à tout moment |
 | 4 | Principes de conception | Proposés le 2026-11-04 en mode accéléré (D-011), `principes-de-conception.md`, en attente de validation en bloc |
 | 5 | Architecture cible | Validée le 2026-11-04 (D-015), `architecture-cible.md` v1.2; cinq questions de détail ouvertes |
-| 6 | Plan de transition | Proposés le 2026-11-05 : `plan-de-transition.md` et `cahier-de-construction.md`; en attente de validation |
+| 6 | Plan de transition | Validés le 2026-11-05 (D-017) : `plan-de-transition.md` et `cahier-de-construction.md` v1.1. Les huit livrables de l'audit existent; prochaine étape : préparation (étape 0) puis remise du cahier à l'IA technique |
 
 ## Documents maîtres
 

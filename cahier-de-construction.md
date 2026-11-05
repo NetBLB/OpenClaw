@@ -1,7 +1,7 @@
 # Cahier de construction : environnement OpenClaw de Dominic Lessard
 
 Dernière mise à jour : 2026-11-05
-Statut : version 1.0, proposée; à valider par Dominic avant remise à l'IA technique
+Statut : version 1.1 (règles « nouveau projet » et « évaluation et amélioration d'un sous-agent » ajoutées à la demande de Dominic); plan validé (D-017)
 Destinataire : une IA technique (Claude Code ou équivalent) qui construit l'environnement **sans réinventer l'architecture**. Toute décision d'architecture est déjà prise (`architecture-cible.md` v1.4, `decisions.md` D-006 à D-016). En cas de doute, l'IA technique pose la question à Dominic; elle ne tranche pas.
 
 ## 0. Consignes à l'IA technique
@@ -125,6 +125,27 @@ tu challenges, tu proposes, tu signales ce que Dominic ne voit pas.
   on abandonne? » Enregistre la réponse. Une relance, puis silence jusqu'à réponse ou seuil
   suivant; après deux relances sans réponse, propose la pause au lundi suivant.
 
+## Nouveau projet
+- Quand Dominic dit « nouvelle idée », « nouveau projet », « nouveau mandat » ou décrit quelque chose
+  qui n'a pas de fiche : crée la fiche depuis projets/_gabarit.md; propose entité, département,
+  statut, priorité et seuil de dormance d'après organisation.md; pose au plus deux questions si
+  c'est ambigu; montre le classement en une ligne et attends la confirmation. Ne laisse jamais un
+  projet sans fiche ni sans département.
+
+## Évaluation et amélioration d'un sous-agent
+- Chaque sous-agent (département actif) a : un brief versionné (departements/<nom>/AGENTS.md,
+  version en tête), des critères d'acceptation, un dossier lecons/ et un journal
+  departements/<nom>/evaluations.md (date, livrable, verdict de Dominic, problème, correction,
+  version du brief).
+- Avant de montrer un livrable à Dominic, fais-le relire par le validateur.
+- Quand Dominic dit qu'un travail n'est pas bon : consigne le verdict et la raison; propose une
+  modification précise du brief (avant / après); après validation, incrémente la version; refais
+  le même intrant avec le nouveau brief; recommence jusqu'à ce que Dominic juge le résultat
+  convenable. Ne modifie jamais un brief sans sa validation.
+- Suis le taux d'acceptation de chaque sous-agent; donne-le au bilan mensuel. Un sous-agent qui
+  ne s'améliore pas après trois versions est remis en question avec Dominic (reformuler le poste,
+  scinder, ou rendre la tâche à l'outil actuel).
+
 ## Délégation
 - Les départements sont décrits dans organisation.md. Un département dormant a seulement une
   fiche d'état; un département actif a un AGENTS.md que tu donnes comme brief au sous-agent.
@@ -180,7 +201,7 @@ Import initial : les 20 fiches de la base ART-02 (export en section 6b de `inven
 Commerce autonome : la fiche renvoie au dépôt GH-04; la passation `PASSATION-COMPLETE-commerce-autonome-IA.md` (fournie par Dominic) est copiée dans ce dépôt comme état de référence, avec son registre de décisions D-001 à D-012 **préfixé « COM- »** pour éviter la collision avec les décisions de l'audit et du CEO.
 
 ### 5.7 `departements/<nom>/`
-Pour chacun des dix départements de `organisation.md` : `etat.md` (ce qui existe aujourd'hui, où, outils, fiche des projets rattachés); `archive/` : copie des instructions actuelles correspondantes (fichiers lus pendant l'audit : sponsors, montage, recherchiste, vidéo éditoriale, Patreon-Trucs, éditeur, remarketing, campagne Black Friday; Dominic fournit celles qui manquent); `AGENTS.md` **vide** avec un en-tête « Équipe dormante : règles à écrire à l'activation (plan de transition, étape 6) ». Aucune règle n'est réécrite avant l'activation de l'équipe.
+Pour chacun des dix départements de `organisation.md` : `etat.md` (ce qui existe aujourd'hui, où, outils, fiche des projets rattachés); `archive/` : copie des instructions actuelles correspondantes (fichiers lus pendant l'audit : sponsors, montage, recherchiste, vidéo éditoriale, Patreon-Trucs, éditeur, remarketing, campagne Black Friday; Dominic fournit celles qui manquent); `AGENTS.md` **vide** avec un en-tête « Équipe dormante : règles à écrire à l'activation (plan de transition, étape 6) »; `criteres-acceptation.md`, `lecons/` et `evaluations.md` vides mais présents (la boucle d'évaluation existe avant la première équipe). Aucune règle n'est réécrite avant l'activation de l'équipe.
 
 ### 5.8 `commun/` (sept fichiers, seeds depuis l'audit, **relus et corrigés par Dominic** à l'étape 2)
 
