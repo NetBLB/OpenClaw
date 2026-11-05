@@ -1,7 +1,7 @@
 # Architecture cible OpenClaw (phase 5)
 
 Dernière mise à jour : 2026-11-04
-Statut : version 1.0, **proposée** (D-011, D-014); devient validée section par section quand Dominic le dit. Tout ce qui est écrit ici est une recommandation sauf mention « validé ».
+Statut : version 1.1 (section 7 corrigée : développement avec le CEO dès le jour 1, production en place), **proposée** (D-011, D-014); devient validée section par section quand Dominic le dit. Tout ce qui est écrit ici est une recommandation sauf mention « validé ».
 
 Base : décisions D-006 à D-014, principes P-1 à P-31, `recouvrements.md`, `openclaw-capacites.md`. Règle de conception : s'adapter à la façon de travailler de Dominic et à sa vision (D-012, D-013), pas transposer ses projets actuels un à un.
 
@@ -11,7 +11,7 @@ Un **serveur virtuel Linux** fait tourner OpenClaw en permanence. Dessus, **un s
 
 L'entreprise est écrite dès le départ comme un **organigramme** (CEO, chefs d'équipe par département, agents spécialisés, D-013), mais seul le CEO tourne au jour 1; les équipes s'activent une à la fois (P-31). Le format des fichiers est celui qu'attend Paperclip, pour y brancher l'organisation plus tard (D-014).
 
-Ce qui marche aujourd'hui **reste en place** : le montage dans Claude Desktop, le studio anonyme dans Claude avec son dépôt, les projets ChatGPT (clients, machines Patreon, chef du commerce), les tâches planifiées ChatGPT. Le CEO en connaît l'état par les fiches de projet et par ce que Dominic lui rapporte (P-24).
+Règle de partage (corrigée le 2026-11-04 sur remarque de Dominic) : **tout ce qui est en développement se travaille avec le CEO dès le jour 1**, parce que c'est là que l'état compte; **les machines de production** (montage, rédaction Patreon, extraction, remarketing, studio anonyme, tâches planifiées) restent où elles sont et ne remontent au CEO que leurs résultats, puis migrent une équipe à la fois (P-24). Aucun projet en développement ne se travaille hors du CEO, sauf si son état vit dans un fichier que le CEO lit.
 
 ## 2. Vue d'ensemble
 
@@ -51,8 +51,8 @@ Drop shiping) ; tâches planifiées ChatGPT ; Metricool ; Thinkific ; Higgsfield
 | Chef d'équipe | Net BLB · Services | Un dossier par client (Gmail en lecture, P-29), mandats, procédures, propositions | GPT-01, 02, 05, 08, 10, 11, 12, 13, 14; OUT-09, OUT-10 | Équipe 4 (premier bénéfice concret de Gmail connecté) |
 | Chef d'équipe | Net BLB · Site et marketing | Site netblb.com, SEO/GEO, questionnaire PM, LinkedIn | GH-03, AUTO-01, OUT-05, PRJ-08, PRJ-18 | Plus tard; AUTO-01 reste une tâche ChatGPT dont le CEO reçoit le rapport |
 | Chef d'équipe | Studio anonyme | Chaîne anglophone | CL-13, GH-01, CL-15, CL-16 | **Reste dans Claude** (Maître + sous-agents, méthode à préserver); fiche d'état seulement; identité publique séparée (P-3) |
-| Chef d'équipe | Commerce autonome | Dropshipping | GPT-24, GH-04 | **Reste dans ChatGPT** (chef d'orchestre en place, dépôt vide); fiche d'état; bascule quand Dominic le décide |
-| Chef d'équipe | Veille | Patch Tuesday, actualité, revues SEO | AUTO-01, AUTO-04, GPT-16 | Les tâches ChatGPT restent; le CEO en reçoit les sorties (collées par Dominic au début); migration en cron OpenClaw = automatisation, donc après usage (D-010) |
+| Chef d'équipe | Commerce autonome | Dropshipping | GPT-24 (passation), GH-04 | **Repris par le CEO dès le jour 1** : la passation de GPT-24 a été écrite pour un relais, elle est remise au CEO; le dépôt GH-04 devient le dossier du projet, lu et écrit par le CEO (ou un sous-agent « chef du commerce » avec le brief de la passation). Premier projet test du critère du jour 1 |
+| Chef d'équipe | Veille | Patch Tuesday, actualité, revues SEO | AUTO-01, AUTO-04, GPT-16 | Les tâches ChatGPT restent (production); le CEO en reçoit les sorties (collées par Dominic au début); migration en cron OpenClaw = automatisation, donc après usage (D-010) |
 | Transversal | Validateur | Relit un livrable avec les règles seulement | CL-13 validateur, validation de l'audit | Jour 1, comme compétence (skill) disponible au CEO |
 
 Lecture : dix départements sur le papier, **un agent qui tourne**. Chaque département est d'abord un dossier (fiche d'état, règles, connaissances); il devient une équipe active quand ses règles, son validateur et son critère d'acceptation sont écrits et que Dominic le décide (P-31).
@@ -117,15 +117,20 @@ Import initial (phase 6) : les 20 fiches ART-02; les instructions des projets Cl
 - **Jamais** : envoyer, publier, dépenser, créer un compte, modifier une source sans GO; prendre une décision éditoriale; contourner un point de contrôle de la section 7b.
 - **Passation** : à chaque séance importante, réécrit `PASSATION.md`; si une conversation sature ou si OpenClaw est réinstallé, rien n'est perdu.
 
-## 7. Ce qui ne change pas à l'installation (et pourquoi)
+## 7. Développement avec le CEO, production en place
+
+**Travaillé avec le CEO dès le jour 1 (état dans `projets/` ou dans le dépôt du projet)** : le commerce autonome (passation GPT-24 remise au CEO, dépôt GH-04); les 11 idées et 4 conceptions du registre (application senior, analyse.lefiltre.com, questionnaire PM, formation IA pour chefs d'entreprise, canaux Shorts personnels, chroniqueur, guide Windows 11, etc.); le présent projet OpenClaw lui-même après la phase 6; toute nouvelle idée. Les ateliers d'idéation ChatGPT correspondants (GPT-09, « IA » de PRJ-11, PRJ-13…) sont lus une fois, résumés dans la fiche, puis cessent d'être le lieu de travail.
+
+**Cas particulier** : la campagne Black Friday (GPT-23, 45 %, fin le 30 novembre) : terminée dans ChatGPT pour ne pas la déplacer en pleine course; « Où en sommes-nous » collé au CEO chaque lundi; bilan et modèle reproductible importés le 1er décembre. Basculée tout de suite si Dominic le préfère.
+
+**Machines de production qui restent en place (et pourquoi)** : elles produisent des résultats, pas de l'état de projet; le CEO n'a besoin que du résultat.
 
 | Élément | Reste | Raison | Le CEO en sait quoi |
 |---|---|---|---|
 | Montage DaVinci (CL-01, CL-02) | Claude Desktop sur le PC | Accès machine, API Resolve, forfait Claude valable; méthode à préserver | Fiche « Production vidéo » : vidéos en cours, leçons; Dominic lui dit quand une vidéo est sortie |
 | Studio anonyme (CL-13) | Claude + GH-01 | Système le plus abouti, en test; identité séparée | Fiche d'état, lue depuis `PASSATION.md` du dépôt studio-explainer |
-| Projets ChatGPT clients | ChatGPT | Dossiers de mandats; migration vers l'équipe Services quand elle s'active | Fiches clients construites depuis Gmail (lecture) |
+| Projets ChatGPT clients | ChatGPT (traitement des mandats courants) | Dossiers de mandats = production de services; migration vers l'équipe Services quand elle s'active | Fiches clients construites depuis Gmail (lecture) dès l'équipe 4; d'ici là, état inconnu du CEO sauf rapport de Dominic |
 | Machines Patreon, extraction, rédaction | ChatGPT | Fonctionnent; migrer = réécrire des règles, une équipe à la fois | Fiche « Communauté » |
-| Chef du commerce (GPT-24) | ChatGPT + GH-04 | Chef d'orchestre en place, passation récente | Fiche d'état; le CEO lit le dépôt du commerce quand il sera rempli |
 | Tâches planifiées ChatGPT | ChatGPT | Automatisations existantes conservées (D-010) | Dominic colle les rapports; plus tard, cron OpenClaw |
 | Remarketing (CL-05) | Claude + Resend | Seul agent qui écrit vers l'extérieur; isolé | Fiche « Communauté » |
 | Horaire éphémère (ART-01), registre (ART-02) | ART-01 reste; ART-02 est remplacé par `projets/` | D-012 | Le registre devient sa mémoire |
@@ -141,6 +146,7 @@ Import initial (phase 6) : les 20 fiches ART-02; les instructions des projets Cl
 
 | Risque | Parade |
 |---|---|
+| Un projet en développement est travaillé ailleurs et son état échappe au CEO (remarque de Dominic) | Règle de la section 7 : développement = avec le CEO; production = en place; tout projet travaillé ailleurs doit avoir un état en fichier lisible par le CEO |
 | Le CEO mélange les projets (échec du critère du jour 1, P-30) | Une fiche par projet, un dossier par département, nommage strict; test d'acceptation en phase 6 avant tout le reste |
 | Dérive de la mémoire automatique (Dreaming promeut des erreurs) | Relecture hebdomadaire de MEMORY.md; les fichiers du dépôt priment (P-15) |
 | Coût qui dérape | Plafond dans la console; heartbeat réduit; sous-agents sur modèle intermédiaire |
