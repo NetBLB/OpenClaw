@@ -8,8 +8,8 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
+| Q-060 | Registre ART-02 : les fiches « Campagne Black Friday » (PRJ-20) et « NetBLB page questionnaire IA pour PM » (PRJ-18) pointent vers la même conversation ChatGPT que « IA Chef » du site NetBLB (PRJ-08). Cette conversation est-elle un chef d'orchestre général réutilisé pour plusieurs projets, ou s'agit-il de liens collés par erreur (la campagne a son projet GPT-23)? | ART-02, GPT-23 | 1 | Basse | 2026-11-04 |
 | Q-058 | Agent « CEO » (D-007) : point d'entrée exclusif ou principal? Remplace ou coiffe les chefs d'orchestre par projet? Ce qu'il doit savoir en permanence et ce qu'il doit ignorer (cloisonnement)? Gouvernance à lui appliquer? | Architecture cible | 4 | Haute (structure l'architecture) | 2026-11-04 |
-| Q-056 | GPT-24 « Commerce autonome IA » : est-ce un projet ChatGPT ou un GPT personnalisé (la passation dit « GPT personnalisé », Dominic dit « projet »)? Nom exact tel qu'il apparaît dans ChatGPT? La conversation ChatGPT qui a rédigé la passation est-elle conservée (épinglée) ou considérée comme terminée? Le projet est-il inscrit dans le registre ART-02? | GPT-24 | 1 | Moyenne | 2026-11-04 |
 | Q-057 | Dépôt GH-04 du commerce autonome : nom et URL; sous l'organisation NetBLB? Qui l'initialisera : le GPT (si ChatGPT a un accès GitHub en écriture) ou Dominic à partir de fichiers produits par le GPT? | GH-04 | 1 | Basse (utile en phase 4 : rôle de GitHub par activité) | 2026-11-04 |
 | Q-055b | Proportion des articles Patreon qui passent par l'Éditeur Claude (CL-08) : la plupart, ou seulement certains? | CL-08 | 2 | Basse | 2026-11-01 |
 | Q-001c | Fichier `pipeline technique resolve` (créé par Claude, inconnu de Dominic) : à lire pour savoir ce que Claude s'est documenté. Mécanisme du connecteur désormais observé (2026-11-04) : MCP local « DaVinci Resolve Studio » exposant l'API de scripting Resolve (voir OUT-03); la question ne porte plus que sur le contenu du fichier. | CL-02 | 2 | Basse | 2026-11-01 |
@@ -41,6 +41,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Réponse | Date |
 |---|---|---|---|
+| Q-056 | GPT-24 : projet ou GPT, nom exact, inscrit dans ART-02? | Projet ChatGPT nommé « Drop shiping » (URL de projet dans ART-02); inscrit au registre comme PRJ-19 (Conception, haute). Conservation de la conversation d'origine de la passation : non précisée. | 2026-11-04 |
 | Q-059 | L'automatisation Make.com de surveillance YouTube existe-t-elle encore? | Non : c'était une expérience et une vidéo sponsorisée pour Make. Hors inventaire. La mémoire Claude du compte (OUT-11) la décrit encore : exemple de contenu de mémoire périmé. | 2026-11-04 |
 | Q-001 | Par quel mécanisme Claude travaille-t-il dans DaVinci Resolve? | Réponse de Dominic : Claude a un accès complet à sa machine et travaille en arrière-plan directement dans DaVinci Resolve (via un connecteur DaVinci Resolve observé dans CL-02). Reliquat technique déplacé en Q-001b. | 2026-11-01 |
 | Q-006 | Relation entre le projet CL-04 et le Skill `fp-conseils-proposition-coaching`? | Trois couches distinctes et complémentaires : instructions du projet = règles métier; Skill = méthode d'exécution (manipulation du gabarit et génération du .pptx); gabarit PowerPoint = contenant. Voir inventaire CL-04 et SK-01. | 2026-11-01 |

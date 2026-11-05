@@ -94,6 +94,23 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquences** : `principes-de-conception.md` est rédigé d'un bloc avec des réponses proposées aux questions Q4 et Q-058; les questions ouvertes non structurantes (27) ne sont plus posées une à une mais traitées dans OpenClaw.
 - **Validée par Dominic** : oui (déclaration du 2026-11-04).
 
+## D-012 – Vision cible déclarée par Dominic (réponses aux dix questions de cadrage)
+
+- **Date** : 2026-11-04
+- **Statut** : déclarations de Dominic, consignées comme contraintes et objectifs de la phase 5. Là où Dominic dit « je ne sais pas », c'est consigné comme tel; rien n'est complété à sa place.
+- **Hébergement** : OpenClaw tournera sur un **serveur virtuel**, pas sur le PC. Éventuellement, une **IA locale** pour les tâches moins complexes. Dominic ne sait pas ce qu'est concrètement une « tâche plus simple »; à expliciter en phase 5.
+- **Canaux** : PC et téléphone, les deux.
+- **Rituel du lundi** : « On en est où par rapport à la semaine passée? Voici ce que j'ai l'intention de faire cette semaine. » Le CEO répond : échéances, projets non regardés depuis longtemps. Il **gère les tâches planifiées** (revues d'actualité, Patch Tuesday, revues SEO des sites). Dans la journée : « On travaille sur tel projet », le CEO le fait avancer et **supervise l'avancement** de tous les projets.
+- **Registre des projets** : le CEO **remplace** l'outil « Projets LeFiltre » (ART-02) : il conserve tous les projets et idées, leur état, et les liens vers les IA qui y travaillent (« un petit CRM de projets »). Réponse à P-16.
+- **Un ou plusieurs interlocuteurs** : idéal = **un seul** « qui fonctionne du tonnerre »; plusieurs seulement si ça ne fonctionne pas bien. Dominic n'a jamais utilisé OpenClaw; décision à l'usage.
+- **Fournisseur et coût** : idéal = **un seul fournisseur** plus une IA locale pour les tâches simples. Pas de budget chiffré donné.
+- **Gmail** : Dominic **accepte** de donner ses connexions à ses comptes courriel. Lève le silo S-1 (vérité des mandats clients).
+- **ChatGPT** : idéal = **tout dans OpenClaw**; réserve : retour possible vers ChatGPT si OpenClaw ne convient pas.
+- **Séparation des activités** : côté **public** (auditeurs, clients, web), personne ne doit pouvoir relier la chaîne anonyme, le commerce, LeFiltre et Net BLB. Côté **interne**, l'agent traite le tout « comme une grosse compagnie avec différents départements ». Reformule P-1 et P-3 : le cloisonnement porte sur les identités et comptes publics, pas sur la connaissance interne.
+- **Jour 1** : (1) parler à **un seul agent qui comprend tous les projets et les distingue** sans les mélanger (implications, fonctionnement, état); (2) une fois cette compréhension acquise, qu'il **aide à améliorer, automatiser, penser à ce que Dominic ne pense pas**; (3) **déléguer pour réduire la charge mentale** (« beaucoup de projets en même temps, mon cerveau veut exploser »). Critère d'acceptation implicite du prototype : le CEO distingue correctement les projets.
+- **Ce que Dominic garde pour lui** : ce que l'agent ne saura pas faire de façon adéquate selon ses critères; rien de défini a priori.
+- **Validée par Dominic** : oui (déclarations du 2026-11-04).
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01
