@@ -1,7 +1,7 @@
 # Relations et recouvrements (phase 3)
 
 Dernière mise à jour : 2026-11-04
-Statut : version 1.2 (2026-11-04); v1.1 corrigée après validation par une IA indépendante (21 énoncés nuancés, 2 citations corrigées, 3 recommandations déguisées retirées, 6 omissions ajoutées); à compléter avec Dominic
+Statut : version 1.3 (2026-11-04, section 7b ajoutée); v1.1 corrigée après validation par une IA indépendante (21 énoncés nuancés, 2 citations corrigées, 3 recommandations déguisées retirées, 6 omissions ajoutées); à compléter avec Dominic
 
 Objet : vue transversale de l'écosystème. Où la même connaissance est répétée, où la même fonction est reproduite, où l'information est enfermée, de quoi chaque système dépend sans le dire, et où Dominic répète du contexte à la main.
 
@@ -155,6 +155,27 @@ Lecture (O) : les systèmes qui ont un dépôt (DEP-4, DEP-6) ont leurs dépenda
 Lecture (O) : le copier-coller est le **mécanisme d'intégration universel** de l'écosystème. Dominic contrôle chaque transfert, et chaque maillon est manuel. R-1, R-9, R-10 et R-11 sont des répétitions de contexte au sens strict; R-2 à R-8 sont des transferts de données dans une chaîne de production; R-12 est une boucle d'apprentissage (H). Les trois ne posent pas la même question. Savoir si ces maillons sont une perte de temps ou un contrôle voulu relève de Dominic (sections « ce qui fonctionne bien / ce qui fait perdre du temps » de `workflows-actuels.md`, encore vides).
 
 Q4-5 : parmi ces points, lesquels Dominic considère-t-il comme des pertes de temps réelles, et lesquels comme des points de contrôle qu'il veut garder (la séparation recherche / rédaction / édition est déjà déclarée voulue)?
+
+## 7b. Découpage de chaque point de répétition (H, à corriger par Dominic)
+
+Dominic a précisé (2026-11-04) que « contrôle ou perte de temps » est un découpage trop simple : pour plusieurs points, il n'a pas le choix (il doit dire à Claude où est le projet; il met lui-même la vidéo en ligne et remplit la description YouTube). Découpage retenu : ce que Dominic seul peut fournir ou faire; ce qui est imposé par les outils actuels; ce qui est de la pure manutention. Les deux premières colonnes sont des contraintes pour toute architecture; la troisième est la seule où du temps peut être rendu sans rien retirer. Lecture de l'IA, non encore corrigée.
+
+| # | Dominic seul peut le fournir ou le faire | Imposé par les outils actuels | Pure manutention |
+|---|---|---|---|
+| R-1 | Dire quel projet Resolve et quelle timeline monter (déclaré) | | Répéter le rappel des instructions |
+| R-2 | Mettre la vidéo en ligne et remplir la description sur YouTube (déclaré) | La transcription doit être fournie à l'IA qui rédige | Copier la transcription vers ChatGPT, puis le résultat vers YouTube |
+| R-3 | Décider quels Shorts partent | Metricool reçoit vidéos et textes par son interface | Copier titres et descriptions un à un |
+| R-4 | Choisir ce qui est gardé du dossier de recherche (contrôle voulu, D-008) | | Copier le dossier vers la feuille de notes ou l'autre IA |
+| R-5 | Lire l'article et décider de publier (contrôle voulu); publier dans Patreon | | Copier l'article deux fois |
+| R-6 | Choisir l'ancien article à extraire | Publier la fiche dans Patreon | Copier l'article, puis la fiche |
+| R-7 | Décider quoi renégocier | | Recoller le contrat; réexpliquer l'historique du sponsor (S-9) |
+| R-8 | Qualifier la demande du client | Gmail inaccessible à l'IA (S-1) : collage obligatoire | Le collage; le contexte client jamais formalisé (S-13) |
+| R-9 | Lire les chiffres sur YouTube et Patreon | | Les ressaisir dans quatre jeux d'instructions |
+| R-10 | Planifier la semaine | L'outil HTML ne communique pas avec l'IA | Copier l'état |
+| R-11 | Rien d'irréductible | Saturation des conversations | Toute la passation |
+| R-12 | Juger qu'un extrait est une leçon | | Passer par l'atelier ChatGPT puis réécrire les instructions |
+
+Q4-5 est reformulée en conséquence : pour chaque ligne, Dominic corrige le découpage; la colonne « imposé par les outils » sera réexaminée en phase 5 outil par outil, sans présumer de ce qu'un outil permet.
 
 ## 8. Ce qui devrait potentiellement être partagé, et ce qui devrait probablement rester isolé
 
