@@ -95,4 +95,11 @@ Sources : github.com/mudrii/openclaw-dashboard; github.com/ChristianAlmurr/openc
 
 Sources complémentaires : github.com/paperclipai/paperclip (README, issues, discussions 1729 et 13396, issues 49, 2127, 2553, 5947); docs.paperclip.ing/guides/org/agents; paperclip.community « Chat with CEO »; thehackernews.com (2026-08-05); vibecoding.app, theaiarchitects.com, dev.to (revues); docs.openclaw.ai/concepts/oauth; shippingskool.com, kersai.com, openclaw.report, alternativeto.net (politique Anthropic, avril 2026).
 
+## Compléments lus le 2026-11-04 (soir) : hébergement, nodes, courriel
+
+- **Hébergement** : Gateway sur macOS, Linux ou Windows via WSL2; Node.js 22+ (24 recommandé); installation par script officiel; service système (`openclaw onboard --install-daemon`); guides VPS convergents sur 2 à 4 Go de RAM, 2 vCPU, Ubuntu; interface web atteinte par tunnel SSH ou Tailscale, jamais exposée; Telegram = canal le plus simple (jeton BotFather), WhatsApp par lien QR.
+- **Nodes** : un appareil compagnon (macOS, iOS, Android, Windows, sans tête) se connecte au Gateway par WebSocket avec appairage manuel; expose des commandes déclarées (écran, caméra, notifications, système); `system.run` seulement par liste blanche et rôle administrateur; nodes Windows pris en charge avec commandes sûres par défaut. C'est le pont possible entre un serveur et le PC de Dominic.
+- **Courriel** : pas de bouton « connecter Google »; trois voies : IMAP avec mot de passe d'application (skills `gmail-imap`, `imap-client` en lecture seule), API Gmail par OAuth (étiquettes, brouillons), ou intégration Google Workspace complète. Les sources convergent : IMAP en lecture pour commencer.
+- **Non vérifié** : la page officielle « multi-agent routing » (autorisation de lecture non obtenue dans cette session).
+
 Sources : docs.openclaw.ai (concepts/agent, concepts/agent-workspace, concepts/memory, tools/skills, tools, reference/templates/AGENTS); articles tiers (dev.to, hackernoon, betterclaw.io, openclawmcp.com, learnopenclaw.com); issue GitHub openclaw/openclaw n° 16053.

@@ -12,7 +12,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | 2 | Compréhension | Close le 2026-11-01 (D-005). Fiches A1 à A4 et B1 dans `inventaire.md` section 10 |
 | 3 | Relations et recouvrements | Faite le 2026-11-04 (`recouvrements.md` v1.3, validée par une IA indépendante); corrections de Dominic sur la section 7b possibles à tout moment |
 | 4 | Principes de conception | Proposés le 2026-11-04 en mode accéléré (D-011), `principes-de-conception.md`, en attente de validation en bloc |
-| 5 | Architecture cible | Autorisée le 2026-11-04 (D-014); en cours de rédaction |
+| 5 | Architecture cible | Proposée le 2026-11-04 dans `architecture-cible.md` (D-014); en attente de validation |
 | 6 | Plan de transition | À venir |
 
 ## Documents maîtres
@@ -24,6 +24,7 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | `elements-a-preserver.md` | Méthodes et éléments classés : à préserver absolument / si possible / peut être repensé / à clarifier |
 | `recouvrements.md` | Phase 3 : analyse transversale des doublons, silos, dépendances et points de répétition de contexte (observations et hypothèses, aucune décision) |
 | `principes-de-conception.md` | Phase 4 : règles que l'architecture cible doit respecter (proposées, puis validées une à une) |
+| `architecture-cible.md` | Phase 5 : architecture OpenClaw proposée, chaque choix justifié; organigramme, dépôt « siege », composants, coûts, risques |
 | `openclaw-capacites.md` | Ce qu'OpenClaw permet réellement, d'après sa documentation (lecture partielle, à compléter avant la phase 5) |
 | `questions-ouvertes.md` | Questions accumulées, à poser au bon moment |
 | `decisions.md` | Journal des décisions validées explicitement par Dominic |
