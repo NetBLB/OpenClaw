@@ -12,8 +12,8 @@ La mémoire du projet Claude sert au travail conversationnel; ce dépôt conserv
 | 2 | Compréhension | Close le 2026-11-01 (D-005). Fiches A1 à A4 et B1 dans `inventaire.md` section 10 |
 | 3 | Relations et recouvrements | Faite le 2026-11-04 (`recouvrements.md` v1.3, validée par une IA indépendante); corrections de Dominic sur la section 7b possibles à tout moment |
 | 4 | Principes de conception | Proposés le 2026-11-04 en mode accéléré (D-011), `principes-de-conception.md`, en attente de validation en bloc |
-| 5 | Architecture cible | Proposée le 2026-11-04 dans `architecture-cible.md` (D-014); en attente de validation |
-| 6 | Plan de transition | À venir |
+| 5 | Architecture cible | Validée le 2026-11-04 (D-015), `architecture-cible.md` v1.2; cinq questions de détail ouvertes |
+| 6 | Plan de transition | À rédiger (plan de transition + cahier de construction) |
 
 ## Documents maîtres
 

@@ -128,6 +128,14 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Conséquence** : la phase 5 (architecture cible) est autorisée et conçue sur cette base.
 - **Validée par Dominic** : oui (« OK j'accepte ta recommandation », 2026-11-04).
 
+## D-015 – Architecture cible validée (v1.2)
+
+- **Date** : 2026-11-04
+- **Décision** : Dominic accepte `architecture-cible.md` telle que corrigée (« Tu as raison, j'accepte tes propositions ») : CEO unique sur serveur virtuel; dépôt « siege » comme mémoire; organigramme à dix départements activés un à la fois; développement travaillé avec le CEO dès le jour 1, machines de production en place; commerce autonome repris par le CEO via sa passation; Black Friday terminée dans ChatGPT puis importée; composants, coûts et risques de la section 5 à 9. Restent ouvertes les cinq questions de la section 10 (nom du dépôt, canal mobile, hébergeur, première équipe, canal des rappels).
+- **Scénario ajouté par Dominic** : perte du fil entre deux séances espacées (trois projets travaillés un soir, retour une semaine plus tard). Le CEO fait la clôture de séance (décisions, suspens, prochaine action, « reprendre ici ») et la reprise; c'est le test d'acceptation n° 1 du prototype.
+- **Conséquence** : la phase 6 (plan de transition et cahier de construction) peut être rédigée.
+- **Validée par Dominic** : oui.
+
 ## D-002 – Structure minimale du dépôt
 
 - **Date** : 2026-11-01

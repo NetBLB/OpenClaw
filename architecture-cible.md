@@ -1,7 +1,7 @@
 # Architecture cible OpenClaw (phase 5)
 
 Dernière mise à jour : 2026-11-04
-Statut : version 1.1 (section 7 corrigée : développement avec le CEO dès le jour 1, production en place), **proposée** (D-011, D-014); devient validée section par section quand Dominic le dit. Tout ce qui est écrit ici est une recommandation sauf mention « validé ».
+Statut : version 1.2, **validée par Dominic le 2026-11-04 (D-015)** à l'exception des cinq questions de la section 10, encore ouvertes. Section 7 corrigée (développement avec le CEO, production en place) et scénario de clôture / reprise ajouté à sa demande.
 
 Base : décisions D-006 à D-014, principes P-1 à P-31, `recouvrements.md`, `openclaw-capacites.md`. Règle de conception : s'adapter à la façon de travailler de Dominic et à sa vision (D-012, D-013), pas transposer ses projets actuels un à un.
 
@@ -115,6 +115,7 @@ Import initial (phase 6) : les 20 fiches ART-02; les instructions des projets Cl
 - **Dans la journée** : « on travaille sur X » : le CEO ouvre la fiche, résume l'état, propose la prochaine action; s'il faut produire, il délègue à un sous-agent avec le brief du département, vérifie le résultat (validateur si enjeu), rend compte; Dominic valide; le CEO met à jour la fiche et le journal.
 - **À tout moment** : « on en est où avec Cité Joie? » : lecture de la fiche client (alimentée par Gmail en lecture dès l'équipe 4) et réponse directe.
 - **Jamais** : envoyer, publier, dépenser, créer un compte, modifier une source sans GO; prendre une décision éditoriale; contourner un point de contrôle de la section 7b.
+- **Clôture et reprise de séance (scénario donné par Dominic le 2026-11-04)** : Dominic travaille plusieurs projets le même soir, puis n'y revient qu'une semaine plus tard et a perdu le fil. Le CEO écrit, à la fin de chaque séance (« j'arrête », fin de conversation, ou cron de fin de journée), dans la fiche de chaque projet touché : décisions prises, points en suspens, prochaine action, « reprendre ici ». À la reprise, il sert ces trois lignes par projet avant toute autre chose. C'est la passation, faite par le CEO à chaque fois, sans effort de Dominic. **Test d'acceptation n° 1 du prototype** (P-30) : trois projets travaillés un soir, retour une semaine plus tard, « où en étais-je? », réponse juste pour les trois.
 - **Passation** : à chaque séance importante, réécrit `PASSATION.md`; si une conversation sature ou si OpenClaw est réinstallé, rien n'est perdu.
 
 ## 7. Développement avec le CEO, production en place
