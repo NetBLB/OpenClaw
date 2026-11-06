@@ -36,7 +36,7 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Décision** : le projet Claude « FPconseils, proposition Coaching » (CL-04), le Skill `fp-conseils-proposition-coaching` (SK-01) et la copie ChatGPT « Proposition de Coaching » (GPT-04) relèvent d'un mandat unique pour le client FP Conseils. À la fin du mandat, Dominic effacera tout. Ces éléments ne doivent pas être intégrés à l'environnement LeFiltre / Net BLB ni à la future architecture.
 - **Raison** : livrable destiné au client, pas un actif de Dominic.
 - **Conséquences** : l'audit documente ces éléments pour la *méthode* (livraison d'outils IA à des clients, deux autres outils prévus pour ce client), pas pour les intégrer. Le projet client « FP CONSEILS » (GPT-05, mandats) reste, lui, dans le périmètre comme les autres clients.
-- **Validée par Dominic** : oui (déclaration du 2026-11-01). **Amendée par D-019 (2026-11-05)** : les outils FP Conseils sont traités dans l'espace client FP Conseils de l'environnement; seul l'effacement à la fin du mandat reste à reconfirmer (Q-I).
+- **Validée par Dominic** : oui (déclaration du 2026-11-01). **Amendée par D-019 (2026-11-05)** : tout ce qui est FP Conseils (outils, transcriptions, mandats) est traité dans l'espace client FP Conseils de l'environnement; l'effacement à la fin du mandat n'est plus une règle : Dominic décidera au cas par cas et penche pour conserver, afin de garder la connaissance (Q-I).
 
 ## D-005 – Clôture de la phase 2 (compréhension)
 
@@ -171,7 +171,7 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
   - P-1 : tout nouveau projet est traité comme les autres dès son ajout.
   - P-2 : les données d'un client ne voyagent pas vers un autre client, mais le savoir-faire circule (« tu as déjà eu ce problème avec le client A, voici comment tu l'as réglé »).
   - P-3 : cloisonnement à deux niveaux : étanche pour la chaîne anonyme et le commerce autonome; discret entre LeFiltre et Net BLB (l'audience sait qu'il a une compagnie, le nom n'est jamais dit).
-  - P-4 : Donjon et Dragon reste hors périmètre; **les outils FP Conseils entrent dans l'espace client FP Conseils** (modifie D-004 : les éléments CL-04, SK-01, GPT-04 ne sont plus hors environnement; l'effacement à la fin du mandat reste à reconfirmer, Q-I).
+  - P-4 : Donjon et Dragon reste hors périmètre; **les outils FP Conseils entrent dans l'espace client FP Conseils** (modifie D-004 : les éléments CL-04, SK-01, GPT-04 ne sont plus hors environnement; l'effacement en fin de mandat n'est plus une règle, décision au cas par cas, Q-I).
   - P-5 : à valider à l'usage; rester flexible.
   - P-6 : un chef d'orchestre, et le CEO lui-même, doivent pouvoir être replacés, réalignés, corrigés par Dominic.
   - P-7 : transversalité des compétences (skills) entre départements.
@@ -182,6 +182,7 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
   - P-18 : rappel à l'échéance du premier mois pour la décision Dreaming; activation possible avant.
   - P-31 : un chef d'équipe peut faire une tâche lui-même si c'est meilleur ou plus économique.
   - P-32 : une correction exprimée par Dominic sur un livrable devient une modification durable des instructions.
+- **Compléments du même soir** : calendriers connectés quand OpenClaw sera en fonction (Q-G); vue « tableau des projets » requise (Q-H); tout FP Conseils dans l'espace client, conservation probable en fin de mandat (Q-I).
 - **Points confirmés le même jour** : P-11 (portée clarifiée, « ok »); P-21 et Q-J : pas de migration maintenant; quand Dominic voudra travailler directement dans OpenClaw, les chefs d'équipe et sous-agents seront entraînés à partir des instructions personnalisées actuelles, car ce sont elles qui donnent les résultats qu'il utilise.
 - **Raison** : les principes n'avaient jamais été validés en bloc (relevé par la validation indépendante); le cahier remis à l'IA technique s'appuie sur eux.
 - **Conséquences** : `principes-de-conception.md` v1.5; `cahier-de-construction.md` v2.1 (savoir-faire Services, fiche OpenClaw avec échéance Dreaming, tableau des projets, FP Conseils dans l'espace client, calendriers prévus, réglages par commande au CEO, correction durable des briefs); `architecture-cible.md` v1.6; `plan-de-transition.md` v1.3; D-004 amendée.

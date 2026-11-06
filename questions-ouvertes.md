@@ -9,9 +9,6 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 | # | Question | Élément concerné | Phase | Priorité | Ajoutée le |
 |---|---|---|---|---|---|
 | Q-060 | Registre ART-02 : les fiches « Campagne Black Friday » (PRJ-20) et « NetBLB page questionnaire IA pour PM » (PRJ-18) pointent vers la même conversation ChatGPT que « IA Chef » du site NetBLB (PRJ-08). Cette conversation est-elle un chef d'orchestre général réutilisé pour plusieurs projets, ou s'agit-il de liens collés par erreur (la campagne a son projet GPT-23)? | ART-02, GPT-23 | 1 | Basse | 2026-11-04 |
-| Q-G | Calendriers Google (LeFiltre, Net BLB) en lecture : à quelle étape les connecter? Proposition de l'audit (R) : après les tests T-1 à T-7, avant Gmail, par un skill de source connue à portée lecture seule. | P-17, P-29 | 6 | Moyenne | 2026-11-05 |
-| Q-H | Interface visuelle de type CRM sur les fiches de projet (P-16) : page HTML générée par le CEO depuis `projets/*.md` (lecture, filtres; écriture par le CEO), ou outil tiers plus tard (Paperclip)? Quelles vues Dominic utilisait-il le plus dans ART-02? | P-16, ART-02 | 6 | Moyenne | 2026-11-05 |
-| Q-I | Outils FP Conseils dans l'espace client (D-019) : les transcriptions de rencontres (données des clients de FP Conseils) sont-elles conservées dans cet espace ou seulement traitées? L'effacement à la fin du mandat (D-004) tient-il toujours? | CL-04, SK-01, GPT-04 | 6 | Moyenne | 2026-11-05 |
 | Q-D | Gmail : lecture à la demande (skill de source connue, portées OAuth en lecture) ou déclencheur isolé (plugin IMAP avec liste d'expéditeurs et agent lecteur)? | Équipe Services | 6 | Moyenne | 2026-11-05 |
 | Q-F | Emplacement du modèle d'embeddings local (serveur virtuel ou autre machine) selon la puissance requise; à mesurer à l'installation. | Installation | 6 | Moyenne | 2026-11-05 |
 | Q-058 | Agent « CEO » (D-007) : point d'entrée exclusif ou principal? Remplace ou coiffe les chefs d'orchestre par projet? Ce qu'il doit savoir en permanence et ce qu'il doit ignorer (cloisonnement)? Gouvernance à lui appliquer? | Architecture cible | 4 | Haute (structure l'architecture) | 2026-11-04 |
@@ -46,6 +43,9 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Réponse | Date |
 |---|---|---|---|
+| Q-G | Moment de connexion des calendriers Google? | Quand OpenClaw sera en fonction (après le prototype, étape 3 au plus tôt), en lecture; avant Gmail. | 2026-11-05 |
+| Q-H | Interface visuelle sur les fiches de projet? | Oui, une vue « tableau des projets » est requise; version HTML générée depuis les fiches au départ (cahier 5.10); vues détaillées à préciser à l'usage. | 2026-11-05 |
+| Q-I | Outils et transcriptions FP Conseils; effacement en fin de mandat? | Tout ce qui est FP Conseils (outils, transcriptions, mandats) va dans l'espace client FP Conseils. À la fin d'un mandat, Dominic décidera s'il efface; il ne le croit pas, pour garder la connaissance. La clause d'effacement de D-004 n'est plus une règle. | 2026-11-05 |
 | Q-J | Migration des instructions des projets Claude? | Pas maintenant : production inchangée dans Claude; à l'activation d'une équipe (étape 6 ou 7), ses chefs et sous-agents partent des instructions personnalisées actuelles, source des résultats que Dominic utilise (réponse de Dominic du 2026-11-05 sur P-21). | 2026-11-05 |
 | Q-061 | OpenClaw seul ou sous Paperclip? | OpenClaw d'abord, conçu pour Paperclip, Paperclip plus tard (D-014); confirmé par l'analyse de conformité (adaptateur « bientôt », instabilité, inutile sous 3 à 5 agents). | 2026-11-05 |
 | Q-A | Réveil d'inactivité | Gardé, en tâche d'automatisation « toutes les 30 min si inactif » (D-018). | 2026-11-05 |
