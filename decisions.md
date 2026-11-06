@@ -36,7 +36,7 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Décision** : le projet Claude « FPconseils, proposition Coaching » (CL-04), le Skill `fp-conseils-proposition-coaching` (SK-01) et la copie ChatGPT « Proposition de Coaching » (GPT-04) relèvent d'un mandat unique pour le client FP Conseils. À la fin du mandat, Dominic effacera tout. Ces éléments ne doivent pas être intégrés à l'environnement LeFiltre / Net BLB ni à la future architecture.
 - **Raison** : livrable destiné au client, pas un actif de Dominic.
 - **Conséquences** : l'audit documente ces éléments pour la *méthode* (livraison d'outils IA à des clients, deux autres outils prévus pour ce client), pas pour les intégrer. Le projet client « FP CONSEILS » (GPT-05, mandats) reste, lui, dans le périmètre comme les autres clients.
-- **Validée par Dominic** : oui (déclaration du 2026-11-01).
+- **Validée par Dominic** : oui (déclaration du 2026-11-01). **Amendée par D-019 (2026-11-05)** : les outils FP Conseils sont traités dans l'espace client FP Conseils de l'environnement; seul l'effacement à la fin du mandat reste à reconfirmer (Q-I).
 
 ## D-005 – Clôture de la phase 2 (compréhension)
 
@@ -163,6 +163,29 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
 - **Alternatives écartées** : réveil supprimé (clôture seulement à 22 h); Dreaming actif avec ses gardes; embeddings OpenAI (deuxième fournisseur); classe supérieure par défaut (coût).
 - **Conséquences** : `architecture-cible.md` v1.5, `principes-de-conception.md` v1.4, `cahier-de-construction.md` v2.0, `plan-de-transition.md` v1.2.
 - **Validée par Dominic** : oui (réponses du 2026-11-05, 16 h 04).
+
+## D-019 – Validation en bloc des principes de conception, avec amendements
+
+- **Date** : 2026-11-05
+- **Décision** : Dominic valide les 32 principes de `principes-de-conception.md` (v1.5), avec les amendements suivants, tous de sa main :
+  - P-1 : tout nouveau projet est traité comme les autres dès son ajout.
+  - P-2 : les données d'un client ne voyagent pas vers un autre client, mais le savoir-faire circule (« tu as déjà eu ce problème avec le client A, voici comment tu l'as réglé »).
+  - P-3 : cloisonnement à deux niveaux : étanche pour la chaîne anonyme et le commerce autonome; discret entre LeFiltre et Net BLB (l'audience sait qu'il a une compagnie, le nom n'est jamais dit).
+  - P-4 : Donjon et Dragon reste hors périmètre; **les outils FP Conseils entrent dans l'espace client FP Conseils** (modifie D-004 : les éléments CL-04, SK-01, GPT-04 ne sont plus hors environnement; l'effacement à la fin du mandat reste à reconfirmer, Q-I).
+  - P-5 : à valider à l'usage; rester flexible.
+  - P-6 : un chef d'orchestre, et le CEO lui-même, doivent pouvoir être replacés, réalignés, corrigés par Dominic.
+  - P-7 : transversalité des compétences (skills) entre départements.
+  - P-9 : `reglages.md` modifiable par des commandes au CEO; aucune action externe de sa propre initiative sauf autorisation et programmation avec Dominic.
+  - P-10 : les noyaux de connaissance doivent pouvoir évoluer avec l'entreprise.
+  - P-16 : une interface visuelle et interactive de type CRM sur les fiches de projet est requise, liée au CEO (forme : Q-H).
+  - P-17 et P-29 : liaison à Google Calendar (calendriers LeFiltre et Net BLB, extensible); moment : Q-G.
+  - P-18 : rappel à l'échéance du premier mois pour la décision Dreaming; activation possible avant.
+  - P-31 : un chef d'équipe peut faire une tâche lui-même si c'est meilleur ou plus économique.
+  - P-32 : une correction exprimée par Dominic sur un livrable devient une modification durable des instructions.
+- **Points à reconfirmer** : P-11 (portée mal comprise; clarifiée dans la conversation); P-21 (question de Dominic : migrer ou non les instructions des projets Claude; réponse de l'audit en Q-J).
+- **Raison** : les principes n'avaient jamais été validés en bloc (relevé par la validation indépendante); le cahier remis à l'IA technique s'appuie sur eux.
+- **Conséquences** : `principes-de-conception.md` v1.5; `cahier-de-construction.md` v2.1 (savoir-faire Services, fiche OpenClaw avec échéance Dreaming, tableau des projets, FP Conseils dans l'espace client, calendriers prévus, réglages par commande au CEO, correction durable des briefs); `architecture-cible.md` v1.6; `plan-de-transition.md` v1.3; D-004 amendée.
+- **Validée par Dominic** : oui (réponses du 2026-11-05, 19 h 11).
 
 ## D-002 – Structure minimale du dépôt
 

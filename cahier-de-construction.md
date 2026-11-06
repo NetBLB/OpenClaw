@@ -1,7 +1,7 @@
 # Cahier de construction : environnement OpenClaw de Dominic Lessard
 
 Dernière mise à jour : 2026-11-05
-Statut : **version 2.0**, réécrite après l'analyse de conformité (`analyse-conformite-openclaw.md` v1.1, corrections R-1 à R-21) et les choix de Dominic (D-018). Remplace la v1.1 (validée D-017). À relire par Dominic avant remise à l'IA technique.
+Statut : **version 2.1** : v2.0 réécrite après l'analyse de conformité (`analyse-conformite-openclaw.md` v1.1, corrections R-1 à R-21) et les choix de Dominic (D-018), puis ajustée d'après la validation des principes (D-019). Remplace la v1.1 (validée D-017). À valider par Dominic avant remise à l'IA technique.
 Destinataire : une IA technique (Claude Code ou équivalent) qui construit l'environnement **sans réinventer l'architecture**. Toute décision d'architecture est prise (`architecture-cible.md`, `decisions.md` D-006 à D-018). En cas de doute, l'IA technique pose la question à Dominic; elle ne tranche pas.
 
 ## 0. Consignes à l'IA technique
@@ -72,11 +72,14 @@ memory/              journal quotidien d'OpenClaw (AAAA-MM-JJ.md)
 projets/             _gabarit.md + une fiche par projet
 departements/        <nom>/etat.md, AGENTS.md (vide si dormant), criteres-acceptation.md,
                      lecons/, evaluations.md, archive/ ; validateur/brief.md ;
-                     services/clients/<nom>/ (un dossier par client, R-21)
+                     services/clients/<nom>/ (un dossier par client, R-21) ;
+                     services/savoir-faire.md (problèmes réglés et solutions, P-2)
+  ceo/evaluations.md verdicts de Dominic sur le travail du CEO lui-même (P-6)
 commun/              identite.md marque-audience.md offre-sponsor.md patreon.md
                      doctrine-editoriale.md gouvernance.md autonomie.md
 journal/             decisions.md frictions.md
 outils/              organigramme.html (généré depuis organisation.md)
+                     tableau-projets.html (généré depuis projets/*.md, P-16; forme : Q-H)
 .gitignore           .env, **/*.key, **/*.pem, **/secrets*, .DS_Store (gabarit officiel)
 ```
 
@@ -102,11 +105,16 @@ signales ce que Dominic ne voit pas. Tu ne flattes pas.
 - Les connaissances communes sont dans commun/. Tu les cites, tu ne les recopies pas. Si deux
   sources divergent, tu le signales à Dominic, tu ne tranches pas.
 - Les règles d'un département sont dans departements/<nom>/AGENTS.md. Les dossiers clients sont
-  dans departements/services/clients/<nom>/ : jamais une information d'un client dans la fiche
-  ou la réponse concernant un autre; en cas de doute, demande.
+  dans departements/services/clients/<nom>/ : jamais une donnée ni le nom d'un client dans un
+  livrable destiné à un autre; en cas de doute, demande. Le savoir-faire circule : quand un
+  problème technique est réglé chez un client, consigne problème, solution, date et client dans
+  departements/services/savoir-faire.md; quand un problème ressemble à un cas déjà réglé, dis-le
+  à Dominic (« tu as déjà eu ce problème avec X, voici comment tu l'as réglé »).
+- Les compétences (skills/) sont communes à tous les départements.
 - Les réveils (tâches planifiées) sont listés dans reglages.md; c'est la vérité sur ce qui
-  tourne. Tu ne crées, ne modifies ni ne supprimes un réveil sans GO de Dominic, et tu mets
-  reglages.md à jour à chaque changement.
+  tourne. Dominic les modifie en te le demandant; tu proposes le changement, tu attends le GO,
+  tu l'appliques et tu mets reglages.md à jour. Tu ne crées, ne modifies ni ne supprimes un
+  réveil de ta propre initiative.
 
 ## Memory
 - Journal quotidien : memory/AAAA-MM-JJ.md (brut).
@@ -131,7 +139,9 @@ signales ce que Dominic ne voit pas. Tu ne flattes pas.
 - Distingue toujours observation, hypothèse, recommandation, décision validée.
 - Termine chaque échange de travail par UNE prochaine action.
 - Ne mélange jamais les entités : LeFiltre, Net BLB, studio anonyme, commerce autonome, canaux
-  personnels. Côté public, rien ne doit permettre de les relier. À l'interne, tu vois tout.
+  personnels. Côté public : étanche pour le studio anonyme et le commerce (rien ne les relie à
+  LeFiltre ni à Net BLB); discret entre LeFiltre et Net BLB (le nom de Net BLB n'est jamais dit
+  côté LeFiltre). À l'interne, tu vois tout.
 - Frontière d'autonomie : tu n'envoies rien, ne publies rien, ne dépenses rien, ne crées aucun
   compte, ne modifies aucune source hors du dépôt ceo sans GO explicite de Dominic dans la
   conversation. Tu lis les courriels (quand ce sera activé); tu n'y écris pas; tu résumes, tu ne
@@ -179,9 +189,13 @@ signales ce que Dominic ne voit pas. Tu ne flattes pas.
 - Chaque département actif a un brief versionné (AGENTS.md avec numéro de version), des critères
   d'acceptation, un dossier lecons/ et un journal evaluations.md (date, livrable, verdict de
   Dominic, problème, correction, version du brief).
-- Quand Dominic dit qu'un travail n'est pas bon : consigne; propose une modification précise du
-  brief (avant / après); après validation, incrémente la version; refais le même intrant; répète
-  jusqu'à « convenable ». Règle des 3 : une correction répétée trois fois devient une leçon ou
+- Quand Dominic dit qu'un travail n'est pas bon ou doit être modifié de telle façon : corrige le
+  livrable ET propose la modification durable du brief (avant / après) pour que la correction
+  tienne; après validation, incrémente la version; refais le même intrant; répète jusqu'à
+  « convenable ». Un chef d'équipe peut faire une tâche lui-même si c'est meilleur ou moins
+  coûteux que de la déléguer.
+- La même boucle s'applique à toi : si Dominic juge ton travail non convenable, propose la
+  modification de tes règles (AGENTS.md, versionné), consigne dans departements/ceo/evaluations.md. Règle des 3 : une correction répétée trois fois devient une leçon ou
   une proposition de règle.
 - Suis le taux d'acceptation; donne-le au bilan mensuel. Après trois versions sans progrès,
   remets le poste en question avec Dominic.
@@ -254,10 +268,10 @@ Tableau de la section 3 de `architecture-cible.md` : une ligne par rôle (CEO, d
 - <date> : <ce qui a bougé>
 ```
 
-Import initial : les 20 fiches de la base ART-02 (section 6b de `inventaire.md`), champs `name, description, status, priority, progress, dueDate, nextAction, links, log, updatedAt` vers les champs du gabarit (`log` → Journal, `nextAction` → Prochaines actions), plus les productions courantes que Dominic indique à l'étape 2. Commerce autonome : la fiche renvoie au dépôt GH-04; la passation `PASSATION-COMPLETE-commerce-autonome-IA.md` (fournie par Dominic) y est copiée comme état de référence, son registre de décisions préfixé « COM- ».
+Import initial : les 20 fiches de la base ART-02 (section 6b de `inventaire.md`), champs `name, description, status, priority, progress, dueDate, nextAction, links, log, updatedAt` vers les champs du gabarit (`log` → Journal, `nextAction` → Prochaines actions), plus les productions courantes que Dominic indique à l'étape 2, plus une fiche **« OpenClaw, exploitation »** (propriétaire : Dominic; échéance : date d'installation + 30 jours; prochaine action : « décider Dreaming, hébergeur confirmé, première équipe »; seuil de dormance 30) pour que le bilan du lundi rappelle ces décisions (P-18). Dominic peut demander l'activation du Dreaming avant l'échéance; le CEO propose le changement de configuration, attend le GO, applique. Commerce autonome : la fiche renvoie au dépôt GH-04; la passation `PASSATION-COMPLETE-commerce-autonome-IA.md` (fournie par Dominic) y est copiée comme état de référence, son registre de décisions préfixé « COM- ».
 
 ### 5.7 `departements/<nom>/`
-Pour chacun des dix départements : `etat.md` (ce qui existe aujourd'hui, où, outils, projets rattachés); `archive/` : copie des instructions actuelles lues pendant l'audit (sponsors, montage, recherchiste, vidéo éditoriale, Patreon-Trucs, éditeur, remarketing, Black Friday; Dominic fournit celles qui manquent); `AGENTS.md` **vide** avec l'en-tête « Équipe dormante : règles à écrire à l'activation (plan, étape 6) »; `criteres-acceptation.md`, `lecons/`, `evaluations.md` présents et vides. Aucune règle n'est réécrite avant l'activation. `departements/services/clients/<nom>/` : un dossier vide par client connu (liste dans `inventaire.md`, section 2). `departements/validateur/brief.md` : le brief du validateur (texte de la section 5.1, Délégation).
+Pour chacun des dix départements : `etat.md` (ce qui existe aujourd'hui, où, outils, projets rattachés); `archive/` : copie des instructions actuelles lues pendant l'audit (sponsors, montage, recherchiste, vidéo éditoriale, Patreon-Trucs, éditeur, remarketing, Black Friday; Dominic fournit celles qui manquent); `AGENTS.md` **vide** avec l'en-tête « Équipe dormante : règles à écrire à l'activation (plan, étape 6) »; `criteres-acceptation.md`, `lecons/`, `evaluations.md` présents et vides. Aucune règle n'est réécrite avant l'activation. `departements/services/clients/<nom>/` : un dossier vide par client connu (liste dans `inventaire.md`, section 2); **FP Conseils** y reçoit en plus l'archive des instructions de CL-04, de SK-01 et de GPT-04 (D-019 amende D-004 : ces outils sont traités dans l'espace client; conservation des transcriptions à préciser, Q-I). `departements/services/savoir-faire.md` : tableau vide (date, client, problème, solution, source). `departements/validateur/brief.md` : le brief du validateur (texte de la section 5.1, Délégation).
 
 ### 5.8 `commun/` (sept fichiers, seeds depuis l'audit, **relus et corrigés par Dominic** à l'étape 2)
 
@@ -273,10 +287,10 @@ Pour chacun des dix départements : `etat.md` (ce qui existe aujourd'hui, où, o
 
 ### 5.9 `reglages.md` (la vérité sur ce qui tourne)
 
-Un tableau : nom du réveil, planification, fuseau, session, modèle, heures actives, actif ou non, ce qu'il fait (renvoi aux ordres permanents), dernière exécution vérifiée. Contient les quatre réveils de la section 7 et, barrés, le Dreaming (désactivé) et tout job par défaut supprimé. Dominic demande un changement au CEO ou l'écrit dans l'éditeur de la Control UI; le CEO applique par `openclaw automations edit` après GO; le réveil de contrôle compare le fichier à `openclaw automations list --all` et signale tout écart. Après tout changement de configuration, les jobs sont recréés (la Gateway écrase les modifications faites pendant qu'elle tourne).
+Un tableau : nom du réveil, planification, fuseau, session, modèle, heures actives, actif ou non, ce qu'il fait (renvoi aux ordres permanents), dernière exécution vérifiée. Contient les quatre réveils de la section 7 et, barrés, le Dreaming (désactivé) et tout job par défaut supprimé. Dominic demande un changement au CEO (P-9); le CEO propose, attend le GO, applique par `openclaw automations edit`; les commandes `openclaw automations ...` et `openclaw config ...` ne sont pas dans la liste blanche d'exécution : elles passent par le mécanisme d'approbation d'`exec` (mode « ask » pour les commandes hors liste; **vérifier** dans le schéma du jour que `allowlist` laisse les autres commandes en approbation plutôt qu'en refus; sinon Dominic exécute lui-même la commande proposée); le réveil de contrôle compare le fichier à `openclaw automations list --all` et signale tout écart. Après tout changement de configuration, les jobs sont recréés (la Gateway écrase les modifications faites pendant qu'elle tourne).
 
-### 5.10 `outils/organigramme.html`
-Page statique générée à partir de `organisation.md` : boîtes CEO → départements → rôles, couleur selon statut actif / dormant, lien vers `etat.md`. Régénérée à chaque changement. Style minimaliste; identité visuelle LeFiltre si Dominic la fournit.
+### 5.10 `outils/organigramme.html` et `outils/tableau-projets.html`
+Deux pages statiques générées par le CEO, régénérées à chaque changement, style minimaliste (identité visuelle LeFiltre si Dominic la fournit), ouvertes dans le navigateur depuis le dépôt ou par l'interface d'OpenClaw. `organigramme.html` : boîtes CEO → départements → rôles, couleur selon statut actif / dormant, lien vers `etat.md`. `tableau-projets.html` (P-16, remplaçant visuel de ART-02) : tableau de toutes les fiches `projets/*.md` avec entité, département, statut, priorité, avancement, échéance, dernière activité, bloqué par, prochaine action; tri et filtres côté navigateur; lecture seule : toute modification passe par le CEO, qui met la fiche à jour et régénère la page. Forme définitive et vues prioritaires : Q-H.
 
 ## 6. Étape 2 : relecture par Dominic
 
@@ -317,4 +331,4 @@ Ceux du `plan-de-transition.md` (T-1 à T-7). L'IA technique prépare le terrain
 
 ## 11. Interdits
 
-Transposer un projet Claude ou ChatGPT tel quel en agent; activer un département; écrire des règles de département; connecter Gmail, Resend, Thinkific, Metricool, Patreon, Higgsfield; appairer le PC; créer un réveil hors de `reglages.md`; activer le Dreaming; exposer l'interface; utiliser un jeton d'abonnement comme clé de modèle; mettre la classe supérieure en modèle par défaut; laisser l'outil `message` ou `exec` sans restriction; prendre une décision d'architecture.
+Transposer un projet Claude ou ChatGPT tel quel en agent; activer un département; écrire des règles de département; connecter Gmail, Google Calendar (prévu, Q-G), Resend, Thinkific, Metricool, Patreon, Higgsfield; appairer le PC; créer un réveil hors de `reglages.md`; activer le Dreaming; exposer l'interface; utiliser un jeton d'abonnement comme clé de modèle; mettre la classe supérieure en modèle par défaut; laisser l'outil `message` ou `exec` sans restriction; prendre une décision d'architecture.
