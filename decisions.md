@@ -182,7 +182,7 @@ Seules les décisions **validées explicitement par Dominic** figurent ici. Les 
   - P-18 : rappel à l'échéance du premier mois pour la décision Dreaming; activation possible avant.
   - P-31 : un chef d'équipe peut faire une tâche lui-même si c'est meilleur ou plus économique.
   - P-32 : une correction exprimée par Dominic sur un livrable devient une modification durable des instructions.
-- **Points à reconfirmer** : P-11 (portée mal comprise; clarifiée dans la conversation); P-21 (question de Dominic : migrer ou non les instructions des projets Claude; réponse de l'audit en Q-J).
+- **Points confirmés le même jour** : P-11 (portée clarifiée, « ok »); P-21 et Q-J : pas de migration maintenant; quand Dominic voudra travailler directement dans OpenClaw, les chefs d'équipe et sous-agents seront entraînés à partir des instructions personnalisées actuelles, car ce sont elles qui donnent les résultats qu'il utilise.
 - **Raison** : les principes n'avaient jamais été validés en bloc (relevé par la validation indépendante); le cahier remis à l'IA technique s'appuie sur eux.
 - **Conséquences** : `principes-de-conception.md` v1.5; `cahier-de-construction.md` v2.1 (savoir-faire Services, fiche OpenClaw avec échéance Dreaming, tableau des projets, FP Conseils dans l'espace client, calendriers prévus, réglages par commande au CEO, correction durable des briefs); `architecture-cible.md` v1.6; `plan-de-transition.md` v1.3; D-004 amendée.
 - **Validée par Dominic** : oui (réponses du 2026-11-05, 19 h 11).

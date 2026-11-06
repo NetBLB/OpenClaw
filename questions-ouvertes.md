@@ -12,7 +12,6 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 | Q-G | Calendriers Google (LeFiltre, Net BLB) en lecture : à quelle étape les connecter? Proposition de l'audit (R) : après les tests T-1 à T-7, avant Gmail, par un skill de source connue à portée lecture seule. | P-17, P-29 | 6 | Moyenne | 2026-11-05 |
 | Q-H | Interface visuelle de type CRM sur les fiches de projet (P-16) : page HTML générée par le CEO depuis `projets/*.md` (lecture, filtres; écriture par le CEO), ou outil tiers plus tard (Paperclip)? Quelles vues Dominic utilisait-il le plus dans ART-02? | P-16, ART-02 | 6 | Moyenne | 2026-11-05 |
 | Q-I | Outils FP Conseils dans l'espace client (D-019) : les transcriptions de rencontres (données des clients de FP Conseils) sont-elles conservées dans cet espace ou seulement traitées? L'effacement à la fin du mandat (D-004) tient-il toujours? | CL-04, SK-01, GPT-04 | 6 | Moyenne | 2026-11-05 |
-| Q-J | Instructions des projets Claude actuels : l'audit propose (R) de ne pas les migrer maintenant (P-24, P-25) : copie dans `departements/<nom>/archive/` à l'étape 2 pour que le CEO les connaisse, production inchangée dans Claude sur PC, migration un système à la fois à l'étape 7, projets en développement travaillés avec le CEO. Dominic confirme-t-il? | P-14, P-21, P-24 | 6 | Haute | 2026-11-05 |
 | Q-D | Gmail : lecture à la demande (skill de source connue, portées OAuth en lecture) ou déclencheur isolé (plugin IMAP avec liste d'expéditeurs et agent lecteur)? | Équipe Services | 6 | Moyenne | 2026-11-05 |
 | Q-F | Emplacement du modèle d'embeddings local (serveur virtuel ou autre machine) selon la puissance requise; à mesurer à l'installation. | Installation | 6 | Moyenne | 2026-11-05 |
 | Q-058 | Agent « CEO » (D-007) : point d'entrée exclusif ou principal? Remplace ou coiffe les chefs d'orchestre par projet? Ce qu'il doit savoir en permanence et ce qu'il doit ignorer (cloisonnement)? Gouvernance à lui appliquer? | Architecture cible | 4 | Haute (structure l'architecture) | 2026-11-04 |
@@ -47,6 +46,7 @@ Questions accumulées pendant l'audit, à poser au moment où elles deviennent n
 
 | # | Question | Réponse | Date |
 |---|---|---|---|
+| Q-J | Migration des instructions des projets Claude? | Pas maintenant : production inchangée dans Claude; à l'activation d'une équipe (étape 6 ou 7), ses chefs et sous-agents partent des instructions personnalisées actuelles, source des résultats que Dominic utilise (réponse de Dominic du 2026-11-05 sur P-21). | 2026-11-05 |
 | Q-061 | OpenClaw seul ou sous Paperclip? | OpenClaw d'abord, conçu pour Paperclip, Paperclip plus tard (D-014); confirmé par l'analyse de conformité (adaptateur « bientôt », instabilité, inutile sous 3 à 5 agents). | 2026-11-05 |
 | Q-A | Réveil d'inactivité | Gardé, en tâche d'automatisation « toutes les 30 min si inactif » (D-018). | 2026-11-05 |
 | Q-B | Dreaming | Désactivé le premier mois (D-018). | 2026-11-05 |
